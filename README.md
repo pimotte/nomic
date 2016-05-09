@@ -185,4 +185,7 @@ request dated after any votes resets those votes.
 If the rule-change is adopted, a player who can shall merge the pull-request
 in a timely fashion, which marks completion of the vote.
 
-
+**301** If a PR that outlines a rule-change in accordance with other rules in
+this file contains a commit hash containing an English dictionary word of at least 4
+consecutive letters, the proposer will be awarded one additional point if the
+rule change is adopted.
