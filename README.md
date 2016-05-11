@@ -160,7 +160,7 @@ but when the rules are silent, inconsistent, or unclear on the point at issue,
 then the Judge shall consider game-custom and the spirit of the game before
 applying other standards.
 
-Judgement is completed when the Judge has dediced the question and is not overruled. After the Judge's Judgement has been completed, a player who can shall close the issue in a timely fashion. 
+Judgement is completed when the Judge has decided the question and is not overruled. After the Judge's Judgement has been completed, a player who can shall close the issue in a timely fashion. 
 
 **211** If the rules are changed so that further play is impossible, or if the
 legality of a move cannot be determined with finality, or if by the Judge's best
