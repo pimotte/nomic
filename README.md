@@ -191,3 +191,6 @@ four consecutive letters, the proposer will be awarded `y` additional points whe
 An English dictionary word is defined as a word found in the Oxford Dictionary available
 [here](http://www.oxforddictionaries.com/). The default search setting of Eng (UK) is to be used as a search criterium.
 
+Points are only awarded if the proposer includes the `y` points in his update of his score and mentions this explicitly
+in his PR.
+
