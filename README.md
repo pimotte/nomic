@@ -9,7 +9,7 @@ at least make a stab at reading that. This file is in
 
 Player List 
 -----------
-1. Pim Otte (@pimotte)
+1. Pim Otte (@pimotte, 1 point)
 2. Stefan Hugtenburg (@MrHug)
 3. Arthur Bik (@arthurbik)
 4. Jesse Donkervliet (@jdonkervliet)
@@ -122,8 +122,6 @@ gains 1 point.
 **206** Each player always has exactly one vote.
 
 **207** The winner is the first player to achieve 200 (positive) points.
-
-**208** At no time may there be more than 25 mutable rules.
 
 **209** If two or more mutable rules conflict with one another, or if two or
 more immutable rules conflict with one another, then the rule with the lowest
