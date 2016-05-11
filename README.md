@@ -9,7 +9,7 @@ at least make a stab at reading that. This file is in
 
 Player List 
 -----------
-1. Pim Otte (@pimotte, 1 point)
+1. Pim Otte (@pimotte, 2 points)
 2. Stefan Hugtenburg (@MrHug)
 3. Arthur Bik (@arthurbik)
 4. Jesse Donkervliet (@jdonkervliet)
@@ -105,7 +105,9 @@ only when a rule or set of rules explicitly or implicitly permits it.
 Mutable Rules 
 -------------
 
-**201** Players may take their turn at any time, independent of other players. 
+**303** Players may take a turn at any time, independent of other players.
+Players are allowed to take any number of turns at the same time, regardless
+of any other ongoing turns taken by them.
 All players begin with zero points.
 
 **202** One turn consists of proposing one rule-change and having it voted on.
