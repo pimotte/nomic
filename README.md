@@ -138,7 +138,7 @@ one another, then the numerical method again governs.
 **210** If players disagree about the legality of a move or the interpretation
 or application of a rule and no player is currently appointed as a Judge,
 then the player among the players not currently taking a turn with the Github handle alphabetically
-previous to the player who started a turn first amongst all players
+previous to the player who started a not yet ended turn first amongst all players
 currently taking a turn is to be the Judge. The Judge is to decide the question. 
 Disagreement for the purposes of this rule may be
 created by the insistence of any player. This process is called invoking
