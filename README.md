@@ -126,10 +126,10 @@ gains 1 point.
 **304** If two or more mutable rules conflict with one another, or if two or
 more immutable rules conflict with one another, then the following steps must be
 followed to resolve the conflict:
- 1. If only one of the numbers of the conflicting rules is prime, this rule takes precedence.
+ 1. If only one of the numbers of the conflicting rules is prime, the prime rule takes precedence.
  2. If the length of only one of the numbers of the conflicting rules when converted to words (using
- [this](http://www.calculatorsoup.com/calculators/conversions/numberstowords.php) is of prime length, this rule takes
- precedence.
+ [this](http://www.calculatorsoup.com/calculators/conversions/numberstowords.php) is of prime length, the prime rule
+ takes precedence.
  3. The lowest ordinal number takes precedence.
 
 If at least one of the rules in conflict explicitly says of itself that it
