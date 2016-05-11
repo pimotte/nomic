@@ -147,8 +147,8 @@ Players are in this set when all of the following constraints are met:
  1. The player is not the most recent editor of (one of) the rule(s) that is the
  		subject of the disagreement.
  2. The player is not currently a Judge in another Judgement.
-If this set contains multiple players, the player with the smallest alphanumeric
-GitHub handle is selected from this group.
+If this set contains multiple players, the player with the alphanumeric GitHub
+handle previous to the player who invoked Judgement is selected from this group.
 If this set is empty, the rules above are removed one-by-one in bottom-to-top order until
 the set is no longer empty.
 If all these rules have been removed, a Judge is decided by majority vote.
