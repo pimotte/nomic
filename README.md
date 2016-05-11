@@ -105,9 +105,8 @@ only when a rule or set of rules explicitly or implicitly permits it.
 Mutable Rules 
 -------------
 
-**303** Players may take a turn at any time, independent of other players.
-Players are allowed to take any number of turns at the same time, regardless
-of any other ongoing turns taken by them.
+**303** A player may have an infinite number of concurrent turns.
+A player may start a turn regardless of the state of their other turns.
 All players begin with zero points.
 
 **202** One turn consists of proposing one rule-change and having it voted on.
