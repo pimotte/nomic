@@ -144,9 +144,9 @@ When a player invokes Judgement, a Judge is selected to decide the question.
 The Judge is selected from the set of players that is eligible to become
 Judge.
 Players are in this set when all of the following constraints are met:
-1. The player is not the creator of the rule(-change)(s) that is the subject of the
+ 1. The player is not the creator of the rule(-change)(s) that is the subject of the
 	 disagreement.
-2. The player is not currently a Judge in another Judgement.
+ 2. The player is not currently a Judge in another Judgement.
 If this set contains multiple players, the player with the smallest alphanumeric
 GitHub handle is selected from this group.
 If this set is empty, the rules above are removed one-by-one in bottom-to-top order until
