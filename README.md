@@ -127,14 +127,14 @@ gains 1 point.
 more immutable rules conflict with one another, then the following steps must be
 followed to resolve the conflict:
  1. If only one of the numbers of the conflicting rules is prime, the prime rule takes precedence.
- 2. If the length of only one of the numbers of the conflicting rules when converted to words (using
+ 2. Else if the length of only one of the numbers of the conflicting rules when converted to words (using
  [this](http://www.calculatorsoup.com/calculators/conversions/numberstowords.php) is of prime length, the prime rule
  takes precedence.
- 3. The lowest ordinal number takes precedence.
+ 3. Else the lowest ordinal number takes precedence.
 
 If at least one of the rules in conflict explicitly says of itself that it
 defers to another rule (or type of rule) or takes precedence over another rule
-(or type of rule), then such provisions shall supersede the numerical method for
+(or type of rule), then such provisions shall supersede the method above for
 determining precedence.
 
 If two or more rules claim to take precedence over one another or to defer to
