@@ -10,7 +10,7 @@ at least make a stab at reading that. This file is in
 Player List 
 -----------
 1. Pim Otte (@pimotte, 1 point)
-2. Stefan Hugtenburg (@MrHug, 1 point)
+2. Stefan Hugtenburg (@MrHug, 2 points)
 3. Arthur Bik (@arthurbik)
 4. Jesse Donkervliet (@jdonkervliet)
 
@@ -123,9 +123,14 @@ gains 1 point.
 
 **207** The winner is the first player to achieve 200 (positive) points.
 
-**209** If two or more mutable rules conflict with one another, or if two or
-more immutable rules conflict with one another, then the rule with the lowest
-ordinal number takes precedence.
+**304** If two or more mutable rules conflict with one another, or if two or
+more immutable rules conflict with one another, then the following steps must be
+followed to resolve the conflict:
+ 1. If only one of the numbers of the conflicting rules is prime, this rule takes precedence.
+ 2. If the length of only one of the numbers of the conflicting rules when converted to words (using
+ [this](http://www.calculatorsoup.com/calculators/conversions/numberstowords.php) is of prime length, this rule takes
+ precedence.
+ 3. The lowest ordinal number takes precedence.
 
 If at least one of the rules in conflict explicitly says of itself that it
 defers to another rule (or type of rule) or takes precedence over another rule
@@ -133,7 +138,7 @@ defers to another rule (or type of rule) or takes precedence over another rule
 determining precedence.
 
 If two or more rules claim to take precedence over one another or to defer to
-one another, then the numerical method again governs.
+one another, then the method outlined above again governs.
 
 **210** If players disagree about the legality of a move or the interpretation
 or application of a rule, then the player with the Github handle alphabetically
