@@ -139,7 +139,7 @@ one another, then the numerical method again governs.
 or application of a rule and no player is currently appointed as a Judge,
 then the player among the players not currently taking a turn with the Github handle alphabetically
 previous to the player who started a turn first amongst all players
-currently taking a turn is to be the Judge and decide the question. 
+currently taking a turn is to be the Judge. The Judge is to decide the question. 
 Disagreement for the purposes of this rule may be
 created by the insistence of any player. This process is called invoking
 Judgment.
@@ -150,7 +150,7 @@ without the consent of a majority of the other players.
 The Judge's Judgment may be overruled only by a unanimous vote of the other
 players taken before a turn has ended after the Judge's Judgment. If a Judge's Judgment is overruled,
 then the player currently the Judge is not longer a Judge and the player preceding the previous Judge alphabetically becomes the new Judge
-for the question, and so on, except that no player is to be Judge during a own turn or during a turn of a team-mate.
+for the question, and so on, except that the player who invoked Judgment is not to be Judge during a own turn or during a turn of a team-mate.
 
 New Judges are not bound by the decisions of old Judges. New Judges may,
 however, settle only those questions on which the players currently disagree. All
