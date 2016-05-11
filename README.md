@@ -185,7 +185,9 @@ request dated after any votes resets those votes.
 If the rule-change is adopted, a player who can shall merge the pull-request
 in a timely fashion, which marks completion of the vote.
 
-**301** If a PR that outlines a rule-change (in accordance with other rules in
-this file) contains `y` commit hashes containing an English dictionary word of 
-at least four consecutive letters, the proposer will be awarded `y` additional 
-points upon adoption of the rule-change.
+**302** If a PR that outlines a rule-change contains `y` commit hashes containing an English dictionary word of at least
+four consecutive letters, the proposer will be awarded `y` additional points when the PR is merged.
+
+An English dictionary word is defined as a word found in the Oxford Dictionary available
+[here](http://www.oxforddictionaries.com/). The default search setting of Eng (UK) is to be used as a search criterium.
+
