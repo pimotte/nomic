@@ -136,7 +136,7 @@ determining precedence.
 If two or more rules claim to take precedence over one another or to defer to
 one another, then the numerical method again governs.
 
-**305** If at least one player disagrees about the legality of a move or the interpretation
+**306** If at least one player disagrees about the legality of a move or the interpretation
 or application of a rule, this player may _invoke Judgement_. See below for the
 definition.
 
