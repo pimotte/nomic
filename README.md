@@ -135,23 +135,27 @@ determining precedence.
 If two or more rules claim to take precedence over one another or to defer to
 one another, then the numerical method again governs.
 
-**210** If players disagree about the legality of a move or the interpretation
-or application of a rule and no player is currently appointed as a Judge,
-then the player among the players not currently having an open issue with the Github handle alphabetically
-previous to the player who started an open issue first amongst all players
-currently having an open issue is to be the Judge. The Judge is to decide the question. 
+**210** If at least one player disagrees about the legality of a move or the interpretation
+or application of a rule, a Judge is to decide the question. If no player is currently a Judge,
+then the player among the players not currently having an open issue labelled "Judgement" 
+with the Github handle alphanumerically previous to the player who started an open issue labelled 
+"Judgement" first amongst all players currently having an open issue labelled "Judgement" is 
+to be the Judge. 
 
-Disagreement for the purposes of this rule may be
-created by the insistence of any player by submiting an issue. This process is called invoking
-Judgment. 
+Disagreement for the purposes of this rule may be created by the insistence of any player 
+who is not a Judge at any time by submiting an issue labelled "Judgement". This process is 
+called invoking Judgment. 
+
+The Judge's Judgment may be overruled only by a unanimous vote of the other players
+taken before a turn has ended after the Judge's Judgment. If a Judge's Judgment is overruled,
+then the player currently the Judge is not longer a Judge and the player preceding the previous 
+Judge alphanumerically becomes the new Judge for the question, and so on, except that a player
+having an open issue labelled "Judgement" or a team-mate of a player having an open issue 
+labelled "Judgement" is not to be a Judge.
 
 When Judgment has been invoked, a player may not begin a turn or start a vote
-without the consent of a majority of the other players.
-
-The Judge's Judgment may be overruled only by a unanimous vote of the other
-players taken before a turn has ended after the Judge's Judgment. If a Judge's Judgment is overruled,
-then the player currently the Judge is not longer a Judge and the player preceding the previous Judge alphabetically becomes the new Judge
-for the question, and so on, except that a player having an open issue or a team-mate of a player having an open issue is not to be Judge.
+without the consent of a majority of the other players. This does not include
+starting a vote for consent to begin a turn, start a vote or overrule a Judge's Judgement.
 
 New Judges are not bound by the decisions of old Judges. New Judges may,
 however, settle only those questions on which the players currently disagree. All
@@ -160,7 +164,9 @@ but when the rules are silent, inconsistent, or unclear on the point at issue,
 then the Judge shall consider game-custom and the spirit of the game before
 applying other standards.
 
-Judgement is completed when the Judge has decided the question and is not overruled. After the Judge's Judgement has been completed, a player who can shall close the issue in a timely fashion. 
+Judgement is completed when the Judge has decided all questions and is not overruled. After the
+Judge's Judgement has been completed, any Judge is no longer a Judge and a player who can shall 
+close all open issues labelled "Judgement" in a timely fashion. 
 
 **211** If the rules are changed so that further play is impossible, or if the
 legality of a move cannot be determined with finality, or if by the Judge's best
