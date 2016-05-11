@@ -12,7 +12,7 @@ Player List
 1. Pim Otte (@pimotte, 1 point)
 2. Stefan Hugtenburg (@MrHug, 1 point)
 3. Arthur Bik (@arthurbik, 1 point)
-4. Jesse Donkervliet (@jdonkervliet)
+4. Jesse Donkervliet (@jdonkervliet, 1 point)
 
 Immutable Rules 
 ---------------
