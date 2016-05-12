@@ -128,10 +128,7 @@ gains 1 point.
 more immutable rules conflict with one another, then the following steps must be
 followed to resolve the conflict:
  1. If only one of the numbers of the conflicting rules is prime, the prime rule takes precedence.
- 2. Else if the length of only one of the numbers of the conflicting rules when converted to words (using
- [this](http://www.calculatorsoup.com/calculators/conversions/numberstowords.php) is of prime length, the rule with this
- property takes precedence.
- 3. Else the lowest ordinal number takes precedence.
+ 2. Else the lowest ordinal number takes precedence.
 
 If at least one of the rules in conflict explicitly says of itself that it
 defers to another rule (or type of rule) or takes precedence over another rule
