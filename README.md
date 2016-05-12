@@ -12,7 +12,7 @@ Player List
 1. Pim Otte (@pimotte, 2 points)
 2. Stefan Hugtenburg (@MrHug, 1 point)
 3. Arthur Bik (@arthurbik, 1 point)
-4. Jesse Donkervliet (@jdonkervliet)
+4. Jesse Donkervliet (@jdonkervliet, 1 point)
 
 Immutable Rules 
 ---------------
@@ -185,8 +185,10 @@ adoption of the rule-change.
 **213** A non-player can become a player by submitting a pull request which adds
 their name and Github handle to the Player List.
 
-**214** A player can vote on a rule-change by commenting on the pull request
-with a comment that includes the word **vote** in bold. A commit on a pull
+**306** A player can vote in favor of a rule-change by commenting on the pull request
+with a comment that consists only of ":+1:". Likewise, a player can vote against
+a rule-change by commenting on the pull request with a comment that consists
+only of ":-1:". A commit on a pull
 request dated after any votes resets those votes.
 
 If the rule-change is adopted, a player who can shall merge the pull-request
