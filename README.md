@@ -194,7 +194,7 @@ request dated after any votes resets those votes.
 If the rule-change is adopted, a player who can shall merge the pull-request
 in a timely fashion, which marks completion of the vote.
 
-**307** If a PR that outlines a rule-change contains `y` commit hashes containing an English dictionary word of at least
+**308** If a PR that outlines a rule-change contains `y` commit hashes containing an English dictionary word of at least
 four consecutive letters, the proposer will be awarded `y` additional points when the PR is merged into the master
 branch of pimotte/nomic.
 
