@@ -9,10 +9,10 @@ at least make a stab at reading that. This file is in
 
 Player List 
 -----------
-1. Pim Otte (@pimotte, 1 point)
+1. Pim Otte (@pimotte, 2 points)
 2. Stefan Hugtenburg (@MrHug, 3 points)
-3. Arthur Bik (@arthurbik)
-4. Jesse Donkervliet (@jdonkervliet)
+3. Arthur Bik (@arthurbik, 1 point)
+4. Jesse Donkervliet (@jdonkervliet, 1 point)
 
 Immutable Rules 
 ---------------
@@ -105,7 +105,8 @@ only when a rule or set of rules explicitly or implicitly permits it.
 Mutable Rules 
 -------------
 
-**201** Players may take their turn at any time, independent of other players. 
+**303** A player may have an infinite number of concurrent turns.
+A player may start a turn regardless of the state of their other turns.
 All players begin with zero points.
 
 **202** One turn consists of proposing one rule-change and having it voted on.
@@ -140,34 +141,40 @@ determining precedence.
 If two or more rules claim to take precedence over one another or to defer to
 one another, then the method outlined above again governs.
 
-**210** If players disagree about the legality of a move or the interpretation
-or application of a rule, then the player with the Github handle alphabetically
-previous to the player who started their turn first amongst all players
-currently taking turns is to be the Judge and decide the question. 
-Disagreement for the purposes of this rule may be
-created by the insistence of any player. This process is called invoking
-Judgment.
+**305** If at least one player disagrees about the legality of a move or the interpretation
+or application of a rule, a Judge is to decide the question. If no player is currently a Judge,
+then the player, among the players not currently having an open issue labelled "Judgement", 
+with the Github handle alphanumerically previous to the player, who started an open issue labelled 
+"Judgement" first amongst all players currently having an open issue labelled "Judgement", is 
+to be the Judge. If all players have an open issue labelled "Judgement", then a Judge is decided by 
+a majority vote.
 
-When Judgment has been invoked, the next player may not begin his or her turn
-without the consent of a majority of the other players.
+Disagreement for the purposes of this rule may, at any time, be created by the insistence of
+any player who is not a Judge by submiting an issue labelled "Judgement". This process is 
+called invoking Judgment. 
 
-The Judge's Judgment may be overruled only by a unanimous vote of the other
-players taken before the next turn is begun. If a Judge's Judgment is overruled,
-then the player preceding the Judge in the playing order becomes the new Judge
-for the question, and so on, except that no player is to be Judge during his or
-her own turn or during the turn of a team-mate.
+The Judge's Judgment may be overruled only by a unanimous vote of the other players
+taken before a turn has ended after the Judge's Judgment. If a Judge's Judgment is overruled,
+then the player currently the Judge is no longer a Judge and the player preceding the previous 
+Judge alphanumerically becomes the new Judge for the question, and so on, except that a player
+having an open issue labelled "Judgement", a team-mate of a player having an open issue 
+labelled "Judgement" or a player who has been a Judge since the last time Judgement has been
+completed is not to be a Judge. If this excludes all players, then a Judge is decided by 
+a majority vote.
 
-Unless a Judge is overruled, one Judge settles all questions arising from the
-game until the next turn is begun, including questions as to his or her own
-legitimacy and jurisdiction as Judge.
+When Judgment has been invoked, a player may not begin a turn without the consent of a
+majority of the other players. 
 
 New Judges are not bound by the decisions of old Judges. New Judges may,
-however, settle only those questions on which the players currently disagree and
-that affect the completion of the turn in which Judgment was invoked. All
+however, settle only those questions on which the players currently disagree. All
 decisions by Judges shall be in accordance with all the rules then in effect;
 but when the rules are silent, inconsistent, or unclear on the point at issue,
 then the Judge shall consider game-custom and the spirit of the game before
 applying other standards.
+
+Judgement is completed when the Judge has decided all questions and is not overruled. After the
+Judge's Judgement has been completed, any Judge is no longer a Judge and a player who can shall 
+close all open issues labelled "Judgement" in a timely fashion. 
 
 **211** If the rules are changed so that further play is impossible, or if the
 legality of a move cannot be determined with finality, or if by the Judge's best
@@ -183,8 +190,10 @@ adoption of the rule-change.
 **213** A non-player can become a player by submitting a pull request which adds
 their name and Github handle to the Player List.
 
-**214** A player can vote on a rule-change by commenting on the pull request
-with a comment that includes the word **vote** in bold. A commit on a pull
+**306** A player can vote in favor of a rule-change by commenting on the pull request
+with a comment that consists only of ":+1:". Likewise, a player can vote against
+a rule-change by commenting on the pull request with a comment that consists
+only of ":-1:". A commit on a pull
 request dated after any votes resets those votes.
 
 If the rule-change is adopted, a player who can shall merge the pull-request
