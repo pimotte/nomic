@@ -205,7 +205,7 @@ An English dictionary word is defined as a word found in the Oxford Dictionary a
 Points are only awarded if the proposer includes the `y` points in his update of his score and mentions this explicitly
 in his PR.
 
-**308** If a player (unwittingly) performs an action that directly contradicts a
+**311** If a player (unwittingly) performs an action that directly contradicts a
 rule, they will be sanctioned by a point reduction of 4 points. If the player
 accused of breaking the rules claims to be innocent he can invoke judgement to
 resolve the issue.
