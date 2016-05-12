@@ -10,7 +10,7 @@ at least make a stab at reading that. This file is in
 Player List 
 -----------
 1. Pim Otte (@pimotte, 3 points)
-2. Stefan Hugtenburg (@MrHug, 2 points)
+2. Stefan Hugtenburg (@MrHug, 4 points)
 3. Arthur Bik (@arthurbik, 1 point)
 4. Jesse Donkervliet (@jdonkervliet, 1 point)
 
@@ -124,17 +124,19 @@ gains 1 point.
 
 **207** The winner is the first player to achieve 200 (positive) points.
 
-**209** If two or more mutable rules conflict with one another, or if two or
-more immutable rules conflict with one another, then the rule with the lowest
-ordinal number takes precedence.
+**304** If two or more mutable rules conflict with one another, or if two or
+more immutable rules conflict with one another, then the following steps must be
+followed to resolve the conflict:
+ 1. If only one of the numbers of the conflicting rules is prime, the prime rule takes precedence.
+ 2. Else the lowest ordinal number takes precedence.
 
 If at least one of the rules in conflict explicitly says of itself that it
 defers to another rule (or type of rule) or takes precedence over another rule
-(or type of rule), then such provisions shall supersede the numerical method for
+(or type of rule), then such provisions shall supersede the method above for
 determining precedence.
 
 If two or more rules claim to take precedence over one another or to defer to
-one another, then the numerical method again governs.
+one another, then the method outlined above again governs.
 
 **305** If at least one player disagrees about the legality of a move or the interpretation
 or application of a rule, a Judge is to decide the question. If no player is currently a Judge,
