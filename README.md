@@ -10,7 +10,7 @@ at least make a stab at reading that. This file is in
 Player List 
 -----------
 1. Pim Otte (@pimotte, 3 points)
-2. Stefan Hugtenburg (@MrHug, 1 point)
+2. Stefan Hugtenburg (@MrHug, 2 points)
 3. Arthur Bik (@arthurbik, 1 point)
 4. Jesse Donkervliet (@jdonkervliet, 1 point)
 
@@ -196,10 +196,11 @@ in a timely fashion, which marks completion of the vote.
 
 **313** Any vote through a comment on a pull request is invalid, unless one of the
 comments above the vote contains a word or sentence in either Japanese or Turkish 
-and a translation in English.
+and a translation in English. 
 
-**302** If a PR that outlines a rule-change contains `y` commit hashes containing an English dictionary word of at least
-four consecutive letters, the proposer will be awarded `y` additional points when the PR is merged.
+**308** If a PR that outlines a rule-change contains `y` commit hashes containing an English dictionary word of at least
+four consecutive letters, the proposer will be awarded `y` additional points when the PR is merged into the master
+branch of pimotte/nomic.
 
 An English dictionary word is defined as a word found in the Oxford Dictionary available
 [here](http://www.oxforddictionaries.com/). The default search setting of Eng (UK) is to be used as a search criterium.
