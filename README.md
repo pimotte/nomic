@@ -52,17 +52,6 @@ voted on.
 of the vote that adopted it, even if its wording explicitly states otherwise. No
 rule-change may have retroactive application.
 
-**108** Each proposed rule-change shall be given a number for reference. The
-numbers shall begin with 301, and each rule-change proposed in the proper way
-shall receive the next successive integer, whether or not the proposal is
-adopted.
-
-If a rule is repealed and reenacted, it receives the number of the proposal to
-reenact it. If a rule is amended or transmuted, it receives the number of the
-proposal to amend or transmute it. If an amendment is amended or repealed, the
-entire rule of which it is a part receives the number of the proposal to amend
-or repeal the amendment.
-
 **109** Rule-changes that transmute immutable rules into mutable rules may be
 adopted if and only if the vote is unanimous among the eligible voters.
 Transmutation shall not be implied, but must be stated explicitly in a proposal
@@ -135,6 +124,17 @@ determining precedence.
 
 If two or more rules claim to take precedence over one another or to defer to
 one another, then the numerical method again governs.
+
+**310** Each proposed rule-change shall be given a number for reference. The
+numbers shall begin with 301, and each rule-change proposed in the proper way
+shall receive the next successive integer, whether or not the proposal is
+adopted.
+
+If a rule is repealed and reenacted, it receives the number of the proposal to
+reenact it. If a rule is amended or transmuted, it receives the number of the
+proposal to amend or transmute it. If an amendment is amended or repealed, the
+entire rule of which it is a part receives the number of the proposal to amend
+or repeal the amendment.
 
 **305** If at least one player disagrees about the legality of a move or the interpretation
 or application of a rule, a Judge is to decide the question. If no player is currently a Judge,
