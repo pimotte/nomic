@@ -9,7 +9,7 @@ at least make a stab at reading that. This file is in
 
 Player List 
 -----------
-1. Pim Otte (@pimotte, 2 points)
+1. Pim Otte (@pimotte, 3 points)
 2. Stefan Hugtenburg (@MrHug, 2 points)
 3. Arthur Bik (@arthurbik, 1 point)
 4. Jesse Donkervliet (@jdonkervliet, 1 point)
@@ -178,9 +178,10 @@ player who proposed the last adopted rule wins.
 
 This rule takes precedence over every other rule determining the winner.
 
-**212** A rule-change is proposed by submitting a pull request, such that
+**309** A rule-change is proposed by submitting a pull request, such that
 merging the pull request reflects the accurate state of the game after
-adoption of the rule-change.
+adoption of the rule-change. In case the rule-change has been given a number
+for reference, this number must be included in the title of the pull request.
 
 **213** A non-player can become a player by submitting a pull request which adds
 their name and Github handle to the Player List.
