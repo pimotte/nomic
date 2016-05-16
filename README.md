@@ -207,5 +207,5 @@ in his PR.
 
 **312** In addition to other types of valid rule-changes outlined in the rules, a rule-change may also consist of moving
 a part of an existing mutable rule into a new mutable rule. In order for this rule-change to be valid, the phrasing of
-the new rule must identical to the phrasing of the clause or sentence in the old rule and the new rule must
+the new rule must be identical to the phrasing of the clause or sentence in the old rule and the new rule must be
 self-contained, meaning it does not require a reference to the old rule to be understood.
