@@ -199,7 +199,8 @@ in a timely fashion, which marks completion of the vote.
 comments above the vote contains a word or sentence in either Japanese or Turkish 
 and a translation in English. Uniqueness of this word or sentence is encouraged,
 as is correctness of the translation. There are no sanctions for voting
-when this rule disallows it, regardless of what other rules specify.
+when this rule disallows, it regardless of what other rules specify, 
+if and only if voting in this way only violates this rule.
 
 **308** If a PR that outlines a rule-change contains `y` commit hashes containing an English dictionary word of at least
 four consecutive letters, the proposer will be awarded `y` additional points when the PR is merged into the master
