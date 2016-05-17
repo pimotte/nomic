@@ -214,6 +214,8 @@ defined as follows.
 - Every Trial features a prosecutor.
 - Every Trial features a jury, comprised of at least one player.
 - No player can take multiple roles in a single trial, i.e. a player can not be both prosecutor and jury.
+- Both prosecution and defendant must call forth at least one player for jury duty. (Note: There is no uniqueness
+	requirement, which means a one-manned jury is still a valid jury.)
 - Every Trial shall have the name "The people vs #githubhandle XX" where #githubhandle is the name of the defendant and
 	XX is the number representing how often this player has been on Trial.
 - If a player accuses another player of breaking a rule, the accuser will take the role of prosecutor in the Trial.
@@ -234,7 +236,7 @@ defined as follows.
 - Else if no points are taken from the defendant's score, the defendant is pronounced "Not Guilty".
 - If at least two eligible voters exist that were not part of the Trial (i.e. no part of the jury, defense or
 	prosecution), the defendant has the right to appeal the verdict in a new trial with a new jury and (if possible) the
-	same prosecution. If prosecution is no longer available, the procedure of Judgement will be used to select a
+	same prosecution. If prosecution is no longer available, the procedure of invoking Judgement will be used to select a
 	prosecutor.
 - During a Trial session, both prosecution and defense are allowed to refer to old Trials in their pleas for a certain
 	punishment.
