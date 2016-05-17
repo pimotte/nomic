@@ -231,6 +231,8 @@ defined as follows.
 	larger deduction than the prosecutor's proposol, nor may it be smaller than that of the defendant.
 - Deliberation of the punishment will happen in public in the GitHub issue, but the defendant and prosecutor are no
 	longer allowed to interfere in this procedure.
+- If no concensus on the final punishment can be reached by the jury, every jury member votes for a certain point
+	reduction. The average of these votes will be the final verdict of the jury.
 - Once the jury has given it's verdict, it will be enacted by someone who has this power in a timely fashion.
 - If at least one point is taken from the defendant's score, the defendant is pronounced "Guilty".
 - Else if no points are taken from the defendant's score, the defendant is pronounced "Not Guilty".
