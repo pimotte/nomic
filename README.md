@@ -197,10 +197,9 @@ in a timely fashion, which marks completion of the vote.
 
 **313** Any vote through a comment on a pull request is invalid, unless one of the
 comments above the vote contains a word or sentence in either Japanese or Turkish 
-and a translation in English. This word or sentence must be unique for each pull
-request, in the sense that it cannot be the exact same word or sentence as used
-for another pull request. It is allowed to use a word from another pull request
-in a sentence.
+and a translation in English. Uniqueness of this word or sentence is encouraged,
+as is correctness of the translation. There are no sanctions for voting
+when this rule disallows it, regardless of what other rules specify.
 
 **308** If a PR that outlines a rule-change contains `y` commit hashes containing an English dictionary word of at least
 four consecutive letters, the proposer will be awarded `y` additional points when the PR is merged into the master
