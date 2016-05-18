@@ -228,14 +228,16 @@ defined as follows.
 - The prosecution and jury may ask the defendant about his actions and the defendant is obliged to answer these
 	questions to the best of his abilities.
 - After the jury has no more questions to ask, they will deliberate on the punishment. This punishment may not be a
-	larger deduction than the prosecutor's proposol, nor may it be smaller than that of the defendant.
+	larger deduction than the prosecutor's proposal, nor may it be smaller than that of the defendant.
 - Deliberation of the punishment will happen in public in the GitHub issue, but the defendant and prosecutor are no
 	longer allowed to interfere in this procedure.
 - If no concensus on the final punishment can be reached by the jury, every jury member votes for a certain point
 	reduction. The rounded average (to the nearest integer) of these votes will be the final verdict of the jury.
 - Once the jury has given it's verdict, it will be enacted by someone who has this power in a timely fashion.
-- If at least one point is taken from the defendant's score, the defendant is pronounced "Guilty".
-- Else if no points are taken from the defendant's score, the defendant is pronounced "Not Guilty".
+- If at least one point is taken from the defendant's score, the defendant is pronounced _Guilty_.
+- Else if no points are taken from the defendant's score, the defendant is pronounced _Not Guilty_.
+- If the defendant is found Guilty, the illegal actions of the defendant will be undone by someone who has this power in
+	a timely fashion.
 - If at least two eligible voters exist that were not part of the Trial (i.e. no part of the jury, defense or
 	prosecution), the defendant has the right to appeal the verdict in a new trial with a new jury and (if possible) the
 	same prosecution. If prosecution is no longer available, the procedure of invoking Judgement will be used to select a
