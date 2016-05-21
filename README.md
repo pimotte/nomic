@@ -186,13 +186,16 @@ for reference, this number must be included in the title of the pull request.
 **213** A non-player can become a player by submitting a pull request which adds
 their name and Github handle to the Player List.
 
-**306** A player can vote in favor of a rule-change by commenting on the pull request
+**314** A player can vote in favor of a rule-change by commenting on the pull request
 with a comment that consists only of ":+1:". Likewise, a player can vote against
 a rule-change by commenting on the pull request with a comment that consists
-only of ":-1:". A commit on a pull
-request dated after any votes resets those votes.
+only of ":-1:". 
 
-If the rule-change is adopted, a player who can shall merge the pull-request
+A commit on a pull request dated after any votes resets those votes, 
+unless this commit is a merge commit resulting from a merge from master on pimotte/nomic to 
+the source branch of the pull request and does not alter the proposed rule-change.
+
+If the rule-change is adopted, a player who can shall merge the pull request
 in a timely fashion, which marks completion of the vote.
 
 **308** If a PR that outlines a rule-change contains `y` commit hashes containing an English dictionary word of at least
