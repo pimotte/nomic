@@ -9,7 +9,7 @@ at least make a stab at reading that. This file is in
 
 Player List 
 -----------
-1. Pim Otte (@pimotte, 5 points)
+1. Pim Otte (@pimotte, 6 points)
 2. Stefan Hugtenburg (@MrHug, 2 points)
 3. Arthur Bik (@arthurbik, 1 point)
 4. Jesse Donkervliet (@jdonkervliet, 1 point)
@@ -215,5 +215,11 @@ An English dictionary word is defined as a word found in the Oxford Dictionary a
 Points are only awarded if the proposer includes the `y` points in his update of his score and mentions this explicitly
 in his PR.
 
+**316** *What's in a name?* 
 
+Rules may have a title.
+If a rule has a title, the title must follow any rule number, preceed any of the rule's text and be 
+formatted in *italic*.
+The title of a rule is not part of the rule's text, but is encouraged to be related to the content
+of the rule. 
 
