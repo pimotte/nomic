@@ -102,6 +102,8 @@ rule.
 unregulated, with the sole exception of changing the rules, which is permitted
 only when a rule or set of rules explicitly or implicitly permits it.
 
+**317** Each eligible voter always has exactly one vote.
+
 Mutable Rules 
 -------------
 
@@ -119,8 +121,6 @@ of the vote that adopted it.
 
 **205** When a proposed rule-change is adopted, the player who proposed it
 gains 1 point.
-
-**315** Each eligible voter always has exactly one vote.
 
 **207** The winner is the first player to achieve 200 (positive) points.
 
