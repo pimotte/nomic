@@ -120,7 +120,7 @@ of the vote that adopted it.
 **205** When a proposed rule-change is adopted, the player who proposed it
 gains 1 point.
 
-**206** Each player always has exactly one vote.
+**315** Each eligible voter always has exactly one vote.
 
 **207** The winner is the first player to achieve 200 (positive) points.
 
