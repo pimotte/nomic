@@ -10,7 +10,7 @@ at least make a stab at reading that. This file is in
 Player List 
 -----------
 1. Pim Otte (@pimotte, 6 points)
-2. Stefan Hugtenburg (@MrHug, 2 points)
+2. Stefan Hugtenburg (@MrHug, 3 points)
 3. Arthur Bik (@arthurbik, 1 point)
 4. Jesse Donkervliet (@jdonkervliet, 1 point)
 
@@ -120,7 +120,7 @@ of the vote that adopted it.
 **205** When a proposed rule-change is adopted, the player who proposed it
 gains 1 point.
 
-**206** Each player always has exactly one vote.
+**315** Each eligible voter always has exactly one vote.
 
 **207** The winner is the first player to achieve 200 (positive) points.
 
