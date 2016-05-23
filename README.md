@@ -220,6 +220,7 @@ in his PR.
 Rules may have a title.
 If a rule has a title, the title must follow any rule number, preceed any of the rule's text and be 
 formatted in *italic*.
+If a rule has a title, the title must uniquely identify the rule.
 The title of a rule is not part of the rule's text, but is encouraged to be related to the content
 of the rule. 
 
