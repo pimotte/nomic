@@ -10,7 +10,7 @@ at least make a stab at reading that. This file is in
 Player List 
 -----------
 1. Pim Otte (@pimotte, 5 points)
-2. Stefan Hugtenburg (@MrHug, 5 points)
+2. Stefan Hugtenburg (@MrHug, 6 points)
 3. Arthur Bik (@arthurbik, 1 point)
 4. Jesse Donkervliet (@jdonkervliet, 1 point)
 
@@ -254,3 +254,9 @@ defined as follows.
 	prosecutor.
 - During a Trial session, both prosecution and defense are allowed to refer to old Trials in their pleas for a certain
 	punishment.
+
+**312** In addition to other types of valid rule-changes outlined in the rules, a rule-change may also consist of moving
+a part of an existing mutable rule into a new mutable rule. In order for this rule-change to be valid, the phrasing of
+the new rule must be identical to the phrasing of the clause or sentence in the old rule and the new rule must be
+self-contained, meaning it does not require a reference to the old rule to be understood. Similarly the old rule must
+still be self-contained and sensible with part of it removed.
