@@ -226,4 +226,5 @@ without this pull request containing any changes to any rule's text or the game 
 Such a pull request will be voted on as if they were a rule-change affecting only mutable rules. 
 Such a pull request will be merged by someone with the power to do so, in a timely fashion, if
 and only if the votes on the pull request are such that a rule-change with the same votes would
-be adopted.
+be adopted. If a pull request only adds a name to the player list, that pull request
+will not be voted on. Instead, it may be merged by any person who has the right to do so.
