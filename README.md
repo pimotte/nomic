@@ -108,7 +108,7 @@ Mutable Rules
 **303** A player may have an infinite number of concurrent turns.
 A player may start a turn regardless of the state of their other turns.
 
-**319** All players begin with zero points.
+**320** All players begin with zero points.
 
 **202** One turn consists of proposing one rule-change and having it voted on.
 
