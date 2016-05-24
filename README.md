@@ -222,7 +222,7 @@ self-contained, meaning it does not require a reference to the old rule to be un
 still be self-contained and sensible with part of it removed.
 
 **319** Both players and non-players are allowed to submit a pull request to master on pimotte/nomic, 
-without this pull request containing any changes to the rules. 
+without this pull request containing any changes to any rule's text or the game state. 
 Such a pull request will be voted on as if they were a rule-change affecting only mutable rules. 
 Such a pull request will be merged by someone with the power to do so, in a timely fashion, if
 and only if the votes on the pull request are such that a rule-change with the same votes would
