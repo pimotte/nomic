@@ -195,9 +195,13 @@ A commit on a pull request dated after any votes resets those votes,
 unless this commit is a merge commit resulting from a merge from master on pimotte/nomic to 
 the source branch of the pull request and does not alter the proposed rule-change.
 
-During a simple majority vote, a player may warn the other player that the vote is going to end.
+During a simple majority vote, a player may warn the other players that the vote is going to end.
 If this warning raises no objections and a reasonable time has passed, the vote ends and the rule
-is adopted when a majority of the votes are in favor of the rule-change. 
+is adopted when a majority of the votes that are cast are in favor of the rule-change. 
+A reasonable time in this context is at least 72 hours and is at least enough time for the warning
+to reach all other players and for all other players to react to the warning. 
+An objection can be raised by any player at any time, this includes the option to raise objections
+to future warnings.
 
 If the rule-change is adopted, a player who can shall merge the pull request
 in a timely fashion, which marks completion of the vote.
