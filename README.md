@@ -10,7 +10,7 @@ at least make a stab at reading that. This file is in
 Player List 
 -----------
 1. Pim Otte (@pimotte, 5 points)
-2. Stefan Hugtenburg (@MrHug, 4 points)
+2. Stefan Hugtenburg (@MrHug, 5 points)
 3. Arthur Bik (@arthurbik, 1 point)
 4. Jesse Donkervliet (@jdonkervliet, 1 point)
 
@@ -197,6 +197,10 @@ the source branch of the pull request and does not alter the proposed rule-chang
 
 If the rule-change is adopted, a player who can shall merge the pull request
 in a timely fashion, which marks completion of the vote.
+
+**321** A vote can be retracted by commenting on the pull request with a comment that 
+consists only of ":wave:". This will retract any votes made by the player that were made before
+this comment.
 
 **313** Any vote through a comment on a pull request is invalid, unless one of the
 comments above the vote contains a word or sentence in either Japanese or Turkish 
