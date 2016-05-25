@@ -11,7 +11,7 @@ Player List
 -----------
 1. Pim Otte (@pimotte, 5 points)
 2. Stefan Hugtenburg (@MrHug, 4 points)
-3. Arthur Bik (@arthurbik, 1 point)
+3. Arthur Bik (@arthurbik, 2 point)
 4. Jesse Donkervliet (@jdonkervliet, 1 point)
 
 Immutable Rules 
@@ -215,8 +215,9 @@ An English dictionary word is defined as a word found in the Oxford Dictionary a
 Points are only awarded if the proposer includes the `y` points in his update of his score and mentions this explicitly
 in his PR.
 
-**312** In addition to other types of valid rule-changes outlined in the rules, a rule-change may also consist of moving
+**322** In addition to other types of valid rule-changes outlined in the rules, a rule-change may also consist of moving
 a part of an existing mutable rule into a new mutable rule. In order for this rule-change to be valid, the phrasing of
 the new rule must be identical to the phrasing of the clause or sentence in the old rule and the new rule must be
 self-contained, meaning it does not require a reference to the old rule to be understood. Similarly the old rule must
-still be self-contained and sensible with part of it removed.
+still be self-contained and sensible with part of it removed. If a rule-change of this form is adopted, the player
+who proposed it gains -1 points.
