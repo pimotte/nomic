@@ -200,7 +200,8 @@ in a timely fashion, which marks completion of the vote.
 
 **321** A vote can be retracted by commenting on the pull request with a comment that 
 consists only of ":wave:". This will retract any votes made by the player that were made before
-this comment.
+this comment. A vote can only be retracted as long as it is valid and the rule-change is not
+yet accepted or rejected.
 
 **313** Any vote through a comment on a pull request is invalid, unless one of the
 comments above the vote contains a word or sentence in either Japanese or Turkish 
