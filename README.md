@@ -232,9 +232,9 @@ defined as follows.
 - Else If no other method of choosing a prosecutor in a Trial is defined, the prosecutor will be selected through the
 	procedure for invoking Judgement. In this procedure the defendant will take the role of the person invoking Judgement.
 - The prosecutor will outline the actions of the defendant that he claims are in violation of the rules and demand a
-	punishment in the form of a point reduction of the defendants point. This reduction can be of 0 points.
-- The defendant is allowed to defend his actions and propose an alternative punishment in the form of a point reduction
-	no larger than that of the prosecution.
+	punishment in the form of a non-negative point reduction of the defendants point. This reduction can be of 0 points.
+- The defendant is allowed to defend his actions and propose an alternative punishment in the form of a non-negative
+	point reduction no larger than that of the prosecution.
 - The prosecution and jury may ask the defendant about his actions and the defendant is obliged to answer these
 	questions to the best of his abilities.
 - After the jury has no more questions to ask, they will deliberate on the punishment. This punishment may not be a
