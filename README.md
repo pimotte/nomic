@@ -235,8 +235,9 @@ defined as follows.
 	punishment in the form of a non-negative point reduction of the defendants point. This reduction can be of 0 points.
 - The defendant is allowed to defend his actions and propose an alternative punishment in the form of a non-negative
 	point reduction no larger than that of the prosecution.
-- The prosecution and jury may ask the defendant about his actions and the defendant is obliged to answer these
-	questions to the best of his abilities.
+- The prosecution and jury may ask the defendant about his actions and the defendant should either answer these
+	questions to the best of his abilities, or exercise his right to remain silent. Lying during a Trial is an
+	offensive for which a player can be put on Trial.
 - After the jury has no more questions to ask, they will deliberate on the punishment. This punishment may not be a
 	larger deduction than the prosecutor's proposal, nor may it be smaller than that of the defendant.
 - Deliberation of the punishment will happen in public in the GitHub issue, but the defendant and prosecutor are no
