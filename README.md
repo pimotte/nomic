@@ -10,7 +10,7 @@ at least make a stab at reading that. This file is in
 Player List 
 -----------
 1. Pim Otte (@pimotte, 5 points)
-2. Stefan Hugtenburg (@MrHug, 7 points)
+2. Stefan Hugtenburg (@MrHug, 8 points)
 3. Arthur Bik (@arthurbik, 1 point)
 4. Jesse Donkervliet (@jdonkervliet, 1 point)
 
@@ -242,22 +242,25 @@ defined as follows.
 	point reduction no larger than that of the prosecution.
 - The prosecution and jury may ask the defendant about his actions and the defendant should either answer these
 	questions to the best of his abilities, or exercise his right to remain silent. Lying during a Trial is an
-	offensive for which a player can be put on Trial.
-- After the jury has no more questions to ask, they will deliberate on the punishment. This punishment may not be a
-	larger deduction than the prosecutor's proposal, nor may it be smaller than that of the defendant.
-- Deliberation of the punishment will happen in public in the GitHub issue, but the defendant and prosecutor are no
+	offense for which a player can be put on Trial.
+- After the jury has no more questions to ask, they will deliberate on their _Verdict_.
+- Deliberation of the Verdict will happen in public in the GitHub issue, but the defendant and prosecutor are no
 	longer allowed to interfere in this procedure.
-- If no concensus on the final punishment can be reached by the jury, every jury member votes for a certain point
+- Once the jury has given it's Verdict, it will be enacted by someone who has this power in a timely fashion.
+- The verdict of the jury is two-fold, first the guilt of the defendant must be established, secondly the punishment.
+	- The jury shall first decide if the defendant is _Guilty_ of the crime or _Not Guilty_. 
+	- If no consensus on the guilt of the defendant can be established, then a majority vote will take place. If the
+		majority vote is a tie, the defendant will be declared Not Guilty.
+	- If the jury has found the defendant to be _Guilty_, a punishment shall be decided. This punishment may not be a
+	larger deduction than the prosecutor's proposal, nor may it be smaller than that of the defendant.
+	- If no concensus on the final punishment can be reached by the jury, every jury member votes for a certain point
 	reduction. The rounded average (to the nearest integer) of these votes will be the final verdict of the jury.
-- Once the jury has given it's verdict, it will be enacted by someone who has this power in a timely fashion.
-- If at least one point is taken from the defendant's score, the defendant is pronounced _Guilty_.
-- Else if no points are taken from the defendant's score, the defendant is pronounced _Not Guilty_.
 - If the defendant is found Guilty, the illegal actions of the defendant will be undone by someone who has this power in
 	a timely fashion.
 - If at least two eligible voters exist that were not part of the Trial (i.e. no part of the jury, defense or
 	prosecution), the defendant has the right to appeal the verdict in a new trial with a new jury and (if possible) the
 	same prosecution. If prosecution is no longer available, the procedure of invoking Judgement will be used to select a
-	prosecutor.
+	new prosecutor.
 - During a Trial session, both prosecution and defense are allowed to refer to old Trials in their pleas for a certain
 	punishment.
 
