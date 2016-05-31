@@ -10,7 +10,7 @@ at least make a stab at reading that. This file is in
 Player List 
 -----------
 1. Pim Otte (@pimotte, 5 points)
-2. Stefan Hugtenburg (@MrHug, 5 points)
+2. Stefan Hugtenburg (@MrHug, 8 points)
 3. Arthur Bik (@arthurbik, 1 point)
 4. Jesse Donkervliet (@jdonkervliet, 1 point)
 
@@ -199,6 +199,11 @@ the source branch of the pull request and does not alter the proposed rule-chang
 If the rule-change is adopted, a player who can shall merge the pull request
 in a timely fashion, which marks completion of the vote.
 
+**321** A vote can be retracted by commenting on the pull request with a comment that 
+consists only of ":wave:". This will retract any votes made by the player that were made before
+this comment. A vote can only be retracted as long as it is valid and the rule-change is not
+yet adopted or rejected.
+
 **313** Any vote through a comment on a pull request is invalid, unless one of the
 comments above the vote contains a word or sentence in either Japanese or Turkish 
 and a translation in English. Uniqueness of this word or sentence is encouraged,
@@ -215,6 +220,47 @@ An English dictionary word is defined as a word found in the Oxford Dictionary a
 
 Points are only awarded if the proposer includes the `y` points in his update of his score and mentions this explicitly
 in his PR.
+
+**311** If a player (unwittingly) performs an action that directly contradicts a
+rule, a procedure defined as a _Trial_, with the rule-breaking player as the defendant, will take place. A Trial is
+defined as follows.
+
+- Every Trial takes places on GitHub in a new issue with the "Trial" label.
+- Every Trial features a defendant.
+- Every Trial features a prosecutor.
+- Every Trial features a jury, comprised of at least one player.
+- No player can take multiple roles in a single trial, i.e. a player can not be both prosecutor and jury.
+- Both prosecution and defendant must call forth at least one player for jury duty. (Note: There is no uniqueness
+	requirement, which means a one-manned jury is still a valid jury.)
+- Every Trial shall have the name "The people vs #githubhandle XX" where #githubhandle is the name of the defendant and
+	XX is the number representing how often this player has been on Trial.
+- If a player accuses another player of breaking a rule, the accuser will take the role of prosecutor in the Trial.
+- Else If no other method of choosing a prosecutor in a Trial is defined, the prosecutor will be selected through the
+	procedure for invoking Judgement. In this procedure the defendant will take the role of the person invoking Judgement.
+- The prosecutor will outline the actions of the defendant that he claims are in violation of the rules and demand a
+	punishment in the form of a non-negative point reduction of the defendants point. This reduction can be of 0 points.
+- The defendant is allowed to defend his actions and propose an alternative punishment in the form of a non-negative
+	point reduction no larger than that of the prosecution.
+- The prosecution and jury may ask the defendant about his actions and the defendant should either answer these
+	questions to the best of his abilities, or exercise his right to remain silent. Lying during a Trial is an
+	offensive for which a player can be put on Trial.
+- After the jury has no more questions to ask, they will deliberate on the punishment. This punishment may not be a
+	larger deduction than the prosecutor's proposal, nor may it be smaller than that of the defendant.
+- Deliberation of the punishment will happen in public in the GitHub issue, but the defendant and prosecutor are no
+	longer allowed to interfere in this procedure.
+- If no concensus on the final punishment can be reached by the jury, every jury member votes for a certain point
+	reduction. The rounded average (to the nearest integer) of these votes will be the final verdict of the jury.
+- Once the jury has given it's verdict, it will be enacted by someone who has this power in a timely fashion.
+- If at least one point is taken from the defendant's score, the defendant is pronounced _Guilty_.
+- Else if no points are taken from the defendant's score, the defendant is pronounced _Not Guilty_.
+- If the defendant is found Guilty, the illegal actions of the defendant will be undone by someone who has this power in
+	a timely fashion.
+- If at least two eligible voters exist that were not part of the Trial (i.e. no part of the jury, defense or
+	prosecution), the defendant has the right to appeal the verdict in a new trial with a new jury and (if possible) the
+	same prosecution. If prosecution is no longer available, the procedure of invoking Judgement will be used to select a
+	prosecutor.
+- During a Trial session, both prosecution and defense are allowed to refer to old Trials in their pleas for a certain
+	punishment.
 
 **312** In addition to other types of valid rule-changes outlined in the rules, a rule-change may also consist of moving
 a part of an existing mutable rule into a new mutable rule. In order for this rule-change to be valid, the phrasing of
