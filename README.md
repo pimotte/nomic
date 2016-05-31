@@ -122,6 +122,12 @@ gains 1 point.
 
 **315** Each eligible voter always has exactly one vote.
 
+**323** It may be assumed that the proposer of a rule-change is always in favour of this rule-change and thus has
+cast an implicit vote in favour of the rule-change. 
+An explicit vote through the procedures outlined in the rules may replace this implicit vote in favour.
+If the implicit vote is not overwritten with an explicit vote, the implicit vote is always valid, no matter what other
+rules say about the validity of votes.
+
 **207** The winner is the first player to achieve 200 (positive) points.
 
 **209** If two or more mutable rules conflict with one another, or if two or
