@@ -220,7 +220,7 @@ An English dictionary word is defined as a word found in the Oxford Dictionary a
 Points are only awarded if the proposer includes the `y` points in his update of his score and mentions this explicitly
 in his PR.
 
-**311** If a player (unwittingly) performs an action that directly contradicts a
+**324** If a player (unwittingly) performs an action that directly contradicts a
 rule, a procedure defined as a _Trial_, with the rule-breaking player as the defendant, will take place. A Trial is
 defined as follows.
 
