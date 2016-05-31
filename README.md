@@ -238,25 +238,26 @@ defined as follows.
 	procedure for invoking Judgement. In this procedure the defendant will take the role of the person invoking Judgement.
 - The prosecutor will outline the actions of the defendant that he claims are in violation of the rules and demand a
 	punishment in the form of a non-negative point reduction of the defendants point. This reduction can be of 0 points.
-- The defendant is allowed to defend his actions and propose an alternative punishment in the form of a non-negative
-	point reduction no larger than that of the prosecution.
+- The defendant is allowed to defend his actions and can plead either _Guilty_ or _Not Guilty_. If he pleads Guilty, he
+	can propose an alternative punishment in the form of a non-negative point reduction no larger than that of the
+	prosecution. If he pleads Not Guilty, an alternative punishment of a zero point reduction is assumed.
 - The prosecution and jury may ask the defendant about his actions and the defendant should either answer these
 	questions to the best of his abilities, or exercise his right to remain silent. Lying during a Trial is an
 	offense for which a player can be put on Trial.
 - After the jury has no more questions to ask, they will deliberate on their _Verdict_.
 - Deliberation of the Verdict will happen in public in the GitHub issue, but the defendant and prosecutor are no
 	longer allowed to interfere in this procedure.
-- Once the jury has given it's Verdict, it will be enacted by someone who has this power in a timely fashion.
-- The verdict of the jury is two-fold, first the guilt of the defendant must be established, secondly the punishment.
-	- The jury shall first decide if the defendant is _Guilty_ of the crime or _Not Guilty_. 
+- The Verdict of the jury is two-fold, first the guilt of the defendant must be established, secondly the punishment.
+	- The jury shall first decide if the defendant is _Guilty_ of the offense or _Not Guilty_. 
 	- If no consensus on the guilt of the defendant can be established, then a majority vote will take place. If the
-		majority vote is a tie, the defendant will be declared Not Guilty.
+		majority vote is non-conclusive, the defendant will be declared Not Guilty.
 	- If the jury has found the defendant to be _Guilty_, a punishment shall be decided. This punishment may not be a
 	larger deduction than the prosecutor's proposal, nor may it be smaller than that of the defendant.
 	- If no concensus on the final punishment can be reached by the jury, every jury member votes for a certain point
 	reduction. The rounded average (to the nearest integer) of these votes will be the final verdict of the jury.
 - If the defendant is found Guilty, the illegal actions of the defendant will be undone by someone who has this power in
 	a timely fashion.
+- Once the jury has given it's Verdict, it will be enacted by someone who has this power in a timely fashion.
 - If at least two eligible voters exist that were not part of the Trial (i.e. no part of the jury, defense or
 	prosecution), the defendant has the right to appeal the verdict in a new trial with a new jury and (if possible) the
 	same prosecution. If prosecution is no longer available, the procedure of invoking Judgement will be used to select a
