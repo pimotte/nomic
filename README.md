@@ -136,7 +136,7 @@ determining precedence.
 If two or more rules claim to take precedence over one another or to defer to
 one another, then the numerical method again governs.
 
-**315** If at least one player disagrees about the legality of a move or the interpretation
+**307** If at least one player disagrees about the legality of a move or the interpretation
 or application of a rule, this player may _invoke Judgement_. See below for the
 definition.
 
@@ -152,7 +152,7 @@ handle previous to the player who invoked Judgement is selected from this group.
 If this set is empty, the rules above are removed one-by-one in bottom-to-top order until
 the set is no longer empty.
 If all these rules have been removed, a Judge is decided by majority vote.
-If the majority vote does not result in a majority vote, the vote is repeated.
+If the majority vote does not produce a conclusive result, the vote is repeated.
 
 _Invoking Judgement_ means a player who is currently not a Judge submits an
 issue labelled "Judgement".
