@@ -10,8 +10,8 @@ at least make a stab at reading that. This file is in
 Player List 
 -----------
 1. Pim Otte (@pimotte, 5 points)
-2. Stefan Hugtenburg (@MrHug, 9 points)
-3. Arthur Bik (@arthurbik, 1 point)
+2. Stefan Hugtenburg (@MrHug, 10 points)
+3. Arthur Bik (@arthurbik, 2 point)
 4. Jesse Donkervliet (@jdonkervliet, 1 point)
 
 Immutable Rules 
@@ -123,6 +123,13 @@ gains 1 point.
 
 **315** Each eligible voter always has exactly one vote.
 
+**323** It may be assumed that the proposer of a rule-change is always in favour of this rule-change and thus has
+cast an implicit vote in favour of the rule-change. 
+An explicit vote through the procedures outlined in the rules replaces this implicit vote in favour.
+If the implicit vote is not overwritten with an explicit vote, the validity of the implicit vote is held to the same
+requirements as any other vote. For the purpose of validity checking, it can be considered an unwritten comment placed
+after all comments on the PR before the merging comment of the PR.
+
 **207** The winner is the first player to achieve 200 (positive) points.
 
 **209** If two or more mutable rules conflict with one another, or if two or
@@ -187,7 +194,7 @@ for reference, this number must be included in the title of the pull request.
 **213** A non-player can become a player by submitting a pull request which adds
 their name and Github handle to the Player List.
 
-**314** A player can vote in favor of a rule-change by commenting on the pull request
+**318** A player can vote in favor of a rule-change by commenting on the pull request
 with a comment that consists only of ":+1:". Likewise, a player can vote against
 a rule-change by commenting on the pull request with a comment that consists
 only of ":-1:". 
@@ -195,6 +202,14 @@ only of ":-1:".
 A commit on a pull request dated after any votes resets those votes, 
 unless this commit is a merge commit resulting from a merge from master on pimotte/nomic to 
 the source branch of the pull request and does not alter the proposed rule-change.
+
+During a simple majority vote, a player may warn the other players that the vote is going to end.
+If this warning raises no objections and a reasonable time has passed, the vote ends and the rule
+is adopted when a majority of the votes that are cast are in favor of the rule-change. 
+A reasonable time in this context is at least 72 hours and is at least enough time for the warning
+to reach all other players and for all other players to react to the warning. 
+An objection can be raised by any player at any time, this includes the option to raise objections
+to future warnings.
 
 If the rule-change is adopted, a player who can shall merge the pull request
 in a timely fashion, which marks completion of the vote.
