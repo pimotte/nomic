@@ -10,7 +10,7 @@ at least make a stab at reading that. This file is in
 Player List 
 -----------
 1. Pim Otte (@pimotte, 5 points)
-2. Stefan Hugtenburg (@MrHug, 8 points)
+2. Stefan Hugtenburg (@MrHug, 9 points)
 3. Arthur Bik (@arthurbik, 1 point)
 4. Jesse Donkervliet (@jdonkervliet, 1 point)
 
@@ -108,7 +108,8 @@ Mutable Rules
 **303** A player may have an infinite number of concurrent turns.
 A player may start a turn regardless of the state of their other turns.
 
-**320** All players begin with zero points.
+**325** All players begin with the number of points equal to the outcome of this formula:
+`max(0, min_i(#points of player i) - 2)`
 
 **202** One turn consists of proposing one rule-change and having it voted on.
 
