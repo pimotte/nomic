@@ -149,11 +149,13 @@ Players are in this set when all of the following constraints are met:
  2. The player is not currently a Judge in another Judgement.
 
 If this set contains multiple players, the player with the alphanumeric GitHub
-handle previous to the player who invoked Judgement is selected from this group.
+handle previous (with wrap-around) to the player who invoked Judgement is
+selected from this group.
 If this set is empty, the rules above are removed one-by-one in bottom-to-top order until
 the set is no longer empty.
 If all these rules have been removed, a Judge is decided by majority vote.
-If the majority vote does not produce a conclusive result, the vote is repeated.
+If the majority vote does not produce a conclusive result, a Judge is selected
+at random by @Jason-Statham.
 
 _Invoking Judgement_ means a player who is currently not a Judge submits an
 issue labelled "Judgement".
