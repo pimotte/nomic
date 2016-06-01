@@ -10,7 +10,7 @@ at least make a stab at reading that. This file is in
 Player List 
 -----------
 1. Pim Otte (@pimotte, 7 points)
-2. Stefan Hugtenburg (@MrHug, 8 points)
+2. Stefan Hugtenburg (@MrHug, 9 points)
 3. Arthur Bik (@arthurbik, 2 point)
 4. Jesse Donkervliet (@jdonkervliet, 1 point)
 
@@ -122,6 +122,13 @@ of the vote that adopted it.
 gains 1 point.
 
 **315** Each eligible voter always has exactly one vote.
+
+**323** It may be assumed that the proposer of a rule-change is always in favour of this rule-change and thus has
+cast an implicit vote in favour of the rule-change. 
+An explicit vote through the procedures outlined in the rules replaces this implicit vote in favour.
+If the implicit vote is not overwritten with an explicit vote, the validity of the implicit vote is held to the same
+requirements as any other vote. For the purpose of validity checking, it can be considered an unwritten comment placed
+after all comments on the PR before the merging comment of the PR.
 
 **207** The winner is the first player to achieve 200 (positive) points.
 
