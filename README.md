@@ -296,5 +296,6 @@ if the change is the correction of spelling and/or grammar mistakes in mutable r
 Such a pull request will be voted on as if they were a rule-change affecting only mutable rules. 
 Such a pull request will be merged by someone with the power to do so, in a timely fashion, if
 and only if the votes on the pull request are such that a rule-change with the same votes would
-be adopted. If a pull request only adds a name to, or removes a name from the player list, that pull request
+be adopted. If a pull request only adds the initiators name to, or removes the initiators
+name from the player list, that pull request
 will not be voted on. Instead, it may be merged by any person who has the right to do so.
