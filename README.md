@@ -283,7 +283,7 @@ defined as follows.
 - During a Trial session, both prosecution and defense are allowed to refer to old Trials in their pleas for a certain
 	punishment.
 
-**326** As long as an issue labelled "Trial" or "Judgement" exists, no player may start a turn, regardless of what
+**326** As long as an issue labelled "Trial" or "Judgement" is open, no player may start a turn, regardless of what
 other rules specify. Futhermore, any rule specifying that a pull request should be merged in a timely fashion shall
 be read as specifying that the pull request should be merged in a timely fashion, after all issues labelled "Trial"
 or "Judgement" are closed. Any player may start a vote in a separate issue to ignore a particular issue labelled 
