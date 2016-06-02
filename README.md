@@ -227,6 +227,7 @@ when this rule disallows it, regardless of what other rules specify,
 if and only if voting in this way only violates this rule.
 
 **327** *A tattoo on the tongue*
+
 Any merge of a rule-change pull request is a violation punishable by Trial, unless at least one of the comments
 in the PR at the time of the merge includes a quote from a book, movie, TV-show, or person with a source-annotation.
 Players are encouraged to present a quote that matches the contents of the pull request that has not been used before in
