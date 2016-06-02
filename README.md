@@ -10,7 +10,7 @@ at least make a stab at reading that. This file is in
 Player List 
 -----------
 1. Pim Otte (@pimotte, 5 points)
-2. Stefan Hugtenburg (@MrHug, 10 points)
+2. Stefan Hugtenburg (@MrHug, 11 points)
 3. Arthur Bik (@arthurbik, 2 point)
 4. Jesse Donkervliet (@jdonkervliet, 1 point)
 
@@ -225,6 +225,11 @@ and a translation in English. Uniqueness of this word or sentence is encouraged,
 as is correctness of the translation. There are no sanctions for voting
 when this rule disallows it, regardless of what other rules specify, 
 if and only if voting in this way only violates this rule.
+
+**327** Any merge of a rule-change pull request is a violation punishable by Trial, unless at least one of the comments
+in the PR at the time of the merge includes a quote from a book, movie, TV-show, or person with a source-annotation.
+Players are encouraged to present a quote that matches the contents of the pull request that has not been used before in
+another Pull Request.
 
 **308** If a PR that outlines a rule-change contains `y` commit hashes containing an English dictionary word of at least
 four consecutive letters, the proposer will be awarded `y` additional points when the PR is merged into the master
