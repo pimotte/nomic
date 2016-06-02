@@ -144,17 +144,29 @@ determining precedence.
 If two or more rules claim to take precedence over one another or to defer to
 one another, then the numerical method again governs.
 
-**305** If at least one player disagrees about the legality of a move or the interpretation
-or application of a rule, a Judge is to decide the question. If no player is currently a Judge,
-then the player, among the players not currently having an open issue labelled "Judgement", 
-with the Github handle alphanumerically previous to the player, who started an open issue labelled 
-"Judgement" first amongst all players currently having an open issue labelled "Judgement", is 
-to be the Judge. If all players have an open issue labelled "Judgement", then a Judge is decided by 
-a majority vote.
+**307** If at least one player disagrees about the legality of a move or the interpretation
+or application of a rule, this player may _invoke Judgement_. See below for the
+definition.
 
-Disagreement for the purposes of this rule may, at any time, be created by the insistence of
-any player who is not a Judge by submiting an issue labelled "Judgement". This process is 
-called invoking Judgment. 
+When a player invokes Judgement, a Judge is selected to decide the question.
+The Judge is selected from the set of players that is eligible to become
+Judge.
+Players are in this set when all of the following constraints are met:
+ 1. The player is not the most recent editor of (one of) the rule(s) that is the
+ 		subject of the disagreement.
+ 2. The player is not currently a Judge in another Judgement.
+
+If this set contains multiple players, the player with the alphanumeric GitHub
+handle previous (with wrap-around) to the player who invoked Judgement is
+selected from this group.
+If this set is empty, the rules above are removed one-by-one in bottom-to-top order until
+the set is no longer empty.
+If all these rules have been removed, a Judge is decided by majority vote.
+If the majority vote does not produce a conclusive result, a Judge is selected
+at random by @Jason-Statham.
+
+_Invoking Judgement_ means a player who is currently not a Judge submits an
+issue labelled "Judgement".
 
 The Judge's Judgment may be overruled only by a unanimous vote of the other players
 taken before a turn has ended after the Judge's Judgment. If a Judge's Judgment is overruled,
