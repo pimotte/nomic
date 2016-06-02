@@ -286,8 +286,9 @@ defined as follows.
 **326** As long as an issue labelled "Trial" or "Judgement" exists, no player may start a turn, regardless of what
 other rules specify. Futhermore, any rule specifying that a pull request should be merged in a timely fashion shall
 be read as specifying that the pull request should be merged in a timely fashion, after all issues labelled "Trial"
-or "Judgement" are closed. Any player may ignore this rule, if and only if they have asked for permission by
-creating an issue and a simple majority of players is in favour of allowing this rule to be ignored.
+or "Judgement" are closed. Any player may start a vote in a separate issue to ignore a particular issue labelled 
+"Trial" or "Judgement" for purposes of this rule. 
+That issue will be ignored if a simple majority votes in favour of doing so.
 
 **312** In addition to other types of valid rule-changes outlined in the rules, a rule-change may also consist of moving
 a part of an existing mutable rule into a new mutable rule. In order for this rule-change to be valid, the phrasing of
