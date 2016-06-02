@@ -9,7 +9,7 @@ at least make a stab at reading that. This file is in
 
 Player List 
 -----------
-1. Pim Otte (@pimotte, 5 points)
+1. Pim Otte (@pimotte, 7 points)
 2. Stefan Hugtenburg (@MrHug, 11 points)
 3. Arthur Bik (@arthurbik, 2 point)
 4. Jesse Donkervliet (@jdonkervliet, 1 point)
@@ -301,3 +301,14 @@ a part of an existing mutable rule into a new mutable rule. In order for this ru
 the new rule must be identical to the phrasing of the clause or sentence in the old rule and the new rule must be
 self-contained, meaning it does not require a reference to the old rule to be understood. Similarly the old rule must
 still be self-contained and sensible with part of it removed.
+
+**319** Both players and non-players are allowed to submit a pull request to master on pimotte/nomic, 
+without this pull request containing any changes to any rule's text or the game state. 
+With the single exception that rule's text may be changed 
+if the change is the correction of spelling and/or grammar mistakes in mutable rules.
+Such a pull request will be voted on as if they were a rule-change affecting only mutable rules. 
+Such a pull request will be merged by someone with the power to do so, in a timely fashion, if
+and only if the votes on the pull request are such that a rule-change with the same votes would
+be adopted. If a pull request only adds the initiators name to, or removes the initiators
+name from the player list, that pull request
+will not be voted on. Instead, it may be merged by any person who has the right to do so.
