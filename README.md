@@ -10,7 +10,7 @@ at least make a stab at reading that. This file is in
 Player List 
 -----------
 1. Pim Otte (@pimotte, 5 points)
-2. Stefan Hugtenburg (@MrHug, 10 points)
+2. Stefan Hugtenburg (@MrHug, 11 points)
 3. Arthur Bik (@arthurbik, 2 point)
 4. Jesse Donkervliet (@jdonkervliet, 1 point)
 
@@ -109,6 +109,19 @@ Mutable Rules
 A player may start a turn regardless of the state of their other turns.
 
 **320** All players begin with zero points.
+
+**326** All player scores will be tracked in separate files for each player. These files should contain at least the
+following:
+- The player's name.
+- The player's GitHub handle.
+- The current total score of the player.
+
+Other items may be added to these player files through non-rule-change Pull Requests. Players are encouraged to keep a
+list of Pull Requests that were merged and how points this netted them, so that the total can be easily recomputed. 
+
+The total score of the player should reflect the gamestate. If this file does not match the game state, the last person
+that modified the player file at the moment it started diverging from the gamestate can be put on Trial for violation
+of this rule.
 
 **202** One turn consists of proposing one rule-change and having it voted on.
 
