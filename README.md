@@ -9,7 +9,7 @@ at least make a stab at reading that. This file is in
 
 Player List 
 -----------
-1. Pim Otte (@pimotte, 5 points)
+1. Pim Otte (@pimotte, 6 points)
 2. Stefan Hugtenburg (@MrHug, 10 points)
 3. Arthur Bik (@arthurbik, 2 point)
 4. Jesse Donkervliet (@jdonkervliet, 1 point)
@@ -282,6 +282,12 @@ defined as follows.
 	new prosecutor.
 - During a Trial session, both prosecution and defense are allowed to refer to old Trials in their pleas for a certain
 	punishment.
+
+**326** As long as an issue labelled "Trial" or "Judgement" exists, no player may start a turn, regardless of what
+other rules specify. Futhermore, any rule specifying that a pull request should be merged in a timely fashion shall
+be read as specifying that the pull request should be merged in a timely fashion, after all issues labelled "Trial"
+or "Judgement" are closed. Any player may ignore this rule, if and only if they have asked for permission by
+creating an issue and a simple majority of players is in favour of allowing this rule to be ignored.
 
 **312** In addition to other types of valid rule-changes outlined in the rules, a rule-change may also consist of moving
 a part of an existing mutable rule into a new mutable rule. In order for this rule-change to be valid, the phrasing of
