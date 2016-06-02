@@ -111,6 +111,7 @@ A player may start a turn regardless of the state of their other turns.
 **320** All players begin with zero points.
 
 **328** *Neat and Tidy*
+
 All player scores will be tracked in separate files for each player. These files should contain at least the
 following:
 - The player's name.
