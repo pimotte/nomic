@@ -163,7 +163,7 @@ gains 1 point.
 
 **315** Each eligible voter always has exactly one vote.
 
-# Mutable Rules
+## Mutable Rules
 
 **318** A player can vote in favor of a rule-change by commenting on the pull request
 with a comment that consists only of ":+1:". Likewise, a player can vote against
