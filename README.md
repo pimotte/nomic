@@ -9,9 +9,9 @@ at least make a stab at reading that. This file is in
 
 Player List 
 -----------
-1. Pim Otte (@pimotte, 6 points)
-2. Stefan Hugtenburg (@MrHug, 4 points)
-3. Arthur Bik (@arthurbik, 1 point)
+1. Pim Otte (@pimotte, 8 points)
+2. Stefan Hugtenburg (@MrHug, 10 points)
+3. Arthur Bik (@arthurbik, 2 point)
 4. Jesse Donkervliet (@jdonkervliet, 1 point)
 
 Immutable Rules 
@@ -107,7 +107,8 @@ Mutable Rules
 
 **303** A player may have an infinite number of concurrent turns.
 A player may start a turn regardless of the state of their other turns.
-All players begin with zero points.
+
+**320** All players begin with zero points.
 
 **202** One turn consists of proposing one rule-change and having it voted on.
 
@@ -121,6 +122,13 @@ of the vote that adopted it.
 gains 1 point.
 
 **315** Each eligible voter always has exactly one vote.
+
+**323** It may be assumed that the proposer of a rule-change is always in favour of this rule-change and thus has
+cast an implicit vote in favour of the rule-change. 
+An explicit vote through the procedures outlined in the rules replaces this implicit vote in favour.
+If the implicit vote is not overwritten with an explicit vote, the validity of the implicit vote is held to the same
+requirements as any other vote. For the purpose of validity checking, it can be considered an unwritten comment placed
+after all comments on the PR before the merging comment of the PR.
 
 **207** The winner is the first player to achieve 200 (positive) points.
 
@@ -186,7 +194,7 @@ for reference, this number must be included in the title of the pull request.
 **213** A non-player can become a player by submitting a pull request which adds
 their name and Github handle to the Player List.
 
-**314** A player can vote in favor of a rule-change by commenting on the pull request
+**318** A player can vote in favor of a rule-change by commenting on the pull request
 with a comment that consists only of ":+1:". Likewise, a player can vote against
 a rule-change by commenting on the pull request with a comment that consists
 only of ":-1:". 
@@ -195,8 +203,21 @@ A commit on a pull request dated after any votes resets those votes,
 unless this commit is a merge commit resulting from a merge from master on pimotte/nomic to 
 the source branch of the pull request and does not alter the proposed rule-change.
 
+During a simple majority vote, a player may warn the other players that the vote is going to end.
+If this warning raises no objections and a reasonable time has passed, the vote ends and the rule
+is adopted when a majority of the votes that are cast are in favor of the rule-change. 
+A reasonable time in this context is at least 72 hours and is at least enough time for the warning
+to reach all other players and for all other players to react to the warning. 
+An objection can be raised by any player at any time, this includes the option to raise objections
+to future warnings.
+
 If the rule-change is adopted, a player who can shall merge the pull request
 in a timely fashion, which marks completion of the vote.
+
+**321** A vote can be retracted by commenting on the pull request with a comment that 
+consists only of ":wave:". This will retract any votes made by the player that were made before
+this comment. A vote can only be retracted as long as it is valid and the rule-change is not
+yet adopted or rejected.
 
 **313** Any vote through a comment on a pull request is invalid, unless one of the
 comments above the vote contains a word or sentence in either Japanese or Turkish 
@@ -215,6 +236,53 @@ An English dictionary word is defined as a word found in the Oxford Dictionary a
 Points are only awarded if the proposer includes the `y` points in his update of his score and mentions this explicitly
 in his PR.
 
+**324** If a player (unwittingly) performs an action that directly contradicts a
+rule, a procedure defined as a _Trial_, with the rule-breaking player as the defendant, will take place. A Trial is
+defined as follows.
+
+- Every Trial takes places on GitHub in a new issue with the "Trial" label.
+- Every Trial features a defendant.
+- Every Trial features a prosecutor.
+- Every Trial features a jury, comprised of at least one player.
+- No player can take multiple roles in a single trial, i.e. a player can not be both prosecutor and jury.
+- Both prosecution and defendant must call forth at least one player for jury duty. (Note: There is no uniqueness
+	requirement, which means a one-manned jury is still a valid jury.)
+- Every Trial shall have the name "The people vs #githubhandle XX" where #githubhandle is the name of the defendant and
+	XX is the number representing how often this player has been on Trial.
+- If a player accuses another player of breaking a rule, the accuser will take the role of prosecutor in the Trial.
+- Else If no other method of choosing a prosecutor in a Trial is defined, the prosecutor will be selected through the
+	procedure for invoking Judgement. In this procedure the defendant will take the role of the person invoking Judgement.
+- The prosecutor will outline the actions of the defendant that he claims are in violation of the rules and demand a
+	punishment in the form of a non-negative integer point reduction of the defendants point. This reduction can be of 0
+	points.
+- The defendant is allowed to defend his actions and can plead either _Guilty_ or _Not Guilty_. If he pleads Guilty, he
+	can propose an alternative punishment in the form of a non-negative integer point reduction no larger than that of the
+	prosecution. If he pleads Not Guilty, an alternative punishment of a zero point reduction is assumed.
+- The prosecution and jury may ask the defendant about his actions and the defendant should either answer these
+	questions to the best of his abilities, or exercise his right to remain silent. Lying during a Trial is an
+	offense for which a player can be put on Trial.
+- After the jury has no more questions to ask, they will deliberate on their _Verdict_.
+- Deliberation of the Verdict will happen in public in the GitHub issue, but the defendant and prosecutor are no
+	longer allowed to interfere in this procedure.
+- The Verdict of the jury is two-fold, first the guilt of the defendant must be established, secondly the punishment.
+	- The jury shall first decide if the defendant is _Guilty_ of the offense or _Not Guilty_. 
+	- If no consensus on the guilt of the defendant can be established, then a voting round will take place. Only jury
+		members are allowed to vote. If the voting does not result in a simple majority, the defendant will be declared Not
+		Guilty.
+	- If the jury has found the defendant to be _Guilty_, a punishment shall be decided. This punishment may not be a
+		larger deduction than the prosecutor's proposal, nor may it be smaller than that of the defendant.
+	- If no concensus on the final punishment can be reached by the jury, every jury member votes for a certain point
+		reduction. The rounded average (to the nearest integer) of these votes will be the final verdict of the jury.
+- If the defendant is found Guilty, the illegal actions of the defendant will be undone by someone who has this power in
+	a timely fashion.
+- Once the jury has given it's Verdict, it will be enacted by someone who has this power in a timely fashion.
+- If at least two eligible voters exist that were not part of the Trial (i.e. no part of the jury, defense or
+	prosecution), the defendant has the right to appeal the verdict in a new trial with a new jury and (if possible) the
+	same prosecution. If prosecution is no longer available, the procedure of invoking Judgement will be used to select a
+	new prosecutor.
+- During a Trial session, both prosecution and defense are allowed to refer to old Trials in their pleas for a certain
+	punishment.
+
 **312** In addition to other types of valid rule-changes outlined in the rules, a rule-change may also consist of moving
 a part of an existing mutable rule into a new mutable rule. In order for this rule-change to be valid, the phrasing of
 the new rule must be identical to the phrasing of the clause or sentence in the old rule and the new rule must be
@@ -230,4 +298,13 @@ If a rule has a title, the title must uniquely identify the rule.
 The title of a rule is not part of the rule's text, but is encouraged to be related to the content
 of the rule. 
 
-
+**319** Both players and non-players are allowed to submit a pull request to master on pimotte/nomic, 
+without this pull request containing any changes to any rule's text or the game state. 
+With the single exception that rule's text may be changed 
+if the change is the correction of spelling and/or grammar mistakes in mutable rules.
+Such a pull request will be voted on as if they were a rule-change affecting only mutable rules. 
+Such a pull request will be merged by someone with the power to do so, in a timely fashion, if
+and only if the votes on the pull request are such that a rule-change with the same votes would
+be adopted. If a pull request only adds the initiators name to, or removes the initiators
+name from the player list, that pull request
+will not be voted on. Instead, it may be merged by any person who has the right to do so.
