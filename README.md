@@ -115,7 +115,7 @@ A player always has the option to forfeit the game rather than continue
 to play or incur a game penalty. No penalty worse than losing, in the judgment
 of the player to incur it, may be imposed.
 
-**114** *Nothing is set in stone*
+**114** *Nothing is Set in Stone*
 
 There must always be at least one mutable rule. The adoption of
 rule-changes must never become completely impermissible.
@@ -146,7 +146,7 @@ A player may start a turn regardless of the state of their other turns.
 
 All players begin with zero points.
 
-**202** *Just the one?*
+**202** *Just the One?*
 
 One turn consists of proposing one rule-change and having it voted on.
 
