@@ -9,7 +9,7 @@ at least make a stab at reading that. This file is in
 
 Player List 
 -----------
-1. Pim Otte (@pimotte, 7 points)
+1. Pim Otte (@pimotte, 8 points)
 2. Stefan Hugtenburg (@MrHug, 11 points)
 3. Arthur Bik (@arthurbik, 2 point)
 4. Jesse Donkervliet (@jdonkervliet, 1 point)
@@ -289,6 +289,15 @@ a part of an existing mutable rule into a new mutable rule. In order for this ru
 the new rule must be identical to the phrasing of the clause or sentence in the old rule and the new rule must be
 self-contained, meaning it does not require a reference to the old rule to be understood. Similarly the old rule must
 still be self-contained and sensible with part of it removed.
+
+**316** *What's in a name?* 
+
+Rules may have a title.
+If a rule has a title, the title must follow any rule number, preceed any of the rule's text and be 
+formatted in *italic*.
+If a rule has a title, the title must uniquely identify the rule.
+The title of a rule is not part of the rule's text, but is encouraged to be related to the content
+of the rule. 
 
 **319** Both players and non-players are allowed to submit a pull request to master on pimotte/nomic, 
 without this pull request containing any changes to any rule's text or the game state. 
