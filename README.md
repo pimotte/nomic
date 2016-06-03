@@ -12,10 +12,11 @@ Player List
 1. Pim Otte (@pimotte, 9 points)
 2. Stefan Hugtenburg (@MrHug, 10 points)
 3. Arthur Bik (@arthurbik, 2 point)
-4. Jesse Donkervliet (@jdonkervliet, 1 point)
+4. Jesse Donkervliet (@jdonkervliet, 2 point)
 
-Immutable Rules 
----------------
+# Rules
+
+## Immutable Rules 
 
 **101** All players must always abide by all the rules then in effect, in the
 form in which they are then in effect. The rules in the Initial Set are in
@@ -27,6 +28,33 @@ mutable. Rules subsequently enacted or transmuted (that is, changed from
 immutable to mutable or vice versa) may be immutable or mutable regardless of
 their numbers, and rules in the Initial Set may be transmuted regardless of
 their numbers.
+
+**110** In a conflict between a mutable and an immutable rule, the immutable
+rule takes precedence and the mutable rule shall be entirely void. For the
+purposes of this rule a proposal to transmute an immutable rule does not
+"conflict" with that immutable rule.
+
+**116** Whatever is not prohibited or regulated by a rule is permitted and
+unregulated, with the sole exception of changing the rules, which is permitted
+only when a rule or set of rules explicitly or implicitly permits it.
+
+## Mutable Rules
+
+**209** If two or more mutable rules conflict with one another, or if two or
+more immutable rules conflict with one another, then the rule with the lowest
+ordinal number takes precedence.
+
+If at least one of the rules in conflict explicitly says of itself that it
+defers to another rule (or type of rule) or takes precedence over another rule
+(or type of rule), then such provisions shall supersede the numerical method for
+determining precedence.
+
+If two or more rules claim to take precedence over one another or to defer to
+one another, then the numerical method again governs.
+
+# Rule Changes
+
+## Immutable Rules
 
 **103** A rule-change is any of the following: (1) the enactment, repeal, or
 amendment of a mutable rule; (2) the enactment, repeal, or amendment of an
@@ -41,8 +69,6 @@ to change.)
 
 **104** All rule-changes proposed in the proper way shall be voted on. They will
 be adopted if and only if they receive the required number of votes.
-
-**105** Every player is an eligible voter. 
 
 **106** All proposed rule-changes shall be written down before they are voted
 on. If they are adopted, they shall guide play in the form in which they were
@@ -68,27 +94,6 @@ adopted if and only if the vote is unanimous among the eligible voters.
 Transmutation shall not be implied, but must be stated explicitly in a proposal
 to take effect.
 
-**110** In a conflict between a mutable and an immutable rule, the immutable
-rule takes precedence and the mutable rule shall be entirely void. For the
-purposes of this rule a proposal to transmute an immutable rule does not
-"conflict" with that immutable rule.
-
-**111** Other players may suggest amendments or argue
-against the proposal before the vote. A reasonable time must be allowed for this
-debate. The proponent decides the final form in which the proposal is to be
-voted on and, unless the Judge has been asked to do so, also decides the time to
-end debate and vote.
-
-**112** The state of affairs that constitutes winning may not be altered from
-achieving n points to any other state of affairs. The magnitude of n and the
-means of earning points may be changed, and rules that establish a winner when
-play cannot continue may be enacted and (while they are mutable) be amended or
-repealed.
-
-**113** A player always has the option to forfeit the game rather than continue
-to play or incur a game penalty. No penalty worse than losing, in the judgment
-of the player to incur it, may be imposed.
-
 **114** There must always be at least one mutable rule. The adoption of
 rule-changes must never become completely impermissible.
 
@@ -98,19 +103,7 @@ their own authority are permissible. No rule-change or type of move is
 impermissible solely on account of the self-reference or self-application of a
 rule.
 
-**116** Whatever is not prohibited or regulated by a rule is permitted and
-unregulated, with the sole exception of changing the rules, which is permitted
-only when a rule or set of rules explicitly or implicitly permits it.
-
-Mutable Rules 
--------------
-
-**303** A player may have an infinite number of concurrent turns.
-A player may start a turn regardless of the state of their other turns.
-
-**320** All players begin with zero points.
-
-**202** One turn consists of proposing one rule-change and having it voted on.
+## Mutable Rules
 
 **203** A rule-change is adopted if and only if at least a simple majority
 of the players votes in favour of the rule-change.
@@ -118,81 +111,59 @@ of the players votes in favour of the rule-change.
 **204** An adopted rule-change takes full effect at the moment of the completion
 of the vote that adopted it.
 
-**205** When a proposed rule-change is adopted, the player who proposed it
-gains 1 point.
-
-**315** Each eligible voter always has exactly one vote.
-
-**323** It may be assumed that the proposer of a rule-change is always in favour of this rule-change and thus has
-cast an implicit vote in favour of the rule-change. 
-An explicit vote through the procedures outlined in the rules replaces this implicit vote in favour.
-If the implicit vote is not overwritten with an explicit vote, the validity of the implicit vote is held to the same
-requirements as any other vote. For the purpose of validity checking, it can be considered an unwritten comment placed
-after all comments on the PR before the merging comment of the PR.
-
-**207** The winner is the first player to achieve 200 (positive) points.
-
-**209** If two or more mutable rules conflict with one another, or if two or
-more immutable rules conflict with one another, then the rule with the lowest
-ordinal number takes precedence.
-
-If at least one of the rules in conflict explicitly says of itself that it
-defers to another rule (or type of rule) or takes precedence over another rule
-(or type of rule), then such provisions shall supersede the numerical method for
-determining precedence.
-
-If two or more rules claim to take precedence over one another or to defer to
-one another, then the numerical method again governs.
-
-**305** If at least one player disagrees about the legality of a move or the interpretation
-or application of a rule, a Judge is to decide the question. If no player is currently a Judge,
-then the player, among the players not currently having an open issue labelled "Judgement", 
-with the Github handle alphanumerically previous to the player, who started an open issue labelled 
-"Judgement" first amongst all players currently having an open issue labelled "Judgement", is 
-to be the Judge. If all players have an open issue labelled "Judgement", then a Judge is decided by 
-a majority vote.
-
-Disagreement for the purposes of this rule may, at any time, be created by the insistence of
-any player who is not a Judge by submiting an issue labelled "Judgement". This process is 
-called invoking Judgment. 
-
-The Judge's Judgment may be overruled only by a unanimous vote of the other players
-taken before a turn has ended after the Judge's Judgment. If a Judge's Judgment is overruled,
-then the player currently the Judge is no longer a Judge and the player preceding the previous 
-Judge alphanumerically becomes the new Judge for the question, and so on, except that a player
-having an open issue labelled "Judgement", a team-mate of a player having an open issue 
-labelled "Judgement" or a player who has been a Judge since the last time Judgement has been
-completed is not to be a Judge. If this excludes all players, then a Judge is decided by 
-a majority vote.
-
-When Judgment has been invoked, a player may not begin a turn without the consent of a
-majority of the other players. 
-
-New Judges are not bound by the decisions of old Judges. New Judges may,
-however, settle only those questions on which the players currently disagree. All
-decisions by Judges shall be in accordance with all the rules then in effect;
-but when the rules are silent, inconsistent, or unclear on the point at issue,
-then the Judge shall consider game-custom and the spirit of the game before
-applying other standards.
-
-Judgement is completed when the Judge has decided all questions and is not overruled. After the
-Judge's Judgement has been completed, any Judge is no longer a Judge and a player who can shall 
-close all open issues labelled "Judgement" in a timely fashion. 
-
-**211** If the rules are changed so that further play is impossible, or if the
-legality of a move cannot be determined with finality, or if by the Judge's best
-reasoning, not overruled, a move appears equally legal and illegal, then the
-player who proposed the last adopted rule wins.
-
-This rule takes precedence over every other rule determining the winner.
-
 **309** A rule-change is proposed by submitting a pull request, such that
 merging the pull request reflects the accurate state of the game after
 adoption of the rule-change. In case the rule-change has been given a number
 for reference, this number must be included in the title of the pull request.
 
-**213** A non-player can become a player by submitting a pull request which adds
-their name and Github handle to the Player List.
+**312** In addition to other types of valid rule-changes outlined in the rules, a rule-change may also consist of moving
+a part of an existing mutable rule into a new mutable rule. In order for this rule-change to be valid, the phrasing of
+the new rule must be identical to the phrasing of the clause or sentence in the old rule and the new rule must be
+self-contained, meaning it does not require a reference to the old rule to be understood. Similarly the old rule must
+still be self-contained and sensible with part of it removed.
+
+# Non-Changes
+
+## Mutable Rules
+
+**319** Both players and non-players are allowed to submit a pull request to master on pimotte/nomic, 
+without this pull request containing any changes to any rule's text or the game state. 
+With the single exception that rule's text may be changed 
+if the change is the correction of spelling and/or grammar mistakes in mutable rules.
+Such a pull request will be voted on as if they were a rule-change affecting only mutable rules. 
+Such a pull request will be merged by someone with the power to do so, in a timely fashion, if
+and only if the votes on the pull request are such that a rule-change with the same votes would
+be adopted. If a pull request only adds the initiators name to, or removes the initiators
+name from the player list, that pull request
+will not be voted on. Instead, it may be merged by any person who has the right to do so.
+
+**316** *What's in a name?* 
+
+Rules may have a title.
+If a rule has a title, the title must follow any rule number, preceed any of the rule's text and be 
+formatted in *italic*.
+If a rule has a title, the title must uniquely identify the rule.
+The title of a rule is not part of the rule's text, but is encouraged to be related to the content
+of the rule. 
+
+# Voting
+
+## Immutable Rules
+
+**105** Every player is an eligible voter. 
+
+**111** Other players may suggest amendments or argue
+against the proposal before the vote. A reasonable time must be allowed for this
+debate. The proponent decides the final form in which the proposal is to be
+voted on and, unless the Judge has been asked to do so, also decides the time to
+end debate and vote.
+
+## Mutable Rules
+
+**205** When a proposed rule-change is adopted, the player who proposed it
+gains 1 point.
+
+**315** Each eligible voter always has exactly one vote.
 
 **318** A player can vote in favor of a rule-change by commenting on the pull request
 with a comment that consists only of ":+1:". Likewise, a player can vote against
@@ -226,6 +197,56 @@ as is correctness of the translation. There are no sanctions for voting
 when this rule disallows it, regardless of what other rules specify, 
 if and only if voting in this way only violates this rule.
 
+**323** It may be assumed that the proposer of a rule-change is always in favour of this rule-change and thus has
+cast an implicit vote in favour of the rule-change. 
+An explicit vote through the procedures outlined in the rules replaces this implicit vote in favour.
+If the implicit vote is not overwritten with an explicit vote, the validity of the implicit vote is held to the same
+requirements as any other vote. For the purpose of validity checking, it can be considered an unwritten comment placed
+after all comments on the PR before the merging comment of the PR.
+
+# Win Condition & Participation
+
+## Immutable Rules
+
+**112** The state of affairs that constitutes winning may not be altered from
+achieving n points to any other state of affairs. The magnitude of n and the
+means of earning points may be changed, and rules that establish a winner when
+play cannot continue may be enacted and (while they are mutable) be amended or
+repealed.
+
+**113** A player always has the option to forfeit the game rather than continue
+to play or incur a game penalty. No penalty worse than losing, in the judgment
+of the player to incur it, may be imposed.
+
+## Mutable Rules
+
+**207** The winner is the first player to achieve 200 (positive) points.
+
+**211** If the rules are changed so that further play is impossible, or if the
+legality of a move cannot be determined with finality, or if by the Judge's best
+reasoning, not overruled, a move appears equally legal and illegal, then the
+player who proposed the last adopted rule wins.
+
+This rule takes precedence over every other rule determining the winner.
+
+**213** A non-player can become a player by submitting a pull request which adds
+their name and Github handle to the Player List.
+
+# Turns
+
+## Mutable Rules 
+
+**303** A player may have an infinite number of concurrent turns.
+A player may start a turn regardless of the state of their other turns.
+
+**202** One turn consists of proposing one rule-change and having it voted on.
+
+# Points
+
+## Mutable Rules
+
+**320** All players begin with zero points.
+
 **308** If a PR that outlines a rule-change contains `y` commit hashes containing an English dictionary word of at least
 four consecutive letters, the proposer will be awarded `y` additional points when the PR is merged into the master
 branch of pimotte/nomic.
@@ -235,6 +256,57 @@ An English dictionary word is defined as a word found in the Oxford Dictionary a
 
 Points are only awarded if the proposer includes the `y` points in his update of his score and mentions this explicitly
 in his PR.
+
+# Criminal Law
+
+## Mutable Rules
+
+**307** If at least one player disagrees about the legality of a move or the interpretation
+or application of a rule, this player may _invoke Judgement_. See below for the
+definition.
+
+When a player invokes Judgement, a Judge is selected to decide the question.
+The Judge is selected from the set of players that is eligible to become
+Judge.
+Players are in this set when all of the following constraints are met:
+ 1. The player is not the most recent editor of (one of) the rule(s) that is the
+ 		subject of the disagreement.
+ 2. The player is not currently a Judge in another Judgement.
+
+If this set contains multiple players, the player with the alphanumeric GitHub
+handle previous (with wrap-around) to the player who invoked Judgement is
+selected from this group.
+If this set is empty, the rules above are removed one-by-one in bottom-to-top order until
+the set is no longer empty.
+If all these rules have been removed, a Judge is decided by majority vote.
+If the majority vote does not produce a conclusive result, a Judge is selected
+at random by @Jason-Statham.
+
+_Invoking Judgement_ means a player who is currently not a Judge submits an
+issue labelled "Judgement".
+
+The Judge's Judgment may be overruled only by a unanimous vote of the other players
+taken before a turn has ended after the Judge's Judgment. If a Judge's Judgment is overruled,
+then the player currently the Judge is no longer a Judge and the player preceding the previous 
+Judge alphanumerically becomes the new Judge for the question, and so on, except that a player
+having an open issue labelled "Judgement", a team-mate of a player having an open issue 
+labelled "Judgement" or a player who has been a Judge since the last time Judgement has been
+completed is not to be a Judge. If this excludes all players, then a Judge is decided by 
+a majority vote.
+
+When Judgment has been invoked, a player may not begin a turn without the consent of a
+majority of the other players. 
+
+New Judges are not bound by the decisions of old Judges. New Judges may,
+however, settle only those questions on which the players currently disagree. All
+decisions by Judges shall be in accordance with all the rules then in effect;
+but when the rules are silent, inconsistent, or unclear on the point at issue,
+then the Judge shall consider game-custom and the spirit of the game before
+applying other standards.
+
+Judgement is completed when the Judge has decided all questions and is not overruled. After the
+Judge's Judgement has been completed, any Judge is no longer a Judge and a player who can shall 
+close all open issues labelled "Judgement" in a timely fashion. 
 
 **324** If a player (unwittingly) performs an action that directly contradicts a
 rule, a procedure defined as a _Trial_, with the rule-breaking player as the defendant, will take place. A Trial is
@@ -290,28 +362,3 @@ or "Judgement" are closed. Any player may start a vote in a separate issue to ig
 "Trial" or "Judgement" for purposes of this rule. 
 That issue will be ignored if a simple majority votes in favour of doing so.
 
-**312** In addition to other types of valid rule-changes outlined in the rules, a rule-change may also consist of moving
-a part of an existing mutable rule into a new mutable rule. In order for this rule-change to be valid, the phrasing of
-the new rule must be identical to the phrasing of the clause or sentence in the old rule and the new rule must be
-self-contained, meaning it does not require a reference to the old rule to be understood. Similarly the old rule must
-still be self-contained and sensible with part of it removed.
-
-**316** *What's in a name?* 
-
-Rules may have a title.
-If a rule has a title, the title must follow any rule number, preceed any of the rule's text and be 
-formatted in *italic*.
-If a rule has a title, the title must uniquely identify the rule.
-The title of a rule is not part of the rule's text, but is encouraged to be related to the content
-of the rule. 
-
-**319** Both players and non-players are allowed to submit a pull request to master on pimotte/nomic, 
-without this pull request containing any changes to any rule's text or the game state. 
-With the single exception that rule's text may be changed 
-if the change is the correction of spelling and/or grammar mistakes in mutable rules.
-Such a pull request will be voted on as if they were a rule-change affecting only mutable rules. 
-Such a pull request will be merged by someone with the power to do so, in a timely fashion, if
-and only if the votes on the pull request are such that a rule-change with the same votes would
-be adopted. If a pull request only adds the initiators name to, or removes the initiators
-name from the player list, that pull request
-will not be voted on. Instead, it may be merged by any person who has the right to do so.
