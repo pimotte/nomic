@@ -103,13 +103,13 @@ their own authority are permissible. No rule-change or type of move is
 impermissible solely on account of the self-reference or self-application of a
 rule.
 
+## Mutable Rules
+
 **203** A rule-change is adopted if and only if at least a simple majority
 of the players votes in favour of the rule-change.
 
 **204** An adopted rule-change takes full effect at the moment of the completion
 of the vote that adopted it.
-
-## Mutable Rules
 
 **309** A rule-change is proposed by submitting a pull request, such that
 merging the pull request reflects the accurate state of the game after
@@ -158,12 +158,12 @@ debate. The proponent decides the final form in which the proposal is to be
 voted on and, unless the Judge has been asked to do so, also decides the time to
 end debate and vote.
 
+## Mutable Rules
+
 **205** When a proposed rule-change is adopted, the player who proposed it
 gains 1 point.
 
 **315** Each eligible voter always has exactly one vote.
-
-## Mutable Rules
 
 **318** A player can vote in favor of a rule-change by commenting on the pull request
 with a comment that consists only of ":+1:". Likewise, a player can vote against
@@ -239,13 +239,13 @@ their name and Github handle to the Player List.
 **303** A player may have an infinite number of concurrent turns.
 A player may start a turn regardless of the state of their other turns.
 
-**320** All players begin with zero points.
-
 **202** One turn consists of proposing one rule-change and having it voted on.
 
 # Points
 
 ## Mutable Rules
+
+**320** All players begin with zero points.
 
 **308** If a PR that outlines a rule-change contains `y` commit hashes containing an English dictionary word of at least
 four consecutive letters, the proposer will be awarded `y` additional points when the PR is merged into the master
