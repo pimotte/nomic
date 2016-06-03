@@ -106,11 +106,6 @@ rule.
 Mutable Rules 
 -------------
 
-**303** A player may have an infinite number of concurrent turns.
-A player may start a turn regardless of the state of their other turns.
-
-**202** One turn consists of proposing one rule-change and having it voted on.
-
 **203** A rule-change is adopted if and only if at least a simple majority
 of the players votes in favour of the rule-change.
 
