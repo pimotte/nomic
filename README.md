@@ -283,7 +283,7 @@ consists only of ":wave:". This will retract any votes made by the player that w
 this comment. A vote can only be retracted as long as it is valid and the rule-change is not
 yet adopted or rejected.
 
-**313** *日本語とトルキ語*
+**313** *日本語とトルキ語* or *Türkçe ve Japonca*
 
 Any vote through a comment on a pull request is invalid, unless one of the
 comments above the vote contains a word or sentence in either Japanese or Turkish 
