@@ -9,7 +9,7 @@ at least make a stab at reading that. This file is in
 
 Player List 
 -----------
-1. Pim Otte (@pimotte, 8 points)
+1. Pim Otte (@pimotte, 9 points)
 2. Stefan Hugtenburg (@MrHug, 10 points)
 3. Arthur Bik (@arthurbik, 2 point)
 4. Jesse Donkervliet (@jdonkervliet, 2 point)
@@ -129,9 +129,15 @@ their own authority are permissible. No rule-change or type of move is
 impermissible solely on account of the self-reference or self-application of a
 rule.
 
+<<<<<<< HEAD
 **203** *Number of Required Ayes*
 
 A rule-change is adopted if and only if at least a simple majority
+=======
+## Mutable Rules
+
+**203** A rule-change is adopted if and only if at least a simple majority
+>>>>>>> origin/master
 of the players votes in favour of the rule-change.
 
 **204** *Effective Immediately*
@@ -139,11 +145,15 @@ of the players votes in favour of the rule-change.
 An adopted rule-change takes full effect at the moment of the completion
 of the vote that adopted it.
 
+<<<<<<< HEAD
 ## Mutable Rules
 
 **309** *Pull, Don't Push*
 
 A rule-change is proposed by submitting a pull request, such that
+=======
+**309** A rule-change is proposed by submitting a pull request, such that
+>>>>>>> origin/master
 merging the pull request reflects the accurate state of the game after
 adoption of the rule-change. In case the rule-change has been given a number
 for reference, this number must be included in the title of the pull request.
@@ -198,9 +208,15 @@ debate. The proponent decides the final form in which the proposal is to be
 voted on and, unless the Judge has been asked to do so, also decides the time to
 end debate and vote.
 
+<<<<<<< HEAD
 **205** *You've Got a Point*
 
 When a proposed rule-change is adopted, the player who proposed it
+=======
+## Mutable Rules
+
+**205** When a proposed rule-change is adopted, the player who proposed it
+>>>>>>> origin/master
 gains 1 point.
 
 
@@ -208,11 +224,15 @@ gains 1 point.
 
 Each eligible voter always has exactly one vote.
 
+<<<<<<< HEAD
 ## Mutable Rules
 
 **318** *Thumbs Up!*
 
 A player can vote in favor of a rule-change by commenting on the pull request
+=======
+**318** A player can vote in favor of a rule-change by commenting on the pull request
+>>>>>>> origin/master
 with a comment that consists only of ":+1:". Likewise, a player can vote against
 a rule-change by commenting on the pull request with a comment that consists
 only of ":-1:". 
@@ -300,6 +320,7 @@ their name and Github handle to the Player List.
 A player may have an infinite number of concurrent turns.
 A player may start a turn regardless of the state of their other turns.
 
+<<<<<<< HEAD
 **320** *Starting From Square One*
 
 All players begin with zero points.
@@ -307,13 +328,22 @@ All players begin with zero points.
 **202** *Just the One?* 
 
 One turn consists of proposing one rule-change and having it voted on.
+=======
+**202** One turn consists of proposing one rule-change and having it voted on.
+>>>>>>> origin/master
 
 # Points
 
 ## Mutable Rules
 
+<<<<<<< HEAD
 **308** *Hash Brownie Points*
 If a PR that outlines a rule-change contains `y` commit hashes containing an English dictionary word of at least
+=======
+**320** All players begin with zero points.
+
+**308** If a PR that outlines a rule-change contains `y` commit hashes containing an English dictionary word of at least
+>>>>>>> origin/master
 four consecutive letters, the proposer will be awarded `y` additional points when the PR is merged into the master
 branch of pimotte/nomic.
 
@@ -424,3 +454,12 @@ defined as follows.
 	new prosecutor.
 - During a Trial session, both prosecution and defense are allowed to refer to old Trials in their pleas for a certain
 	punishment.
+
+**326** *Let it Go!*
+
+As long as an issue labelled "Trial" or "Judgement" is open, no player may start a turn, regardless of what
+other rules specify. Futhermore, any rule specifying that a pull request should be merged in a timely fashion shall
+be read as specifying that the pull request should be merged in a timely fashion, after all issues labelled "Trial"
+or "Judgement" are closed. Any player may start a vote in a separate issue to ignore a particular issue labelled 
+"Trial" or "Judgement" for purposes of this rule. 
+That issue will be ignored if a simple majority votes in favour of doing so.
