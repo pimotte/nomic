@@ -103,8 +103,7 @@ their own authority are permissible. No rule-change or type of move is
 impermissible solely on account of the self-reference or self-application of a
 rule.
 
-Mutable Rules 
--------------
+##Mutable Rules 
 
 **203** A rule-change is adopted if and only if at least a simple majority
 of the players votes in favour of the rule-change.
