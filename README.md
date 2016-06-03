@@ -137,7 +137,7 @@ only when a rule or set of rules explicitly or implicitly permits it.
 Mutable Rules 
 -------------
 
-**303** *Everybody Gets a Turn!*
+**303** *Everybody Gets All the Turns!*
 
 A player may have an infinite number of concurrent turns.
 A player may start a turn regardless of the state of their other turns.
@@ -155,7 +155,7 @@ One turn consists of proposing one rule-change and having it voted on.
 A rule-change is adopted if and only if at least a simple majority
 of the players votes in favour of the rule-change.
 
-**204** *Moment of Effect*
+**204** *Effective Immediately*
 
 An adopted rule-change takes full effect at the moment of the completion
 of the vote that adopted it.
