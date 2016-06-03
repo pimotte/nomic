@@ -228,8 +228,9 @@ if and only if voting in this way only violates this rule.
 
 **327** *A tattoo on the tongue*
 
-Any merge of a rule-change pull request is a violation punishable by Trial, unless at least one of the comments
-in the PR at the time of the merge includes a quote from a book, movie, TV-show, or person with a source-annotation.
+Any proposition of a pull request that includes at least one quote from a book, movie, TV-show, or person with a
+source-annotation in the original Pull Request message can be awarded by 0.1 if the proposer explicitly claims this
+0.1 point at some point in the PR.
 Players are encouraged to present a quote that matches the contents of the pull request that has not been used before in
 another Pull Request.
 
