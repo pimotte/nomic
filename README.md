@@ -245,6 +245,8 @@ A player may start a turn regardless of the state of their other turns.
 
 ## Mutable Rules
 
+**320** All players begin with zero points.
+
 **327** *A tattoo on the tongue*
 
 Any proposition of a pull request that includes at least one quote from a book, movie, TV-show, or person with a
