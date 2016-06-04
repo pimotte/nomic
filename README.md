@@ -232,6 +232,20 @@ This rule takes precedence over every other rule determining the winner.
 **213** A non-player can become a player by submitting a pull request which adds
 their name and Github handle to the Player List.
 
+**329** *The Trophy of Awesome*
+
+Whenever a player would win the game, instead, a virtual ``Trophy of Awesome''
+will be created, inscribed with their name and the date on which they won.
+The game state will be reset to the latest point at which the win was not
+inevitable. In case of non-consensus about this point, the Trophy recipient
+decides.
+
+If a player claims they could win the game by performing an action, or finite
+set of actions, that is/are infeasible to perform due to circumstances external
+to the rules, they may demonstrate so by creating an issue describing these
+actions in order to obtain a Trophy of Awesome. A vote must be held on the
+validity of the claim and only unanimity will lead to the Trophy being awarded.
+
 # Turns
 
 ## Mutable Rules 
