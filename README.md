@@ -9,7 +9,7 @@ at least make a stab at reading that. This file is in
 
 Player List 
 -----------
-1. Pim Otte (@pimotte, 9 points)
+1. Pim Otte (@pimotte, 10 points)
 2. Stefan Hugtenburg (@MrHug, 10 points)
 3. Arthur Bik (@arthurbik, 2 point)
 4. Jesse Donkervliet (@jdonkervliet, 2 point)
@@ -231,6 +231,13 @@ This rule takes precedence over every other rule determining the winner.
 
 **213** A non-player can become a player by submitting a pull request which adds
 their name and Github handle to the Player List.
+
+**331** *I'll be Back!*
+
+A player may at any time create an issue stating they are on hiatus, with the
+label "hiatus". As long as this issue exists, this player will be consider
+to be a non-player for all intents and purposes, including but not limited
+to voting and jury selection.
 
 # Turns
 
