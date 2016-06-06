@@ -237,7 +237,9 @@ their name and Github handle to the Player List.
 A player may at any time create an issue stating they are on hiatus, with the
 label "Hiatus". As long as this issue exists, this player will be considered
 to be a non-player for all intents and purposes, including but not limited
-to voting and jury selection.
+to voting and jury selection. Players which currently play any role in a Trial
+or are Judge in a Judgement may not perform this action.
+
 
 # Turns
 
