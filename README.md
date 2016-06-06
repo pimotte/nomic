@@ -235,7 +235,7 @@ their name and Github handle to the Player List.
 **331** *I'll be Back!*
 
 A player may at any time create an issue stating they are on hiatus, with the
-label "hiatus". As long as this issue exists, this player will be consider
+label "Hiatus". As long as this issue exists, this player will be consider
 to be a non-player for all intents and purposes, including but not limited
 to voting and jury selection.
 
