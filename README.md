@@ -10,7 +10,7 @@ at least make a stab at reading that. This file is in
 Player List 
 -----------
 1. Pim Otte (@pimotte, 10 points)
-2. Stefan Hugtenburg (@MrHug, 10 points)
+2. Stefan Hugtenburg (@MrHug, 11.1 points)
 3. Arthur Bik (@arthurbik, 2 point)
 4. Jesse Donkervliet (@jdonkervliet, 2 point)
 
@@ -264,6 +264,14 @@ A player may start a turn regardless of the state of their other turns.
 ## Mutable Rules
 
 **320** All players begin with zero points.
+
+**327** *A tattoo on the tongue*
+
+Any proposition of a pull request that includes at least one quote from a book, movie, TV-show, or person with a
+source-annotation in the original Pull Request message can be awarded by 0.1 if the proposer explicitly claims this
+0.1 point at some point in the PR.
+Players are encouraged to present a quote that matches the contents of the pull request that has not been used before in
+another Pull Request.
 
 **308** If a PR that outlines a rule-change contains `y` commit hashes containing an English dictionary word of at least
 four consecutive letters, the proposer will be awarded `y` additional points when the PR is merged into the master
