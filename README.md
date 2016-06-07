@@ -237,7 +237,11 @@ their name and Github handle to the Player List.
 Whenever a player would win the game, instead, a virtual "Trophy of Awesome"
 will be created, inscribed with their name and the date on which they won.
 The game state will be reset to the latest point at which the win was not
-inevitable. In case of non-consensus about this point, the Trophy recipient
+inevitable. To this game state the Trophy will be added. Furthermore,
+if the win was achieved through obtaining a required number of points,
+the points of the winner will be set to the average of the other
+players rounded to the nearest integer.
+In case of non-consensus about the reset point, the Trophy recipient
 decides.
 
 If a player claims they could win the game by performing an action, or finite
