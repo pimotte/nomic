@@ -12,7 +12,7 @@ Player List
 1. Pim Otte (@pimotte, 10 points)
 2. Stefan Hugtenburg (@MrHug, 11.1 points)
 3. Arthur Bik (@arthurbik, 2 point)
-4. Jesse Donkervliet (@jdonkervliet, 2 point)
+4. Jesse Donkervliet (@jdonkervliet, 3 point)
 
 # Rules
 
