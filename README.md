@@ -9,8 +9,8 @@ at least make a stab at reading that. This file is in
 
 Player List 
 -----------
-1. Pim Otte (@pimotte, 10 points)
-2. Stefan Hugtenburg (@MrHug, 10 points)
+1. Pim Otte (@pimotte, 11 points)
+2. Stefan Hugtenburg (@MrHug, 11.1 points)
 3. Arthur Bik (@arthurbik, 2 point)
 4. Jesse Donkervliet (@jdonkervliet, 2 point)
 
@@ -240,6 +240,23 @@ to be a non-player for all intents and purposes, including but not limited
 to voting and jury selection. Players which currently play any role in a Trial
 or are Judge in a Judgement may not perform this action.
 
+**329** *The Trophy of Awesome*
+
+Whenever a player would win the game, instead, a virtual "Trophy of Awesome"
+will be created, inscribed with their name and the date on which they won.
+The game state will be reset to the latest point at which the win was not
+inevitable. To this game state the Trophy will be added. Furthermore,
+if the win was achieved through obtaining a required number of points,
+the points of the winner will be set to the average of the other
+players rounded to the nearest integer.
+In case of non-consensus about the reset point, the Trophy recipient
+decides.
+
+If a player claims they could win the game by performing an action, or finite
+set of actions, that is/are infeasible to perform due to circumstances external
+to the rules, they may demonstrate so by creating an issue describing these
+actions in order to obtain a Trophy of Awesome. A vote must be held on the
+validity of the claim and only unanimity will lead to the Trophy being awarded.
 
 # Turns
 
@@ -255,6 +272,14 @@ A player may start a turn regardless of the state of their other turns.
 ## Mutable Rules
 
 **320** All players begin with zero points.
+
+**327** *A tattoo on the tongue*
+
+Any proposition of a pull request that includes at least one quote from a book, movie, TV-show, or person with a
+source-annotation in the original Pull Request message can be awarded by 0.1 if the proposer explicitly claims this
+0.1 point at some point in the PR.
+Players are encouraged to present a quote that matches the contents of the pull request that has not been used before in
+another Pull Request.
 
 **308** If a PR that outlines a rule-change contains `y` commit hashes containing an English dictionary word of at least
 four consecutive letters, the proposer will be awarded `y` additional points when the PR is merged into the master
