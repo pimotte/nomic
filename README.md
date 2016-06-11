@@ -9,7 +9,7 @@ at least make a stab at reading that. This file is in
 
 Player List 
 -----------
-1. Pim Otte (@pimotte, 11 points)
+1. Pim Otte (@pimotte, 12.1 points)
 2. Stefan Hugtenburg (@MrHug, 11.1 points)
 3. Arthur Bik (@arthurbik, 2 point)
 4. Jesse Donkervliet (@jdonkervliet, 2 point)
@@ -342,11 +342,12 @@ One turn consists of proposing one rule-change and having it voted on.
 
 All players begin with zero points.
 
-**327** *A Tattoo on the Tongue*
+**333** *A Tattoo on the tongue*
 
-Any proposition of a pull request that includes at least one quote from a book, movie, TV-show, or person with a
-source-annotation in the original Pull Request message can be awarded by 0.1 if the proposer explicitly claims this
-0.1 point at some point in the PR.
+If a PR that outlines a rule-change includes at least one quote from a book, movie, TV-show, or person with a
+source-annotation in the original Pull Request message the proposer will receive 0.1 point 
+if the proposer explicitly claims this 0.1 point at some point in the PR when the PR is merged into
+the master branch of pimotte/nomic.
 Players are encouraged to present a quote that matches the contents of the pull request that has not been used before in
 another Pull Request.
 
