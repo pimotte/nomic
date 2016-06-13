@@ -9,8 +9,8 @@ at least make a stab at reading that. This file is in
 
 Player List 
 -----------
-1. Pim Otte (@pimotte, 10 points)
-2. Stefan Hugtenburg (@MrHug, 10 points)
+1. Pim Otte (@pimotte, 13.1 points)
+2. Stefan Hugtenburg (@MrHug, 11.1 points)
 3. Arthur Bik (@arthurbik, 2 point)
 4. Jesse Donkervliet (@jdonkervliet, 2 point)
 
@@ -18,29 +18,39 @@ Player List
 
 ## Immutable Rules 
 
-**101** All players must always abide by all the rules then in effect, in the
+**101** *The Beginning* 
+
+All players must always abide by all the rules then in effect, in the
 form in which they are then in effect. The rules in the Initial Set are in
 effect whenever a game begins. The Initial Set consists of Rules 101-116
 (immutable) and 201-214 (mutable).
 
-**102** Initially rules in the 100's are immutable and rules in the 200's are
+**102** *Laying Down the Law* 
+
+Initially rules in the 100's are immutable and rules in the 200's are
 mutable. Rules subsequently enacted or transmuted (that is, changed from
 immutable to mutable or vice versa) may be immutable or mutable regardless of
 their numbers, and rules in the Initial Set may be transmuted regardless of
 their numbers.
 
-**110** In a conflict between a mutable and an immutable rule, the immutable
+**110** *Constituion Trumps Law*
+
+In a conflict between a mutable and an immutable rule, the immutable
 rule takes precedence and the mutable rule shall be entirely void. For the
 purposes of this rule a proposal to transmute an immutable rule does not
 "conflict" with that immutable rule.
 
-**116** Whatever is not prohibited or regulated by a rule is permitted and
+**116** *Chaos is Allowed*
+
+Whatever is not prohibited or regulated by a rule is permitted and
 unregulated, with the sole exception of changing the rules, which is permitted
 only when a rule or set of rules explicitly or implicitly permits it.
 
 ## Mutable Rules
 
-**209** If two or more mutable rules conflict with one another, or if two or
+**209** *Conflict Resolution*
+
+If two or more mutable rules conflict with one another, or if two or
 more immutable rules conflict with one another, then the rule with the lowest
 ordinal number takes precedence.
 
@@ -56,7 +66,9 @@ one another, then the numerical method again governs.
 
 ## Immutable Rules
 
-**103** A rule-change is any of the following: (1) the enactment, repeal, or
+**103** *Panta Rei* 
+
+A rule-change is any of the following: (1) the enactment, repeal, or
 amendment of a mutable rule; (2) the enactment, repeal, or amendment of an
 amendment of a mutable rule; or (3) the transmutation of an immutable rule into
 a mutable rule or vice versa.
@@ -67,18 +79,26 @@ repealed; mutable rules, as long as they are mutable, may be amended or
 repealed; any rule of any status may be transmuted; no rule is absolutely immune
 to change.)
 
-**104** All rule-changes proposed in the proper way shall be voted on. They will
+**104** *Popularity Contest* 
+
+All rule-changes proposed in the proper way shall be voted on. They will
 be adopted if and only if they receive the required number of votes.
 
-**106** All proposed rule-changes shall be written down before they are voted
+**106** *Speaking is Silver, Writing is Gold* 
+
+All proposed rule-changes shall be written down before they are voted
 on. If they are adopted, they shall guide play in the form in which they were
 voted on.
 
-**107** No rule-change may take effect earlier than the moment of the completion
+**107** *Ex Post Facto Prohibition* 
+
+No rule-change may take effect earlier than the moment of the completion
 of the vote that adopted it, even if its wording explicitly states otherwise. No
 rule-change may have retroactive application.
 
-**108** Each proposed rule-change shall be given a number for reference. The
+**108** *Numbering the World* 
+
+Each proposed rule-change shall be given a number for reference. The
 numbers shall begin with 301, and each rule-change proposed in the proper way
 shall receive the next successive integer, whether or not the proposal is
 adopted.
@@ -89,15 +109,21 @@ proposal to amend or transmute it. If an amendment is amended or repealed, the
 entire rule of which it is a part receives the number of the proposal to amend
 or repeal the amendment.
 
-**109** Rule-changes that transmute immutable rules into mutable rules may be
+**109** *Constitutional Amendment* 
+
+Rule-changes that transmute immutable rules into mutable rules may be
 adopted if and only if the vote is unanimous among the eligible voters.
 Transmutation shall not be implied, but must be stated explicitly in a proposal
 to take effect.
 
-**114** There must always be at least one mutable rule. The adoption of
+**114** *Nothing is Set in Stone*
+
+There must always be at least one mutable rule. The adoption of
 rule-changes must never become completely impermissible.
 
-**115** Rule-changes that affect rules needed to allow or apply rule-changes are
+**115** *Making Gödel Happy*
+
+Rule-changes that affect rules needed to allow or apply rule-changes are
 as permissible as other rule-changes. Even rule-changes that amend or repeal
 their own authority are permissible. No rule-change or type of move is
 impermissible solely on account of the self-reference or self-application of a
@@ -105,18 +131,29 @@ rule.
 
 ## Mutable Rules
 
-**203** A rule-change is adopted if and only if at least a simple majority
+**203** *Number of Required Ayes*
+
+A rule-change is adopted if and only if at least a simple majority
 of the players votes in favour of the rule-change.
 
-**204** An adopted rule-change takes full effect at the moment of the completion
+**204** *Effective Immediately*
+
+An adopted rule-change takes full effect at the moment of the completion
 of the vote that adopted it.
 
-**309** A rule-change is proposed by submitting a pull request, such that
+## Mutable Rules
+
+
+**309** *Pull, Don't Push*
+
+A rule-change is proposed by submitting a pull request, such that
 merging the pull request reflects the accurate state of the game after
 adoption of the rule-change. In case the rule-change has been given a number
 for reference, this number must be included in the title of the pull request.
 
-**312** In addition to other types of valid rule-changes outlined in the rules, a rule-change may also consist of moving
+**312** *Let's Call the Moving Men*
+
+In addition to other types of valid rule-changes outlined in the rules, a rule-change may also consist of moving
 a part of an existing mutable rule into a new mutable rule. In order for this rule-change to be valid, the phrasing of
 the new rule must be identical to the phrasing of the clause or sentence in the old rule and the new rule must be
 self-contained, meaning it does not require a reference to the old rule to be understood. Similarly the old rule must
@@ -126,7 +163,9 @@ still be self-contained and sensible with part of it removed.
 
 ## Mutable Rules
 
-**319** Both players and non-players are allowed to submit a pull request to master on pimotte/nomic, 
+**319** *Sorry, No Change*
+
+Both players and non-players are allowed to submit a pull request to master on pimotte/nomic, 
 without this pull request containing any changes to any rule's text or the game state. 
 With the single exception that rule's text may be changed 
 if the change is the correction of spelling and/or grammar mistakes in mutable rules.
@@ -150,9 +189,13 @@ of the rule.
 
 ## Immutable Rules
 
-**105** Every player is an eligible voter. 
+**105** *Democracy*
 
-**111** Other players may suggest amendments or argue
+Every player is an eligible voter. 
+
+**111** *Room for Discussion*
+
+Other players may suggest amendments or argue
 against the proposal before the vote. A reasonable time must be allowed for this
 debate. The proponent decides the final form in which the proposal is to be
 voted on and, unless the Judge has been asked to do so, also decides the time to
@@ -160,12 +203,20 @@ end debate and vote.
 
 ## Mutable Rules
 
-**205** When a proposed rule-change is adopted, the player who proposed it
+**205** *You've Got a Point*
+
+When a proposed rule-change is adopted, the player who proposed it
 gains 1 point.
 
-**315** Each eligible voter always has exactly one vote.
 
-**318** A player can vote in favor of a rule-change by commenting on the pull request
+**315** *Democracy Reloaded*
+
+Each eligible voter always has exactly one vote.
+
+
+**318** *Thumbs Up!*
+
+A player can vote in favor of a rule-change by commenting on the pull request
 with a comment that consists only of ":+1:". Likewise, a player can vote against
 a rule-change by commenting on the pull request with a comment that consists
 only of ":-1:". 
@@ -185,19 +236,25 @@ to future warnings.
 If the rule-change is adopted, a player who can shall merge the pull request
 in a timely fashion, which marks completion of the vote.
 
-**321** A vote can be retracted by commenting on the pull request with a comment that 
+**321** *Retraction Watch*
+
+A vote can be retracted by commenting on the pull request with a comment that 
 consists only of ":wave:". This will retract any votes made by the player that were made before
 this comment. A vote can only be retracted as long as it is valid and the rule-change is not
 yet adopted or rejected.
 
-**313** Any vote through a comment on a pull request is invalid, unless one of the
+**313** *日本語とトルキ語 or Türkçe ve Japonca*
+
+Any vote through a comment on a pull request is invalid, unless one of the
 comments above the vote contains a word or sentence in either Japanese or Turkish 
 and a translation in English. Uniqueness of this word or sentence is encouraged,
 as is correctness of the translation. There are no sanctions for voting
 when this rule disallows it, regardless of what other rules specify, 
 if and only if voting in this way only violates this rule.
 
-**323** It may be assumed that the proposer of a rule-change is always in favour of this rule-change and thus has
+**323** *The Couple will not Object to Their Own Wedding*
+
+It may be assumed that the proposer of a rule-change is always in favour of this rule-change and thus has
 cast an implicit vote in favour of the rule-change. 
 An explicit vote through the procedures outlined in the rules replaces this implicit vote in favour.
 If the implicit vote is not overwritten with an explicit vote, the validity of the implicit vote is held to the same
@@ -227,46 +284,100 @@ a player must post a comment describing the resolution before performing said ac
 
 ## Immutable Rules
 
-**112** The state of affairs that constitutes winning may not be altered from
+**112** *You Win the Game!*
+
+The state of affairs that constitutes winning may not be altered from
 achieving n points to any other state of affairs. The magnitude of n and the
 means of earning points may be changed, and rules that establish a winner when
 play cannot continue may be enacted and (while they are mutable) be amended or
 repealed.
 
-**113** A player always has the option to forfeit the game rather than continue
+**113** *Torture Prevention Measures*
+
+A player always has the option to forfeit the game rather than continue
 to play or incur a game penalty. No penalty worse than losing, in the judgment
 of the player to incur it, may be imposed.
 
 ## Mutable Rules
 
-**207** The winner is the first player to achieve 200 (positive) points.
+**207** *Some Random Number*
 
-**211** If the rules are changed so that further play is impossible, or if the
+The winner is the first player to achieve 200 (positive) points.
+
+**211** *Don't Get Stuck!*
+
+If the rules are changed so that further play is impossible, or if the
 legality of a move cannot be determined with finality, or if by the Judge's best
 reasoning, not overruled, a move appears equally legal and illegal, then the
 player who proposed the last adopted rule wins.
 
 This rule takes precedence over every other rule determining the winner.
 
-**213** A non-player can become a player by submitting a pull request which adds
+**213** *Joining the Game*
+
+A non-player can become a player by submitting a pull request which adds
 their name and Github handle to the Player List.
+
+**331** *I'll be Back!*
+
+A player may at any time create an issue stating they are on hiatus, with the
+label "Hiatus". As long as this issue is open, this player will be considered
+to be a non-player for all intents and purposes, including but not limited
+to voting and jury selection. Players which currently play any role in a Trial
+or are Judge in a Judgement may not perform this action.
+
+**329** *The Trophy of Awesome*
+
+Whenever a player would win the game, instead, a virtual "Trophy of Awesome"
+will be created, inscribed with their name and the date on which they won.
+The game state will be reset to the latest point at which the win was not
+inevitable. To this game state the Trophy will be added. Furthermore,
+if the win was achieved through obtaining a required number of points,
+the points of the winner will be set to the average of the other
+players rounded to the nearest integer.
+In case of non-consensus about the reset point, the Trophy recipient
+decides.
+
+If a player claims they could win the game by performing an action, or finite
+set of actions, that is/are infeasible to perform due to circumstances external
+to the rules, they may demonstrate so by creating an issue describing these
+actions in order to obtain a Trophy of Awesome. A vote must be held on the
+validity of the claim and only unanimity will lead to the Trophy being awarded.
 
 # Turns
 
 ## Mutable Rules 
 
-**303** A player may have an infinite number of concurrent turns.
+**303** *Everybody Gets All the Turns!*
+
+A player may have an infinite number of concurrent turns.
 A player may start a turn regardless of the state of their other turns.
 
-**202** One turn consists of proposing one rule-change and having it voted on.
+
+**202** *Just the One?* 
+
+One turn consists of proposing one rule-change and having it voted on.
 
 # Points
 
 ## Mutable Rules
 
-**320** All players begin with zero points.
+**320** *Starting From Square One*
 
-**308** If a PR that outlines a rule-change contains `y` commit hashes containing an English dictionary word of at least
+All players begin with zero points.
+
+**333** *A Tattoo on the tongue*
+
+If a PR that outlines a rule-change includes at least one quote from a book, movie, TV-show, or person with a
+source-annotation in the original Pull Request message the proposer will receive 0.1 point 
+if the proposer explicitly claims this 0.1 point at some point in the PR when the PR is merged into
+the master branch of pimotte/nomic.
+Players are encouraged to present a quote that matches the contents of the pull request that has not been used before in
+another Pull Request.
+
+**308** *Hash Brownie Points*
+
+If a PR that outlines a rule-change contains `y` commit hashes containing an English dictionary word of at least
 four consecutive letters, the proposer will be awarded `y` additional points when the PR is merged into the master
 branch of pimotte/nomic.
 
@@ -280,7 +391,9 @@ in his PR.
 
 ## Mutable Rules
 
-**307** If at least one player disagrees about the legality of a move or the interpretation
+**307** *Yes, I am in Fact Judging You*
+
+If at least one player disagrees about the legality of a move or the interpretation
 or application of a rule, this player may _invoke Judgement_. See below for the
 definition.
 
@@ -327,7 +440,9 @@ Judgement is completed when the Judge has decided all questions and is not overr
 Judge's Judgement has been completed, any Judge is no longer a Judge and a player who can shall 
 close all open issues labelled "Judgement" in a timely fashion. 
 
-**324** If a player (unwittingly) performs an action that directly contradicts a
+**324** *Hold it!*
+
+If a player (unwittingly) performs an action that directly contradicts a
 rule, a procedure defined as a _Trial_, with the rule-breaking player as the defendant, will take place. A Trial is
 defined as follows.
 
@@ -374,10 +489,11 @@ defined as follows.
 - During a Trial session, both prosecution and defense are allowed to refer to old Trials in their pleas for a certain
 	punishment.
 
-**326** As long as an issue labelled "Trial" or "Judgement" is open, no player may start a turn, regardless of what
+**326** *Let it Go!*
+
+As long as an issue labelled "Trial" or "Judgement" is open, no player may start a turn, regardless of what
 other rules specify. Futhermore, any rule specifying that a pull request should be merged in a timely fashion shall
 be read as specifying that the pull request should be merged in a timely fashion, after all issues labelled "Trial"
 or "Judgement" are closed. Any player may start a vote in a separate issue to ignore a particular issue labelled 
 "Trial" or "Judgement" for purposes of this rule. 
 That issue will be ignored if a simple majority votes in favour of doing so.
-
