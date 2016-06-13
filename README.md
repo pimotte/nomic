@@ -252,7 +252,9 @@ as is correctness of the translation. There are no sanctions for voting
 when this rule disallows it, regardless of what other rules specify, 
 if and only if voting in this way only violates this rule.
 
-**323** It may be assumed that the proposer of a rule-change is always in favour of this rule-change and thus has
+**323** *The Couple will not Object to Their Own Wedding*
+
+It may be assumed that the proposer of a rule-change is always in favour of this rule-change and thus has
 cast an implicit vote in favour of the rule-change. 
 An explicit vote through the procedures outlined in the rules replaces this implicit vote in favour.
 If the implicit vote is not overwritten with an explicit vote, the validity of the implicit vote is held to the same
@@ -292,7 +294,9 @@ player who proposed the last adopted rule wins.
 
 This rule takes precedence over every other rule determining the winner.
 
-**213** A non-player can become a player by submitting a pull request which adds
+**213** *Joining the Game*
+
+A non-player can become a player by submitting a pull request which adds
 their name and Github handle to the Player List.
 
 **331** *I'll be Back!*
@@ -332,6 +336,7 @@ A player may start a turn regardless of the state of their other turns.
 
 
 **202** *Just the One?* 
+
 One turn consists of proposing one rule-change and having it voted on.
 
 # Points
