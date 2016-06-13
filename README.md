@@ -9,7 +9,7 @@ at least make a stab at reading that. This file is in
 
 Player List 
 -----------
-1. Pim Otte (@pimotte, 12.1 points)
+1. Pim Otte (@pimotte, 13.1 points)
 2. Stefan Hugtenburg (@MrHug, 11.1 points)
 3. Arthur Bik (@arthurbik, 2 point)
 4. Jesse Donkervliet (@jdonkervliet, 3 point)
@@ -265,14 +265,6 @@ after all comments on the PR before the merging comment of the PR.
 
 ## Immutable Rules
 
-**112** *You Win the Game!*
-
-The state of affairs that constitutes winning may not be altered from
-achieving n points to any other state of affairs. The magnitude of n and the
-means of earning points may be changed, and rules that establish a winner when
-play cannot continue may be enacted and (while they are mutable) be amended or
-repealed.
-
 **113** *Torture Prevention Measures*
 
 A player always has the option to forfeit the game rather than continue
@@ -318,6 +310,14 @@ label "Hiatus". As long as this issue is open, this player will be considered
 to be a non-player for all intents and purposes, including but not limited
 to voting and jury selection. Players which currently play any role in a Trial
 or are Judge in a Judgement may not perform this action.
+
+**335** *You Win the Game!*
+
+The state of affairs that constitutes winning may not be altered from
+achieving n points to any other state of affairs. The magnitude of n and the
+means of earning points may be changed, and rules that establish a winner when
+play cannot continue may be enacted and (while they are mutable) be amended or
+repealed.
 
 
 # Turns
