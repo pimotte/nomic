@@ -12,7 +12,7 @@ Player List
 1. Pim Otte (@pimotte, 12.1 points)
 2. Stefan Hugtenburg (@MrHug, 11.1 points)
 3. Arthur Bik (@arthurbik, 2 point)
-4. Jesse Donkervliet (@jdonkervliet, 2 point)
+4. Jesse Donkervliet (@jdonkervliet, 3 point)
 
 # Rules
 
@@ -299,15 +299,7 @@ This rule takes precedence over every other rule determining the winner.
 A non-player can become a player by submitting a pull request which adds
 their name and Github handle to the Player List.
 
-**331** *I'll be Back!*
-
-A player may at any time create an issue stating they are on hiatus, with the
-label "Hiatus". As long as this issue is open, this player will be considered
-to be a non-player for all intents and purposes, including but not limited
-to voting and jury selection. Players which currently play any role in a Trial
-or are Judge in a Judgement may not perform this action.
-
-**329** *The Trophy of Awesome*
+**332** *The Trophy of Awesome*
 
 Whenever a player would win the game, instead, a virtual "Trophy of Awesome"
 will be created, inscribed with their name and the date on which they won.
@@ -319,11 +311,14 @@ players rounded to the nearest integer.
 In case of non-consensus about the reset point, the Trophy recipient
 decides.
 
-If a player claims they could win the game by performing an action, or finite
-set of actions, that is/are infeasible to perform due to circumstances external
-to the rules, they may demonstrate so by creating an issue describing these
-actions in order to obtain a Trophy of Awesome. A vote must be held on the
-validity of the claim and only unanimity will lead to the Trophy being awarded.
+**331** *I'll be Back!*
+
+A player may at any time create an issue stating they are on hiatus, with the
+label "Hiatus". As long as this issue is open, this player will be considered
+to be a non-player for all intents and purposes, including but not limited
+to voting and jury selection. Players which currently play any role in a Trial
+or are Judge in a Judgement may not perform this action.
+
 
 # Turns
 
