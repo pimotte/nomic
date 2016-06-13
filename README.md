@@ -363,7 +363,7 @@ in his PR.
 
 If a PR that outlines a rule-change includes a word or sentence in either Japanese or Turkish 
 and a translation in English, it will be rewarded with 0.1 point upon merging
-of this PR, if the PR accurately reflects this.
+of this PR into master of pimotte/nomic, if the PR accurately reflects this.
 Uniqueness of this word or sentence is encouraged, as is correctness of the translation. 
 
 # Criminal Law
