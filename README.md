@@ -9,7 +9,7 @@ at least make a stab at reading that. This file is in
 
 Player List 
 -----------
-1. Pim Otte (@pimotte, 12.1 points)
+1. Pim Otte (@pimotte, 13.2 points)
 2. Stefan Hugtenburg (@MrHug, 11.1 points)
 3. Arthur Bik (@arthurbik, 2 point)
 4. Jesse Donkervliet (@jdonkervliet, 3 point)
@@ -243,15 +243,6 @@ consists only of ":wave:". This will retract any votes made by the player that w
 this comment. A vote can only be retracted as long as it is valid and the rule-change is not
 yet adopted or rejected.
 
-**313** *日本語とトルキ語 or Türkçe ve Japonca*
-
-Any vote through a comment on a pull request is invalid, unless one of the
-comments above the vote contains a word or sentence in either Japanese or Turkish 
-and a translation in English. Uniqueness of this word or sentence is encouraged,
-as is correctness of the translation. There are no sanctions for voting
-when this rule disallows it, regardless of what other rules specify, 
-if and only if voting in this way only violates this rule.
-
 **323** *The Couple will not Object to Their Own Wedding*
 
 It may be assumed that the proposer of a rule-change is always in favour of this rule-change and thus has
@@ -362,6 +353,13 @@ An English dictionary word is defined as a word found in the Oxford Dictionary a
 
 Points are only awarded if the proposer includes the `y` points in his update of his score and mentions this explicitly
 in his PR.
+
+**334** *日本語とトルキ語 or Türkçe ve Japonca*
+
+If a PR that outlines a rule-change includes a word or sentence in either Japanese or Turkish 
+and a translation in English, it will be rewarded with 0.1 point upon merging
+of this PR into master of pimotte/nomic, if the PR accurately reflects this.
+Uniqueness of this word or sentence is encouraged, as is correctness of the translation. 
 
 # Criminal Law
 
