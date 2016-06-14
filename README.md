@@ -10,7 +10,7 @@ at least make a stab at reading that. This file is in
 Player List 
 -----------
 1. Pim Otte (@pimotte, 13.2 points)
-2. Stefan Hugtenburg (@MrHug, 11.1 points)
+2. Stefan Hugtenburg (@MrHug, 12.2 points)
 3. Arthur Bik (@arthurbik, 2 point)
 4. Jesse Donkervliet (@jdonkervliet, 3 point)
 
@@ -212,6 +212,12 @@ gains 1 point.
 **315** *Democracy Reloaded*
 
 Each eligible voter always has exactly one vote.
+
+
+**336** *Everyone, get in here!*
+
+One PR should remain open for at least 24 hours, regardless of what other rules specify, before it can be merged, unless
+unanimity in votes is achieved before this time.
 
 
 **318** *Thumbs Up!*
