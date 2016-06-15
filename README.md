@@ -10,7 +10,7 @@ at least make a stab at reading that. This file is in
 Player List 
 -----------
 1. Pim Otte (@pimotte, 13.2 points)
-2. Stefan Hugtenburg (@MrHug, 11.1 points)
+2. Stefan Hugtenburg (@MrHug, 12.2 points)
 3. Arthur Bik (@arthurbik, 2 point)
 4. Jesse Donkervliet (@jdonkervliet, 3 point)
 
@@ -414,7 +414,7 @@ Judgement is completed when the Judge has decided all questions and is not overr
 Judge's Judgement has been completed, any Judge is no longer a Judge and a player who can shall 
 close all open issues labelled "Judgement" in a timely fashion. 
 
-**324** *Hold it!*
+**337** *Hold it!*
 
 If a player (unwittingly) performs an action that directly contradicts a
 rule, a procedure defined as a _Trial_, with the rule-breaking player as the defendant, will take place. A Trial is
@@ -457,7 +457,7 @@ defined as follows.
 	a timely fashion.
 - Once the jury has given it's Verdict, it will be enacted by someone who has this power in a timely fashion.
 - If at least two eligible voters exist that were not part of the Trial (i.e. no part of the jury, defense or
-	prosecution), the defendant has the right to appeal the verdict in a new trial with a new jury and (if possible) the
+	prosecution), both the defendant and the prosecution have the right to appeal the verdict in a new trial with a new jury and (if possible) the
 	same prosecution. If prosecution is no longer available, the procedure of invoking Judgement will be used to select a
 	new prosecutor.
 - During a Trial session, both prosecution and defense are allowed to refer to old Trials in their pleas for a certain
