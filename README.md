@@ -216,7 +216,7 @@ Each eligible voter always has exactly one vote.
 
 **336** *Everyone, get in here!*
 
-One PR should remain open for at least 24 hours, regardless of what other rules specify, before it can be merged, unless
+A PR should remain open for at least 24 hours, regardless of what other rules specify, before it can be merged, unless
 unanimity in votes is achieved before this time.
 
 
