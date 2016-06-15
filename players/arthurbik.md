@@ -4,6 +4,7 @@ GitHub handle: @arthurbik
 Current score: 2
 
 ##Accepted Pull Requests:
+
 | PR | Title | Points Gained|
 | -- |:-----:|:------------:|
 
