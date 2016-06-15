@@ -475,5 +475,5 @@ That issue will be ignored if a simple majority votes in favour of doing so.
 **329** *Drugs Policy*
 
 The minimum possible penalty associated with a Guilty Verdict is always a 0 point reduction. 
-No other rule may impose a minimum point reduction associated with a Guilty Verdict on any type of violation punishble
+No other rule may impose a minimum point reduction associated with a Guilty Verdict on any type of violation punishable
 by Trial.
