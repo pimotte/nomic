@@ -5,8 +5,8 @@ Current score: 13.2
 
 ##Accepted Pull Requests:
 
-| PR | Title | Points Gained|
-| -- |:-----:|:------------:|
+|  PR | Title | Points Gained|
+| --- |:-----:|:------------:|
 
 
 ##Trials:
