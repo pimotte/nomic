@@ -1,7 +1,7 @@
 # Player: Stefan Hugtenburg
 
 GitHub handle: @MrHug
-Current score: 11.1
+Current score: 12.1
 
 ##Accepted Pull Requests:
 | PR | Title | Points Gained|
