@@ -10,7 +10,7 @@ at least make a stab at reading that. This file is in
 Player List 
 -----------
 1. Pim Otte (@pimotte, 13.2 points)
-2. Stefan Hugtenburg (@MrHug, 11.1 points)
+2. Stefan Hugtenburg (@MrHug, 11.2 points)
 3. Arthur Bik (@arthurbik, 2 point)
 4. Jesse Donkervliet (@jdonkervliet, 3 point)
 
