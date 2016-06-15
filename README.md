@@ -10,7 +10,7 @@ at least make a stab at reading that. This file is in
 Player List 
 -----------
 1. Pim Otte (@pimotte, 13.2 points)
-2. Stefan Hugtenburg (@MrHug, 11.1 points)
+2. Stefan Hugtenburg (@MrHug, 12.2 points)
 3. Arthur Bik (@arthurbik, 2 point)
 4. Jesse Donkervliet (@jdonkervliet, 3 point)
 
@@ -471,3 +471,9 @@ be read as specifying that the pull request should be merged in a timely fashion
 or "Judgement" are closed. Any player may start a vote in a separate issue to ignore a particular issue labelled 
 "Trial" or "Judgement" for purposes of this rule. 
 That issue will be ignored if a simple majority votes in favour of doing so.
+
+**329** *Drugs Policy*
+
+The minimum possible penalty associated with a Guilty Verdict is always a 0 point reduction. 
+No other rule may impose a minimum point reduction associated with a Guilty Verdict on any type of violation punishble
+by Trial.
