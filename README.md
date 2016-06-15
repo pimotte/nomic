@@ -9,10 +9,10 @@ at least make a stab at reading that. This file is in
 
 Player List 
 -----------
-1. Pim Otte (@pimotte, 13.2 points)
-2. Stefan Hugtenburg (@MrHug, 11.2 points)
-3. Arthur Bik (@arthurbik, 2 point)
-4. Jesse Donkervliet (@jdonkervliet, 3 point)
+1. Pim Otte (@pimotte)
+2. Stefan Hugtenburg (@MrHug)
+3. Arthur Bik (@arthurbik)
+4. Jesse Donkervliet (@jdonkervliet)
 
 # Rules
 
@@ -152,10 +152,10 @@ following:
 Other items may be added to these player files through non-rule-change Pull Requests. Players are encouraged to keep a
 list of Pull Requests that were merged and how points this netted them, so that the total can be easily recomputed. 
 
-The total score of the player should reflect the gamestate. If this file does not match the game state, the merger of
-the Pull Request that led to a divergence in gamestate can be put on Trial for violation of this rule.
+The total score of the player must reflect the gamestate.
 
-**202** One turn consists of proposing one rule-change and having it voted on.
+Players are excempt from this rule so long as they do not have at least one merged rule-change Pull Request.
+
 
 ## Mutable Rules
 
