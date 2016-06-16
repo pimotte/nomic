@@ -9,10 +9,11 @@ at least make a stab at reading that. This file is in
 
 Player List 
 -----------
-1. Pim Otte (@pimotte, 13.1 points)
-2. Stefan Hugtenburg (@MrHug, 11.1 points)
-3. Arthur Bik (@arthurbik, 2 point)
-4. Jesse Donkervliet (@jdonkervliet, 2 point)
+1. Pim Otte (@pimotte)
+2. Stefan Hugtenburg (@MrHug)
+3. Arthur Bik (@arthurbik)
+4. Jesse Donkervliet (@jdonkervliet)
+5. Otto Visser (@ManInTheGitHub)
 
 # Rules
 
@@ -33,7 +34,7 @@ immutable to mutable or vice versa) may be immutable or mutable regardless of
 their numbers, and rules in the Initial Set may be transmuted regardless of
 their numbers.
 
-**110** *Constituion Trumps Law*
+**110** *Constitution Trumps Law*
 
 In a conflict between a mutable and an immutable rule, the immutable
 rule takes precedence and the mutable rule shall be entirely void. For the
@@ -141,6 +142,23 @@ of the players votes in favour of the rule-change.
 An adopted rule-change takes full effect at the moment of the completion
 of the vote that adopted it.
 
+**328** *Neat and Tidy*
+
+All player scores will be tracked in separate files for each player. These files should contain at least the
+following:
+- The player's name.
+- The player's GitHub handle.
+- The current total score of the player.
+
+Other items may be added to these player files through non-rule-change Pull Requests. Players are encouraged to keep a
+list of Pull Requests that were merged and how points this netted them, so that the total can be easily recomputed. 
+
+The total score of the player must reflect the gamestate.
+
+Players are excempt from this rule so long as they do not have at least one merged rule-change Pull Request. They can
+temporarily record their initial score in the player list.
+
+
 ## Mutable Rules
 
 
@@ -214,6 +232,14 @@ gains 1 point.
 Each eligible voter always has exactly one vote.
 
 
+**336** *Everyone, get in here!*
+
+A PR should remain open for at least 24 hours, regardless of what other rules specify, before it can be merged, unless
+unanimity in votes is achieved before this time.
+
+This rule only applies to PRs that need to be voted on.
+
+
 **318** *Thumbs Up!*
 
 A player can vote in favor of a rule-change by commenting on the pull request
@@ -242,15 +268,6 @@ A vote can be retracted by commenting on the pull request with a comment that
 consists only of ":wave:". This will retract any votes made by the player that were made before
 this comment. A vote can only be retracted as long as it is valid and the rule-change is not
 yet adopted or rejected.
-
-**313** *日本語とトルキ語 or Türkçe ve Japonca*
-
-Any vote through a comment on a pull request is invalid, unless one of the
-comments above the vote contains a word or sentence in either Japanese or Turkish 
-and a translation in English. Uniqueness of this word or sentence is encouraged,
-as is correctness of the translation. There are no sanctions for voting
-when this rule disallows it, regardless of what other rules specify, 
-if and only if voting in this way only violates this rule.
 
 **323** *The Couple will not Object to Their Own Wedding*
 
@@ -318,6 +335,19 @@ This rule takes precedence over every other rule determining the winner.
 A non-player can become a player by submitting a pull request which adds
 their name and Github handle to the Player List.
 
+**332** *The Trophy of Awesome*
+
+Whenever a player wins the game a virtual "Trophy of Awesome"
+will be created, inscribed with their name and the date on which they won.
+A new game will be started, with the game state set to the latest point 
+at which the win was not inevitable. 
+To this game state the Trophy will be added. Furthermore,
+if the win was achieved through obtaining a required number of points,
+the points of the winner will be set to the average of the other
+players rounded to the nearest integer.
+In case of non-consensus about the reset point, the Trophy recipient
+decides.
+
 **331** *I'll be Back!*
 
 A player may at any time create an issue stating they are on hiatus, with the
@@ -326,23 +356,6 @@ to be a non-player for all intents and purposes, including but not limited
 to voting and jury selection. Players which currently play any role in a Trial
 or are Judge in a Judgement may not perform this action.
 
-**329** *The Trophy of Awesome*
-
-Whenever a player would win the game, instead, a virtual "Trophy of Awesome"
-will be created, inscribed with their name and the date on which they won.
-The game state will be reset to the latest point at which the win was not
-inevitable. To this game state the Trophy will be added. Furthermore,
-if the win was achieved through obtaining a required number of points,
-the points of the winner will be set to the average of the other
-players rounded to the nearest integer.
-In case of non-consensus about the reset point, the Trophy recipient
-decides.
-
-If a player claims they could win the game by performing an action, or finite
-set of actions, that is/are infeasible to perform due to circumstances external
-to the rules, they may demonstrate so by creating an issue describing these
-actions in order to obtain a Trophy of Awesome. A vote must be held on the
-validity of the claim and only unanimity will lead to the Trophy being awarded.
 
 # Turns
 
@@ -362,9 +375,11 @@ One turn consists of proposing one rule-change and having it voted on.
 
 ## Mutable Rules
 
-**320** *Starting From Square One*
+**325** *Starting from Square One?*
 
-All players begin with zero points.
+All players begin with the number of points equal to the outcome of this formula:
+`max(0, min_i(#points of player i) - 2)`
+
 
 **333** *A Tattoo on the tongue*
 
@@ -386,6 +401,13 @@ An English dictionary word is defined as a word found in the Oxford Dictionary a
 
 Points are only awarded if the proposer includes the `y` points in his update of his score and mentions this explicitly
 in his PR.
+
+**334** *日本語とトルキ語 or Türkçe ve Japonca*
+
+If a PR that outlines a rule-change includes a word or sentence in either Japanese or Turkish 
+and a translation in English, it will be rewarded with 0.1 point upon merging
+of this PR into master of pimotte/nomic, if the PR accurately reflects this.
+Uniqueness of this word or sentence is encouraged, as is correctness of the translation. 
 
 # Criminal Law
 
@@ -497,3 +519,7 @@ be read as specifying that the pull request should be merged in a timely fashion
 or "Judgement" are closed. Any player may start a vote in a separate issue to ignore a particular issue labelled 
 "Trial" or "Judgement" for purposes of this rule. 
 That issue will be ignored if a simple majority votes in favour of doing so.
+
+**338** *Statue of limitations*
+
+No player can be put on Trial for an offense committed more than 7 days (148 hours, 0 minutes and 0 seconds) ago. Similary Trials can not be reopened for appeals more than 7 days after the Verdict has been rendered by the jury.
