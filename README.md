@@ -13,6 +13,7 @@ Player List
 2. Stefan Hugtenburg (@MrHug, 12.1 points)
 3. Arthur Bik (@arthurbik, 2 point)
 4. Jesse Donkervliet (@jdonkervliet, 3 point)
+5. Otto Visser (@ManInTheGitHub, 1 point)
 
 # Rules
 
