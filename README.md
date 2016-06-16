@@ -13,6 +13,7 @@ Player List
 2. Stefan Hugtenburg (@MrHug)
 3. Arthur Bik (@arthurbik)
 4. Jesse Donkervliet (@jdonkervliet)
+5. Otto Visser (@ManInTheGitHub)
 
 # Rules
 
