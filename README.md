@@ -34,7 +34,7 @@ immutable to mutable or vice versa) may be immutable or mutable regardless of
 their numbers, and rules in the Initial Set may be transmuted regardless of
 their numbers.
 
-**110** *Constituion Trumps Law*
+**110** *Constitution Trumps Law*
 
 In a conflict between a mutable and an immutable rule, the immutable
 rule takes precedence and the mutable rule shall be entirely void. For the
