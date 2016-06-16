@@ -385,8 +385,7 @@ In order for a Transfer to be valid, the following conditions need to be met:
 - At the time the Transfer is accepted, the Sender still has a point score of at least `x` points, so that transferring
 	the `x` points will result in a point score of at least 0 for the Sender.
 
-Pull Requests that outline a valid Transfer need not be voted on and can be merged by the Receiver immediately,
-regardless of what other rules may state about this. 
+Pull Requests that outline a valid Transfer need not be voted on. 
 
 Pull Requests that ouline a valid Transfer can in all other aspects be regarded as non rule-change Pull Requests.
 
