@@ -9,7 +9,7 @@ at least make a stab at reading that. This file is in
 
 Player List 
 -----------
-1. Pim Otte (@pimotte, 13.2 points)
+1. Pim Otte (@pimotte, 14.3 points)
 2. Stefan Hugtenburg (@MrHug, 12.1 points)
 3. Arthur Bik (@arthurbik, 2 point)
 4. Jesse Donkervliet (@jdonkervliet, 3 point)
@@ -293,10 +293,11 @@ their name and Github handle to the Player List.
 
 **332** *The Trophy of Awesome*
 
-Whenever a player would win the game, instead, a virtual "Trophy of Awesome"
+Whenever a player wins the game a virtual "Trophy of Awesome"
 will be created, inscribed with their name and the date on which they won.
-The game state will be reset to the latest point at which the win was not
-inevitable. To this game state the Trophy will be added. Furthermore,
+A new game will be started, with the game state set to the latest point 
+at which the win was not inevitable. 
+To this game state the Trophy will be added. Furthermore,
 if the win was achieved through obtaining a required number of points,
 the points of the winner will be set to the average of the other
 players rounded to the nearest integer.
