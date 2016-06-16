@@ -10,9 +10,10 @@ at least make a stab at reading that. This file is in
 Player List 
 -----------
 1. Pim Otte (@pimotte, 13.2 points)
-2. Stefan Hugtenburg (@MrHug, 12.2 points)
+2. Stefan Hugtenburg (@MrHug, 13.2 points)
 3. Arthur Bik (@arthurbik, 2 point)
 4. Jesse Donkervliet (@jdonkervliet, 3 point)
+5. Otto Visser (@ManInTheGitHub, 1 point)
 
 # Rules
 
@@ -329,9 +330,11 @@ One turn consists of proposing one rule-change and having it voted on.
 
 ## Mutable Rules
 
-**320** *Starting From Square One*
+**325** *Starting from Square One?*
 
-All players begin with zero points.
+All players begin with the number of points equal to the outcome of this formula:
+`max(0, min_i(#points of player i) - 2)`
+
 
 **333** *A Tattoo on the tongue*
 
@@ -472,8 +475,9 @@ or "Judgement" are closed. Any player may start a vote in a separate issue to ig
 "Trial" or "Judgement" for purposes of this rule. 
 That issue will be ignored if a simple majority votes in favour of doing so.
 
-**329** *Drugs Policy*
+**339** *Drugs Policy*
 
-The minimum possible penalty associated with a Guilty Verdict is always a 0 point reduction. 
+The minimum possible penalty associated with a Guilty Verdict is always a 0 point reduction except when the defendant
+pleads for a certain minimum penalty.
 No other rule may impose a minimum point reduction associated with a Guilty Verdict on any type of violation punishable
 by Trial.
