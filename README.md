@@ -155,7 +155,8 @@ list of Pull Requests that were merged and how points this netted them, so that 
 
 The total score of the player must reflect the gamestate.
 
-Players are excempt from this rule so long as they do not have at least one merged rule-change Pull Request.
+Players are excempt from this rule so long as they do not have at least one merged rule-change Pull Request. They can
+temporarily record their initial score in the player list.
 
 
 ## Mutable Rules
