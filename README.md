@@ -378,7 +378,7 @@ In order for a Transfer to be valid, the following conditions need to be met:
 - The Transfer is outlined in a Pull-Request titled: "Transfer of `x` points from A to B" where A and B are the names of
 	the Sender and Recipient respectively. 
 - The only change outlined in the Pull Request is a point reduction of `x` points from the Sender and a point increase
-	of `y` for the Receiver.
+	of `x` for the Receiver.
 - The Sender is the only one who can initiate the Transfer.
 - The Receiver is the only one who can accept the Transfer.
 - When the Transfer is initiated, the Sender has a point score of at least `x` points.
