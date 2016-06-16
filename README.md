@@ -345,9 +345,11 @@ One turn consists of proposing one rule-change and having it voted on.
 
 ## Mutable Rules
 
-**320** *Starting From Square One*
+**325** *Starting from Square One?*
 
-All players begin with zero points.
+All players begin with the number of points equal to the outcome of this formula:
+`max(0, min_i(#points of player i) - 2)`
+
 
 **333** *A Tattoo on the tongue*
 
