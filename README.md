@@ -10,7 +10,7 @@ at least make a stab at reading that. This file is in
 Player List 
 -----------
 1. Pim Otte (@pimotte, 14.3 points)
-2. Stefan Hugtenburg (@MrHug, 12.1 points)
+2. Stefan Hugtenburg (@MrHug, 13.2 points)
 3. Arthur Bik (@arthurbik, 2 point)
 4. Jesse Donkervliet (@jdonkervliet, 3 point)
 5. Otto Visser (@ManInTheGitHub, 1 point)
@@ -475,3 +475,7 @@ be read as specifying that the pull request should be merged in a timely fashion
 or "Judgement" are closed. Any player may start a vote in a separate issue to ignore a particular issue labelled 
 "Trial" or "Judgement" for purposes of this rule. 
 That issue will be ignored if a simple majority votes in favour of doing so.
+
+**338** *Statue of limitations*
+
+No player can be put on Trial for an offense committed more than 7 days (148 hours, 0 minutes and 0 seconds) ago. Similary Trials can not be reopened for appeals more than 7 days after the Verdict has been rendered by the jury.
