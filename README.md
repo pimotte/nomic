@@ -10,7 +10,7 @@ at least make a stab at reading that. This file is in
 Player List 
 -----------
 1. Pim Otte (@pimotte, 13.2 points)
-2. Stefan Hugtenburg (@MrHug, 12.1 points)
+2. Stefan Hugtenburg (@MrHug, 13.2 points)
 3. Arthur Bik (@arthurbik, 2 point)
 4. Jesse Donkervliet (@jdonkervliet, 3 point)
 5. Otto Visser (@ManInTheGitHub, 1 point)
@@ -363,6 +363,32 @@ If a PR that outlines a rule-change includes a word or sentence in either Japane
 and a translation in English, it will be rewarded with 0.1 point upon merging
 of this PR into master of pimotte/nomic, if the PR accurately reflects this.
 Uniqueness of this word or sentence is encouraged, as is correctness of the translation. 
+
+
+# Point Transfers
+
+## Mutable Rules
+
+**341** *You scratch my back...*
+
+Players can give points to another player through a procedure defined as a Transfer. A Transfer is defined as a
+transferral of a positive number of positive points `x` from a player A (the "Sender") to a player B (the "Receiver").
+In order for a Transfer to be valid, the following conditions need to be met:
+
+- The Transfer is outlined in a Pull-Request titled: "Transfer of `x` points from A to B" where A and B are the names of
+	the Sender and Recipient respectively. 
+- The only change outlined in the Pull Request is a point reduction of `x` points from the Sender and a point increase
+	of `y` for the Receiver.
+- The Sender is the only one who can initiate the Transfer.
+- The Receiver is the only one who can accept the Transfer.
+- When the Transfer is initiated, the Sender has a point score of at least `x` points.
+- At the time the Transfer is accepted, the Sender still has a point score of at least `x` points, so that transferring
+	the `x` points will result in a point score of at least 0 for the Sender.
+
+Pull Requests that outline a valid Transfer need not be voted on and can be merged by the Receiver immediately,
+regardless of what other rules may state about this. 
+
+Pull Requests that ouline a valid Transfer can in all other aspects be regarded as non rule-change Pull Requests.
 
 # Criminal Law
 
