@@ -10,6 +10,12 @@ import re
 
 REPO = 'https://api.github.com/repos/pimotte/nomic'
 
+username = "pimotte"
+password = ""
+with open("password") as password_file:
+    password = password_file.read().strip()
+AUTH=(username, password)
+
 def get_point_increase_from_diff_url(diff_url):
     diff = requests.get(diff_url)
 
@@ -91,17 +97,17 @@ def get_point_increase_from_diff_url(diff_url):
 
 #patch = requests.get(prs.json()[0]['diff_url'])
 pr_data = {}
-prs = requests.get(REPO + '/pulls', params={'state' : 'closed'})
+prs = requests.get(REPO + '/pulls', params={'state' : 'closed'}, auth=AUTH)
 while True:
     for pr in prs.json():
         points = get_point_increase_from_diff_url(pr['diff_url'])
         print('Processed PR ' + pr['title'])
         
         for username in points.keys():
-            data = ("#" + str(pr['number']), pr['title'], '{:.1f}'.format(points[username]))
+            data = (pr['number'], '[#' + str(pr['number']) + '](' + pr['html_url'] + ')', pr['title'], '{:.1f}'.format(points[username]))
             pr_data[username] = pr_data.get(username, list()) + [data]
     if prs.links.get('next') is not None: 
-        prs = requests.get(prs.links['next']['url'])
+        prs = requests.get(prs.links['next']['url'], auth=AUTH)
     else:
         break
 
@@ -109,8 +115,8 @@ while True:
 for username in pr_data.keys():
     if username is not None:
         print('\n' + username + '\n')
-        user_prs = sorted(pr_data[username], key=lambda tup: int(tup[0][1:]))
+        user_prs = sorted(pr_data[username])
         for pr in user_prs:
-            is_merged = requests.get(REPO + '/pulls/' + pr[0][1:] + '/merge')
+            is_merged = requests.get(REPO + '/pulls/' + str(pr[0]) + '/merge', auth=AUTH)
             if is_merged.status_code == 204:
-                print('| ' + ' | '.join(pr) + ' |')
+                print('| ' + ' | '.join(pr[1:]) + ' |')
