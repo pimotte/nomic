@@ -29,4 +29,4 @@ Current score: 15.3
 
 | Issue | Title | Verdict|
 | ----- |:----- |:------ |
-| #59 | The People vs @pimotte 1 | Not Guilty | 
+| #59 | The people vs @pimotte 1 | Not Guilty | 
