@@ -532,4 +532,4 @@ No player can be put on Trial for an offense committed more than 7 days (148 hou
 **342** *Undenominational things*
 
 A Neutral Instance can be created by submitting a Pull Request that adds the name of the new Neutral Instance and the
-name of the creator to the Netural Instances list. A player can create a maximum of one Neutral Instance.
+name of the creator to the Neutral Instances list. A player can create a maximum of one Neutral Instance.
