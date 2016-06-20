@@ -2,7 +2,7 @@
 
 GitHub handle: @MrHug
 
-Current score: 15.3
+Current score: 16.4
 
 ##Accepted Pull Requests:
 
@@ -22,6 +22,7 @@ Current score: 15.3
 | [#41](https://github.com/pimotte/nomic/pull/41) | 328: Organising users | 1.0 |
 | [#60](https://github.com/pimotte/nomic/pull/60) | 336: Minimum duration | 1.1 |
 | [#62](https://github.com/pimotte/nomic/pull/62) | 338: Statute of limitations | 1.1 |
+| [#67](https://github.com/pimotte/nomic/pull/67) | 341: Let's make this more interesting | 1.1 |
 
 
 
