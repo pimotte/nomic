@@ -158,10 +158,6 @@ The total score of the player must reflect the gamestate.
 Players are excempt from this rule so long as they do not have at least one merged rule-change Pull Request. They can
 temporarily record their initial score in the player list.
 
-
-## Mutable Rules
-
-
 **309** *Pull, Don't Push*
 
 A rule-change is proposed by submitting a pull request, such that
