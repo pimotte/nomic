@@ -519,3 +519,10 @@ That issue will be ignored if a simple majority votes in favour of doing so.
 **338** *Statue of limitations*
 
 No player can be put on Trial for an offense committed more than 7 days (148 hours, 0 minutes and 0 seconds) ago. Similary Trials can not be reopened for appeals more than 7 days after the Verdict has been rendered by the jury.
+
+**339** *Drugs Policy*
+
+The minimum possible penalty associated with a Guilty Verdict is always a 0 point (or any other type of resource)
+reduction except when the defendant pleads for a certain minimum penalty.
+No other rule may impose a minimum point (or any other type of resource) reduction associated with a Guilty Verdict on
+any type of violation punishable by Trial.
