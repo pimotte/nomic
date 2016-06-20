@@ -9,11 +9,11 @@ at least make a stab at reading that. This file is in
 
 Player List 
 -----------
-1. Pim Otte (@pimotte, 14.3 points)
-2. Stefan Hugtenburg (@MrHug, 15.4 points)
-3. Arthur Bik (@arthurbik, 2 point)
-4. Jesse Donkervliet (@jdonkervliet, 3 point)
-5. Otto Visser (@ManInTheGitHub, 1 point)
+1. Pim Otte (@pimotte)
+2. Stefan Hugtenburg (@MrHug)
+3. Arthur Bik (@arthurbik)
+4. Jesse Donkervliet (@jdonkervliet)
+5. Otto Visser (@ManInTheGitHub)
 
 # Rules
 
@@ -142,6 +142,23 @@ of the players votes in favour of the rule-change.
 An adopted rule-change takes full effect at the moment of the completion
 of the vote that adopted it.
 
+**328** *Neat and Tidy*
+
+All player scores will be tracked in separate files for each player. These files should contain at least the
+following:
+- The player's name.
+- The player's GitHub handle.
+- The current total score of the player.
+
+Other items may be added to these player files through non-rule-change Pull Requests. Players are encouraged to keep a
+list of Pull Requests that were merged and how points this netted them, so that the total can be easily recomputed. 
+
+The total score of the player must reflect the gamestate.
+
+Players are excempt from this rule so long as they do not have at least one merged rule-change Pull Request. They can
+temporarily record their initial score in the player list.
+
+
 ## Mutable Rules
 
 
@@ -260,6 +277,25 @@ An explicit vote through the procedures outlined in the rules replaces this impl
 If the implicit vote is not overwritten with an explicit vote, the validity of the implicit vote is held to the same
 requirements as any other vote. For the purpose of validity checking, it can be considered an unwritten comment placed
 after all comments on the PR before the merging comment of the PR.
+
+**330** *Conditional Voting*
+
+A player may cast a conditional vote by posting a comment in the following format:
+
+```
+IF [condition] THEN [voting post] (ELSE [voting post])
+```
+
+In this format, items in between parentheses are optional. `[condition]` should
+be replaced with a human readable condition. If this condition cannot be resolved
+at a time when a player attempts to do so, for example because of improper formulation or
+a logical paradox, it will be resolved as being false.
+
+`[voting post]` should be replaced by the contents of a comment representing the vote,
+or an empty string. Conditional votes are a comment representing a vote.
+
+In order to perform an action based on resolution of one of more conditional votes,
+a player must post a comment describing the resolution before performing said action.
 
 # Win Condition & Participation
 
