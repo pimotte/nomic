@@ -544,3 +544,8 @@ That issue will be ignored if a simple majority votes in favour of doing so.
 **338** *Statue of limitations*
 
 No player can be put on Trial for an offense committed more than 7 days (148 hours, 0 minutes and 0 seconds) ago. Similary Trials can not be reopened for appeals more than 7 days after the Verdict has been rendered by the jury.
+
+**344** *Oi, that's cheating!*
+
+During a Trial and a 24 hour period after the Verdict has been given, no Transfers between a member of the jury and
+another player are allowed to be iniated or completed.
