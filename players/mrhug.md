@@ -32,3 +32,9 @@ Current score: 16.4
 | ----- |:-----|:------|
 | [#34](https://github.com/pimotte/nomic/issue/34) | The people vs @MrHug 1 | Not Guilty |
 
+
+## Profile
+
+| (von) Karma | Afternoon Naps | Heart Rate | Hamsters |
+| ----------- | -------------- | ---------- | -------- |
+|           0 |              0 |          0 |        0 |
