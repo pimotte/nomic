@@ -15,6 +15,11 @@ Player List
 4. Jesse Donkervliet (@jdonkervliet)
 5. Otto Visser (@ManInTheGitHub)
 
+Neutral Instances
+-----------
+
+
+
 # Rules
 
 ## Immutable Rules 
@@ -519,3 +524,12 @@ That issue will be ignored if a simple majority votes in favour of doing so.
 **338** *Statue of limitations*
 
 No player can be put on Trial for an offense committed more than 7 days (148 hours, 0 minutes and 0 seconds) ago. Similary Trials can not be reopened for appeals more than 7 days after the Verdict has been rendered by the jury.
+
+# Neutral Instances
+
+## Mutable Rules
+
+**342** *Undenominational things*
+
+A Neutral Instance can be created by submitting a Pull Request that adds the name of the new Neutral Instance and the
+name of the creator to the Neutral Instances list. A player can create a maximum of one Neutral Instance.
