@@ -236,7 +236,7 @@ unanimity in votes is achieved before this time.
 This rule only applies to PRs that need to be voted on.
 
 
-**318** *Thumbs Up!*
+**346** *Thumbs Up!*
 
 A player can vote in favor of a rule-change by commenting on the pull request
 with a comment that consists only of ":+1:". Likewise, a player can vote against
