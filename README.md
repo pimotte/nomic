@@ -398,7 +398,7 @@ An English dictionary word is defined as a word found in the Oxford Dictionary a
 Points are only awarded if the proposer includes the `y` points in his update of his score and mentions this explicitly
 in his PR.
 
-**348** *日本語とトルキ語 or Türkçe ve Japonca or alte limbi *
+**348** *他の言語 or diğer diller or alte limbi *
 
 If a PR that outlines a rule-change includes a word or sentence in either
 Japanese, Turkish or Romanian and a translation in English, it will be rewarded
