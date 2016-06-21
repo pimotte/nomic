@@ -377,12 +377,11 @@ All players begin with the number of points equal to the outcome of this formula
 `max(0, min_i(#points of player i) - 2)`
 
 
-**333** *A Tattoo on the tongue*
+**343** *A Tattoo on the tongue*
 
 If a PR that outlines a rule-change includes at least one quote from a book, movie, TV-show, or person with a
 source-annotation in the original Pull Request message the proposer will receive 0.1 point 
-if the proposer explicitly claims this 0.1 point at some point in the PR when the PR is merged into
-the master branch of pimotte/nomic.
+when the PR is merged into the master branch of pimotte/nomic.
 Players are encouraged to present a quote that matches the contents of the pull request that has not been used before in
 another Pull Request.
 
