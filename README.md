@@ -352,6 +352,17 @@ to be a non-player for all intents and purposes, including but not limited
 to voting and jury selection. Players which currently play any role in a Trial
 or are Judge in a Judgement may not perform this action.
 
+**347** *All contributors are equal, but some are more equal than others*
+
+If a player cannot perform an action, because they are not marked as a 
+"contributor" to pimotte/nomic, then they may instead perform that action by
+posting a comment or creating an issue, which contains the text "GITHUB ACTION:"
+followed by a description of said action. This action will then be performed
+by someone who has the power to do so in a timely fashion. For the purposes of
+all other rules, this action should be considered as if it was performed by
+the non-contributor. Merging PRs and labelling issues are actions explicitly
+included in this rule. 
+
 
 # Turns
 
