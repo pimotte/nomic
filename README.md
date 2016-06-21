@@ -256,7 +256,9 @@ An objection can be raised by any player at any time, this includes the option t
 to future warnings.
 
 If the rule-change is adopted, a player who can shall merge the pull request
-in a timely fashion, which marks completion of the vote.
+in a timely fashion, unless another rule specifies to wait.
+The merging of the pull request marks completion of the vote.
+
 
 **321** *Retraction Watch*
 
