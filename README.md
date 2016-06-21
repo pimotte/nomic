@@ -299,10 +299,11 @@ The owner of a PR may declare one dependency of this PR (henceforth "child") on 
 PR (henceforth "parent"), by including the text
 "This PR is dependent on #<number of parent>" in an unedited post. Any votes above
 this post are voided. A child PR must be of a branch that branches off the
-branch of the parent.
+branch of the parent. Both PRs must be on master.
 
-A ":+1:" vote on a child implies a ":+1:" on its parent. This vote shall be read
-as a comment on the parent just before merging for the purposes of other rules.
+A vote in favour on a child implies a vote in favour on its parent. This vote shall be read
+as a comment representing a vote in favour on the parent just before merging 
+for the purposes of other rules.
 
 A child may be formulated as if the parent is the current ruleset.
 
