@@ -2,7 +2,7 @@
 
 GitHub handle: @ManInTheGithub
 
-Current score: 1
+Current score: 2
 
 ##Accepted Pull Requests:
 
