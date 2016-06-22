@@ -352,6 +352,19 @@ to be a non-player for all intents and purposes, including but not limited
 to voting and jury selection. Players which currently play any role in a Trial
 or are Judge in a Judgement may not perform this action.
 
+**351** *So long, and thanks for all the fish*
+
+If a player A doubts the activity of another player B and player B has not shown
+any sign of activity for a period of at least 7 days on GitHub, player A can
+create an issue titled `Calling forth player X` where `X` is the GitHub handle of player B.
+
+Player B then has 2 weeks to respond to this issue thus indicating he is still
+wants to actively take part in the game. If he has not responded after 2 weeks,
+player A may declare player B to be on hiatus.
+
+This state of hiatus is automatically lifted when player B responds to the issue,
+showing he is still alive. After this response the issue shall be closed.
+
 
 # Turns
 
