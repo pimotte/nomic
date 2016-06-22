@@ -397,12 +397,13 @@ An English dictionary word is defined as a word found in the Oxford Dictionary a
 Points are only awarded if the proposer includes the `y` points in his update of his score and mentions this explicitly
 in his PR.
 
-**334** *日本語とトルキ語 or Türkçe ve Japonca*
+**348** *他の言語 or diğer diller or alte limbi *
 
-If a PR that outlines a rule-change includes a word or sentence in either Japanese or Turkish 
-and a translation in English, it will be rewarded with 0.1 point upon merging
-of this PR into master of pimotte/nomic, if the PR accurately reflects this.
-Uniqueness of this word or sentence is encouraged, as is correctness of the translation. 
+If a PR that outlines a rule-change includes a word or sentence in either
+Japanese, Turkish or Romanian and a translation in English, it will be rewarded
+with 0.1 point upon merging of this PR into master of pimotte/nomic, if the PR
+accurately reflects this. Uniqueness of this word or sentence is encouraged,
+as is correctness of the translation. 
 
 
 # Point Transfers
