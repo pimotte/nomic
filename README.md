@@ -547,4 +547,6 @@ No player can be put on Trial for an offense committed more than 7 days (148 hou
 
 **350** *Safety in opening*
 
-No player can be put on Trial for the act of opening of a Pull Request or Issue.
+If the act of opening a Pull Request is not forbidden by any other rule, then the manner in which a Pull Request or
+Issue is opened can not be considered a violation. An example is that if the player forgets to label an issue properly
+this can not be considered a violation so long as opening an issue is not forbidden.
