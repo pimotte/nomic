@@ -19,7 +19,7 @@ Player List
 
 ## Immutable Rules 
 
-**101** *The Beginning* 
+**101** *Everyone needs a code they can live by*
 
 All players must always abide by all the rules then in effect, in the
 form in which they are then in effect. The rules in the Initial Set are in
@@ -548,3 +548,4 @@ No player can be put on Trial for an offense committed more than 7 days (148 hou
 
 During a Trial and a 24 hour period after the Verdict has been given, no Transfers between a member of the jury and
 another player are allowed to be iniated or completed.
+
