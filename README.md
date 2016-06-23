@@ -293,6 +293,29 @@ or an empty string. Conditional votes are a comment representing a vote.
 In order to perform an action based on resolution of one of more conditional votes,
 a player must post a comment describing the resolution before performing said action.
 
+**345** *Dependency Hell*
+
+The owner of a PR may declare one dependency of this PR (henceforth "child") on another
+PR (henceforth "parent"), by including the text
+"This PR is dependent on #<number of parent>" in an unedited post. Any votes above
+this post are voided. A child PR must be of a branch that branches off the
+branch of the parent. Both PRs must be on master.
+
+A vote in favour on a child implies a vote in favour on its parent. This vote shall be read
+as a comment representing a vote in favour on the parent just before merging 
+for the purposes of other rules.
+
+A child may be formulated as if the parent is the current ruleset.
+
+The player who submitted the parent may declare the dependency to be "strict". 
+This is done by including the text "#<number of parent PR>'s dependency is strict" in an unedited post.
+Any votes above this post are voided.
+
+If a dependency is strict, the parent PR may not be merged seperately from the child.
+
+It is not allowed to withdraw a dependency. If a parent is closed without being merged, the
+child must also be closed without being merged.
+
 # Win Condition & Participation
 
 ## Immutable Rules
