@@ -30,3 +30,9 @@ Current score: 16.5
 | Issue | Title | Verdict|
 | ----- |:----- |:------ |
 | [#59](https://github.com/pimotte/nomic/issue/64) | The people vs @pimotte 1 | Not Guilty | 
+
+## Profile
+
+| (von) Karma | Afternoon Naps | Heart Rate | Hamsters |
+| ----------- | -------------- | ---------- | -------- |
+|           0 |              0 |          0 |        0 |

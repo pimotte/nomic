@@ -19,3 +19,9 @@ Current score: 3
 | Issue | Title | Verdict|
 | ----- |:-----|:------|
 | [#44] | The people vs @jdonkervliet 1 | Guilty (0 points penalty) |
+
+## Profile
+
+| (von) Karma | Afternoon Naps | Heart Rate | Hamsters |
+| ----------- | -------------- | ---------- | -------- |
+|           0 |              0 |          0 |        0 |
