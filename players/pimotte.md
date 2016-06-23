@@ -2,7 +2,7 @@
 
 GitHub handle: @pimotte
 
-Current score: 16.4
+Current score: 18.6
 
 ##Accepted Pull Requests:
 
@@ -30,3 +30,9 @@ Current score: 16.4
 | Issue | Title | Verdict|
 | ----- |:----- |:------ |
 | [#59](https://github.com/pimotte/nomic/issue/64) | The people vs @pimotte 1 | Not Guilty | 
+
+## Profile
+
+| (von) Karma | Afternoon Naps | Heart Rate | Hamsters |
+| ----------- | -------------- | ---------- | -------- |
+|           0 |              0 |          0 |        0 |
