@@ -2,7 +2,7 @@
 
 GitHub handle: @ManInTheGithub
 
-Current score: 1
+Current score: 2
 
 ##Accepted Pull Requests:
 
@@ -16,3 +16,9 @@ Current score: 1
 | Issue | Title | Verdict|
 | ----- |:-----|:------|
 
+
+## Profile
+
+| (von) Karma | Afternoon Naps | Heart Rate | Hamsters |
+| ----------- | -------------- | ---------- | -------- |
+|           0 |              0 |          0 |        0 |
