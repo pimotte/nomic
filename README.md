@@ -236,16 +236,18 @@ unanimity in votes is achieved before this time.
 This rule only applies to PRs that need to be voted on.
 
 
-**346** *Thumbs Up!*
+**349** *Thumbs Up!*
 
 A player can vote in favor of a rule-change by commenting on the pull request
 with a comment that consists only of ":+1:". Likewise, a player can vote against
 a rule-change by commenting on the pull request with a comment that consists
 only of ":-1:". 
 
-A commit on a pull request dated after any votes resets those votes, 
+A commit on a pull request dated after any votes voids those votes, 
 unless this commit is a merge commit resulting from a merge from master on pimotte/nomic to 
-the source branch of the pull request and does not alter the proposed rule-change.
+the source branch of the pull request and does not alter the proposed rule-change, or unless
+the commit only fulfills a condition from a conditional vote, in which case any conditional
+votes including that condition will not be voided.
 
 During a simple majority vote, a player may warn the other players that the vote is going to end.
 If this warning raises no objections and a reasonable time has passed, the vote ends and the rule
