@@ -551,6 +551,6 @@ another player are allowed to be iniated or completed.
 
 **350** *Safety in opening*
 
-If the act of opening a Pull Request is not forbidden by any other rule, then the manner in which a Pull Request or
-Issue is opened can not be considered a violation. An example is that if the player forgets to label an issue properly
-this can not be considered a violation so long as opening an issue is not forbidden.
+If the act of opening a Pull Request or Issue is not forbidden by any other rule, then the manner in which a Pull
+Request or Issue is opened can not be considered a violation. An example is that if the player forgets to label an issue
+properly this can not be considered a violation so long as opening an issue is not forbidden.
