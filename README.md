@@ -236,7 +236,7 @@ unanimity in votes is achieved before this time.
 This rule only applies to PRs that need to be voted on.
 
 
-**318** *Thumbs Up!*
+**346** *Thumbs Up!*
 
 A player can vote in favor of a rule-change by commenting on the pull request
 with a comment that consists only of ":+1:". Likewise, a player can vote against
@@ -256,7 +256,9 @@ An objection can be raised by any player at any time, this includes the option t
 to future warnings.
 
 If the rule-change is adopted, a player who can shall merge the pull request
-in a timely fashion, which marks completion of the vote.
+in a timely fashion, unless another rule specifies to wait.
+The merging of the pull request marks completion of the vote.
+
 
 **321** *Retraction Watch*
 
