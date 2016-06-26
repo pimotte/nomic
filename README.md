@@ -437,11 +437,12 @@ Upon request of another player, the initiator of a PR must state how many points
 to their score as a result of which specific point-awardable conditions.
 
 
-**343** *A Tattoo on the tongue*
+**353** *A Tattoo on the tongue*
 
-If a PR that outlines a rule-change includes at least one quote from a book, movie, TV-show, or person with a
-source-annotation in the original Pull Request message the proposer will receive 0.1 point 
-when the PR is merged into the master branch of pimotte/nomic.
+The presence of at least one quote from a book, movie, TV-show, or person with a
+source-annotation in an unedited comment by the initiator of a PR is a point-awardable
+condition on said PR, for 0.1 points.
+
 Players are encouraged to present a quote that matches the contents of the pull request that has not been used before in
 another Pull Request.
 
