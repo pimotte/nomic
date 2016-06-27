@@ -27,7 +27,6 @@ effect whenever a game begins. The Initial Set consists of Rules 101-116
 (immutable) and 201-214 (mutable).
 
 **102** *Laying Down the Law* 
-
 Initially rules in the 100's are immutable and rules in the 200's are
 mutable. Rules subsequently enacted or transmuted (that is, changed from
 immutable to mutable or vice versa) may be immutable or mutable regardless of
@@ -552,6 +551,8 @@ The prosecutor of a Trial is selected as follows:
 A Trial shall take place in a GitHub issue with the Trial label. The Trial shall be named "The people vs #githubhandle
 XX" where #githubhandle is the name of the defendant and XX is the number representing how often this player has been on
 Trial.
+
+**360** *The Trial Procedure*
 
 A Trial procedure takes place in the following way:
 
