@@ -9,17 +9,17 @@ at least make a stab at reading that. This file is in
 
 Player List 
 -----------
-1. Pim Otte (@pimotte)
-2. Stefan Hugtenburg (@MrHug)
-3. Arthur Bik (@arthurbik)
-4. Jesse Donkervliet (@jdonkervliet)
-5. Otto Visser (@ManInTheGitHub)
+1. [Pim Otte](players/pimotte.md) (@pimotte)
+2. [Stefan Hugtenburg](players/mrhug.md) (@MrHug)
+3. [Arthur Bik](players/arthurbik.md) (@arthurbik)
+4. [Jesse Donkervliet](players/jdonkervliet.md) (@jdonkervliet)
+5. [Otto Visser](players/maninthegithub.md) (@ManInTheGitHub)
 
 # Rules
 
 ## Immutable Rules 
 
-**101** *The Beginning* 
+**101** *Everyone needs a code they can live by*
 
 All players must always abide by all the rules then in effect, in the
 form in which they are then in effect. The rules in the Initial Set are in
@@ -236,16 +236,18 @@ unanimity in votes is achieved before this time.
 This rule only applies to PRs that need to be voted on.
 
 
-**318** *Thumbs Up!*
+**349** *Thumbs Up!*
 
 A player can vote in favor of a rule-change by commenting on the pull request
 with a comment that consists only of ":+1:". Likewise, a player can vote against
 a rule-change by commenting on the pull request with a comment that consists
 only of ":-1:". 
 
-A commit on a pull request dated after any votes resets those votes, 
+A commit on a pull request dated after any votes voids those votes, 
 unless this commit is a merge commit resulting from a merge from master on pimotte/nomic to 
-the source branch of the pull request and does not alter the proposed rule-change.
+the source branch of the pull request and does not alter the proposed rule-change, or unless
+the commit only fulfills a condition from a conditional vote, in which case any conditional
+votes including that condition will not be voided.
 
 During a simple majority vote, a player may warn the other players that the vote is going to end.
 If this warning raises no objections and a reasonable time has passed, the vote ends and the rule
@@ -256,7 +258,9 @@ An objection can be raised by any player at any time, this includes the option t
 to future warnings.
 
 If the rule-change is adopted, a player who can shall merge the pull request
-in a timely fashion, which marks completion of the vote.
+in a timely fashion, unless another rule specifies to wait.
+The merging of the pull request marks completion of the vote.
+
 
 **321** *Retraction Watch*
 
@@ -292,6 +296,29 @@ or an empty string. Conditional votes are a comment representing a vote.
 
 In order to perform an action based on resolution of one of more conditional votes,
 a player must post a comment describing the resolution before performing said action.
+
+**345** *Dependency Hell*
+
+The owner of a PR may declare one dependency of this PR (henceforth "child") on another
+PR (henceforth "parent"), by including the text
+"This PR is dependent on #<number of parent>" in an unedited post. Any votes above
+this post are voided. A child PR must be of a branch that branches off the
+branch of the parent. Both PRs must be on master.
+
+A vote in favour on a child implies a vote in favour on its parent. This vote shall be read
+as a comment representing a vote in favour on the parent just before merging 
+for the purposes of other rules.
+
+A child may be formulated as if the parent is the current ruleset.
+
+The player who submitted the parent may declare the dependency to be "strict". 
+This is done by including the text "#<number of parent PR>'s dependency is strict" in an unedited post.
+Any votes above this post are voided.
+
+If a dependency is strict, the parent PR may not be merged seperately from the child.
+
+It is not allowed to withdraw a dependency. If a parent is closed without being merged, the
+child must also be closed without being merged.
 
 # Win Condition & Participation
 
@@ -351,6 +378,19 @@ label "Hiatus". As long as this issue is open, this player will be considered
 to be a non-player for all intents and purposes, including but not limited
 to voting and jury selection. Players which currently play any role in a Trial
 or are Judge in a Judgement may not perform this action.
+
+**351** *So long, and thanks for all the fish*
+
+If a player A doubts the activity of another player B and player B has not shown
+any sign of activity for a period of at least 7 days on GitHub in pimotte/nomic, player A can
+create an issue titled `Calling forth player X` where `X` is the GitHub handle of player B.
+
+Player B then has 2 weeks to respond to this issue thus indicating he is still
+wants to actively take part in the game. If he has not responded after 2 weeks,
+player A may declare player B to be on hiatus.
+
+This state of hiatus is automatically lifted when player B responds to the issue,
+showing he is still alive and active. After this response the issue shall be closed.
 
 
 # Turns
