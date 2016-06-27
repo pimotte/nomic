@@ -429,9 +429,9 @@ A rule implementing a point-awardable condition must at least specifiy:
 The number of points for a point-awardable condition will be awarded upon merging
 of the PR that fulfills the condition, if the PR reflects this awarding of points.
 
-Players cannot obtain points using a point-awardable condition introduced that PR.
+Players cannot obtain points using a point-awardable condition introduced in *that* PR.
 
-Upon request of another player, a the initiator of a PR must state how many points their PR adds
+Upon request of another player, the initiator of a PR must state how many points their PR adds
 to their score as a result of which specific point-awardable conditions.
 
 
