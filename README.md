@@ -529,7 +529,7 @@ If a player (unwittingly) performs an action that directly contradicts a
 rule, a procedure defined as a _Trial_ can take place. A Trial is concluded with a _Verdict_
 that will be enacted by someone who has this power.
 
-**359** *A fair Trial*
+**359** *Roleplaying in Court*
 
 A Trial features three roles:
 
@@ -537,7 +537,7 @@ A Trial features three roles:
 - A prosecutor.
 - A jury, comprised of at least one player.
 
-No player can take multiple roles in a single trial, i.e. a player can not be both prosecutor and jury.
+No player can take multiple roles in a single Trial, i.e. a player can not be both prosecutor and jury.
 
 **363** *Jury Selection*
 
