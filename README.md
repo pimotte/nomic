@@ -529,7 +529,7 @@ If a player (unwittingly) performs an action that directly contradicts a
 rule, a procedure defined as a _Trial_ can take place. A Trial is concluded with a _Verdict_
 that will be enacted by someone who has this power.
 
-**356** *A fair Trial*
+**359** *A fair Trial*
 
 A Trial features three roles:
 
@@ -555,22 +555,25 @@ Trial.
 
 A Trial procedure takes place in the following way:
 
-- The prosecutor will outline the actions of the defendant that he claims are in violation of the rules and demand a
+1. The roles are assigned through their respective processes.
+2. The prosecutor will outline the actions of the defendant that he claims are in violation of the rules and demand a
 	punishment in the form of a non-negative integer point reduction of the defendants point. This reduction can be of 0
 	points.
-- The defendant is allowed to defend his actions and can plead either _Guilty_ or _Not Guilty_. If he pleads Guilty, he
+3. The defendant is allowed to defend his actions and can plead either _Guilty_ or _Not Guilty_. If he pleads Guilty, he
 	can propose an alternative punishment in the form of a non-negative integer point reduction no larger than that of the
 	prosecution. If he pleads Not Guilty, an alternative punishment of a zero point reduction is assumed.
-- The prosecution and jury may ask the defendant about his actions and the defendant should either answer these
+4. The prosecution and jury may ask the defendant about his actions and the defendant should either answer these
 	questions to the best of his abilities, or exercise his right to remain silent. Lying during a Trial is an
 	offense for which a player can be put on Trial.
-- After the jury has no more questions to ask, they will deliberate on their Verdict.
-- Deliberation of the Verdict will happen in public in the GitHub issue, but the defendant and prosecutor are no
+5. After the jury has no more questions to ask, the prosecution and defense get the opportunity to present a closing
+	statement with the defendant being the last one to speak. 
+6. The jury will deliberate on their Verdict.
+7. Deliberation of the Verdict will happen in public in the GitHub issue, but the defendant and prosecutor are no
 	longer allowed to interfere in this procedure.
-- The Jury renders their Verdict in the GitHub issue.
-- If the defendant is found Guilty, the illegal actions of the defendant will be undone by someone who has this power in
+8. The Jury renders their Verdict in the GitHub issue.
+9. If the defendant is found Guilty, the illegal actions of the defendant will be undone by someone who has this power in
 	a timely fashion.
-- During a Trial session, both prosecution and defense are allowed to refer to old Trials in their pleas for a certain
+10. During a Trial session, both prosecution and defense are allowed to refer to old Trials in their pleas for a certain
 	punishment.
 
 **358** *Review without Passion*

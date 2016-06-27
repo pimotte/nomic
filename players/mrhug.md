@@ -2,7 +2,7 @@
 
 GitHub handle: @MrHug
 
-Current score: 24.6
+Current score: 25.6
 
 ##Accepted Pull Requests:
 
