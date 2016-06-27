@@ -587,6 +587,8 @@ deduction than the prosecutor's proposal and should be a reduction of at least 0
 	point reduction. The rounded average (rounded to one decimal place) of these votes will be the final verdict of the
 	jury.
 
+**357** *The Right to Appeal*
+
 After the Verdict has been rendered the defendant has the right to _Appeal_ if at least two players eligible for jury
 duty exist that did not have a role in the Trial. The Appeal is a Trial with a new jury and (if possible) the same
 prosecution. If prosecution is no longer available, the procedure of invoking Judgement will be used to select a new
