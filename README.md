@@ -549,6 +549,8 @@ The prosecutor of a Trial is selected as follows:
 - Else If no other method of choosing a prosecutor in a Trial is defined, the prosecutor will be selected through the
 	procedure for invoking Judgement. In this procedure the defendant will take the role of the person invoking Judgement.
 
+**361** *The Court Room*
+
 A Trial shall take place in a GitHub issue with the Trial label. The Trial shall be named "The people vs #githubhandle
 XX" where #githubhandle is the name of the defendant and XX is the number representing how often this player has been on
 Trial.
