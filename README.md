@@ -539,6 +539,8 @@ A Trial features three roles:
 
 No player can take multiple roles in a single trial, i.e. a player can not be both prosecutor and jury.
 
+**363** *Jury Selection*
+
 The jury in a Trial is selected in a procedure called _Jury Selection_. Jury Selection is defined as follows.
 Both prosecution and defendant must call forth at least one player for jury duty. (Note: There is no uniqueness
 requirement, which means a one-manned jury is still a valid jury.)
