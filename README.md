@@ -564,7 +564,7 @@ A Trial procedure takes place in the following way:
 - The prosecution and jury may ask the defendant about his actions and the defendant should either answer these
 	questions to the best of his abilities, or exercise his right to remain silent. Lying during a Trial is an
 	offense for which a player can be put on Trial.
-- After the jury has no more questions to ask, they will deliberate on their _Verdict_.
+- After the jury has no more questions to ask, they will deliberate on their Verdict.
 - Deliberation of the Verdict will happen in public in the GitHub issue, but the defendant and prosecutor are no
 	longer allowed to interfere in this procedure.
 - The Jury renders their Verdict in the GitHub issue.
