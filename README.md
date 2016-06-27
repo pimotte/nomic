@@ -523,11 +523,13 @@ Judgement is completed when the Judge has decided all questions and is not overr
 Judge's Judgement has been completed, any Judge is no longer a Judge and a player who can shall 
 close all open issues labelled "Judgement" in a timely fashion. 
 
-**324** *Hold it!*
+**324** *Punish the Guilty*
 
 If a player (unwittingly) performs an action that directly contradicts a
-rule, a procedure defined as a _Trial_, with the rule-breaking player as the defendant, will take place. A Trial is
-defined as follows.
+rule, a procedure defined as a _Trial_ can take place. A Trial is concluded with a _Verdict_
+that will be enacted by someone who has this power.
+
+A Trial is defined as follows.
 
 - Every Trial takes places on GitHub in a new issue with the "Trial" label.
 - Every Trial features a defendant.
