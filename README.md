@@ -523,7 +523,7 @@ Judgement is completed when the Judge has decided all questions and is not overr
 Judge's Judgement has been completed, any Judge is no longer a Judge and a player who can shall 
 close all open issues labelled "Judgement" in a timely fashion. 
 
-**324** *Punish the Guilty*
+**354** *Punish the Guilty*
 
 If a player (unwittingly) performs an action that directly contradicts a
 rule, a procedure defined as a _Trial_ can take place. A Trial is concluded with a _Verdict_
