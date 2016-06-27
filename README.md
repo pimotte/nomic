@@ -543,6 +543,8 @@ The jury in a Trial is selected in a procedure called _Jury Selection_. Jury Sel
 Both prosecution and defendant must call forth at least one player for jury duty. (Note: There is no uniqueness
 requirement, which means a one-manned jury is still a valid jury.)
 
+**362** *Perfect Prosecutor*
+
 The prosecutor of a Trial is selected as follows:
 
 - If a player accuses another player of breaking a rule, the accuser will take the role of prosecutor in the Trial.
