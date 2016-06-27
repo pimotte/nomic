@@ -573,6 +573,8 @@ A Trial procedure takes place in the following way:
 - During a Trial session, both prosecution and defense are allowed to refer to old Trials in their pleas for a certain
 	punishment.
 
+**358** *Review without Passion*
+
 The Verdict of the jury is two-fold, first the guilt of the defendant must be established, secondly the punishment.
 The jury shall first decide if the defendant is _Guilty_ of the offense or _Not Guilty_. 
 
