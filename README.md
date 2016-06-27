@@ -529,22 +529,32 @@ If a player (unwittingly) performs an action that directly contradicts a
 rule, a procedure defined as a _Trial_ can take place. A Trial is concluded with a _Verdict_
 that will be enacted by someone who has this power.
 
-**355** *A fair Trial*
+**356** *A fair Trial*
 
-A Trial is defined as follows.
+A Trial features three roles:
 
-- Every Trial takes places on GitHub in a new issue with the "Trial" label.
-- Every Trial features a defendant.
-- Every Trial features a prosecutor.
-- Every Trial features a jury, comprised of at least one player.
-- No player can take multiple roles in a single trial, i.e. a player can not be both prosecutor and jury.
-- Both prosecution and defendant must call forth at least one player for jury duty. (Note: There is no uniqueness
-	requirement, which means a one-manned jury is still a valid jury.)
-- Every Trial shall have the name "The people vs #githubhandle XX" where #githubhandle is the name of the defendant and
-	XX is the number representing how often this player has been on Trial.
+- A defendant, the player charged with the violation.
+- A prosecutor.
+- A jury, comprised of at least one player.
+
+No player can take multiple roles in a single trial, i.e. a player can not be both prosecutor and jury.
+
+The jury in a Trial is selected in a procedure called _Jury Selection_. Jury Selection is defined as follows.
+Both prosecution and defendant must call forth at least one player for jury duty. (Note: There is no uniqueness
+requirement, which means a one-manned jury is still a valid jury.)
+
+The prosecutor of a Trial is selected as follows:
+
 - If a player accuses another player of breaking a rule, the accuser will take the role of prosecutor in the Trial.
 - Else If no other method of choosing a prosecutor in a Trial is defined, the prosecutor will be selected through the
 	procedure for invoking Judgement. In this procedure the defendant will take the role of the person invoking Judgement.
+
+A Trial shall take place in a GitHub issue with the Trial label. The Trial shall be named "The people vs #githubhandle
+XX" where #githubhandle is the name of the defendant and XX is the number representing how often this player has been on
+Trial.
+
+A Trial procedure takes place in the following way:
+
 - The prosecutor will outline the actions of the defendant that he claims are in violation of the rules and demand a
 	punishment in the form of a non-negative integer point reduction of the defendants point. This reduction can be of 0
 	points.
@@ -557,24 +567,31 @@ A Trial is defined as follows.
 - After the jury has no more questions to ask, they will deliberate on their _Verdict_.
 - Deliberation of the Verdict will happen in public in the GitHub issue, but the defendant and prosecutor are no
 	longer allowed to interfere in this procedure.
-- The Verdict of the jury is two-fold, first the guilt of the defendant must be established, secondly the punishment.
-	- The jury shall first decide if the defendant is _Guilty_ of the offense or _Not Guilty_. 
-	- If no consensus on the guilt of the defendant can be established, then a voting round will take place. Only jury
-		members are allowed to vote. If the voting does not result in a simple majority, the defendant will be declared Not
-		Guilty.
-	- If the jury has found the defendant to be _Guilty_, a punishment shall be decided. This punishment may not be a
-		larger deduction than the prosecutor's proposal, nor may it be smaller than that of the defendant.
-	- If no concensus on the final punishment can be reached by the jury, every jury member votes for a certain point
-		reduction. The rounded average (to the nearest integer) of these votes will be the final verdict of the jury.
+- The Jury renders their Verdict in the GitHub issue.
 - If the defendant is found Guilty, the illegal actions of the defendant will be undone by someone who has this power in
 	a timely fashion.
-- Once the jury has given it's Verdict, it will be enacted by someone who has this power in a timely fashion.
-- If at least two players eligible for jury duty exist that were not part of the Trial (i.e. no part of the jury,
-	defense or prosecution), the defendant has the right to appeal the verdict in a new trial with a new jury and (if
-	possible) the same prosecution. If prosecution is no longer available, the procedure of invoking Judgement will be
-	used to select a new prosecutor.
 - During a Trial session, both prosecution and defense are allowed to refer to old Trials in their pleas for a certain
 	punishment.
+
+The Verdict of the jury is two-fold, first the guilt of the defendant must be established, secondly the punishment.
+The jury shall first decide if the defendant is _Guilty_ of the offense or _Not Guilty_. 
+
+- If no consensus on the guilt of the defendant can be established, then a voting round will take place. Only jury
+	members are allowed to vote. If the voting does not result in a simple majority, the defendant will be declared Not
+	Guilty.
+
+If the jury has found the defendant to be _Guilty_, a punishment shall be decided. This punishment may not be a larger
+deduction than the prosecutor's proposal and should be a reduction of at least 0 points.
+
+- If no concensus on the final punishment can be reached by the jury, every jury member votes for a certain positive
+	point reduction. The rounded average (rounded to one decimal place) of these votes will be the final verdict of the
+	jury.
+
+After the verdict has been rendered the defendant has the right to _Appeal_ if at least two players eligible for jury
+duty exist that did not have a role in the Trial. The Appeal is a Trial with a new jury and (if possible) the same
+prosecution. If prosecution is no longer available, the procedure of invoking Judgement will be used to select a new
+prosecutor for the Appeal.
+
 
 **326** *Let it Go!*
 
