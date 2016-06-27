@@ -590,3 +590,10 @@ No player can be put on Trial for an offense committed more than 7 days (148 hou
 During a Trial and a 24 hour period after the Verdict has been given, no Transfers between a member of the jury and
 another player are allowed to be iniated or completed.
 
+**350** *Safety in opening*
+
+If the act of opening `X` is not forbidden by any other rule, then the manner in which `X` is opened can not be
+considered a violation. `X` can be either a Pull Request or Issue in this rule.
+
+An example is that if the player forgets to label an issue properly this can not be considered a
+violation so long as opening an issue is not forbidden.
