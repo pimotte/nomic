@@ -567,10 +567,10 @@ A Trial is defined as follows.
 - If the defendant is found Guilty, the illegal actions of the defendant will be undone by someone who has this power in
 	a timely fashion.
 - Once the jury has given it's Verdict, it will be enacted by someone who has this power in a timely fashion.
-- If at least two eligible voters exist that were not part of the Trial (i.e. no part of the jury, defense or
-	prosecution), the defendant has the right to appeal the verdict in a new trial with a new jury and (if possible) the
-	same prosecution. If prosecution is no longer available, the procedure of invoking Judgement will be used to select a
-	new prosecutor.
+- If at least two players eligible for jury duty exist that were not part of the Trial (i.e. no part of the jury,
+	defense or prosecution), the defendant has the right to appeal the verdict in a new trial with a new jury and (if
+	possible) the same prosecution. If prosecution is no longer available, the procedure of invoking Judgement will be
+	used to select a new prosecutor.
 - During a Trial session, both prosecution and defense are allowed to refer to old Trials in their pleas for a certain
 	punishment.
 
