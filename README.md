@@ -27,6 +27,7 @@ effect whenever a game begins. The Initial Set consists of Rules 101-116
 (immutable) and 201-214 (mutable).
 
 **102** *Laying Down the Law* 
+
 Initially rules in the 100's are immutable and rules in the 200's are
 mutable. Rules subsequently enacted or transmuted (that is, changed from
 immutable to mutable or vice versa) may be immutable or mutable regardless of
