@@ -559,7 +559,7 @@ A Trial shall take place in a GitHub issue with the Trial label. The Trial shall
 XX" where #githubhandle is the name of the defendant and XX is the number representing how often this player has been on
 Trial.
 
-**360** *The Trial Procedure*
+**365** *The Trial Procedure*
 
 A Trial procedure takes place in the following way:
 
