@@ -574,15 +574,16 @@ A Trial procedure takes place in the following way:
 	questions to the best of his abilities, or exercise his right to remain silent. Lying during a Trial is an
 	offense for which a player can be put on Trial.
 5. After the jury has no more questions to ask, the prosecution and defense get the opportunity to present a closing
-	statement with the defendant being the last one to speak. 
+	statement with the defendant being the last one to speak. During this closing statement and throughout other parts of
+	the Trial, defendant and prosecution are allowed to confront the jury with previous Verdicts handed out by them or by
+	other juries in similar cases.
 6. The jury will deliberate on their Verdict.
 7. Deliberation of the Verdict will happen in public in the GitHub issue, but the defendant and prosecutor are no
 	longer allowed to interfere in this procedure.
 8. The Jury renders their Verdict in the GitHub issue.
 9. If the defendant is found Guilty, the illegal actions of the defendant will be undone by someone who has this power in
 	a timely fashion.
-10. During a Trial session, both prosecution and defense are allowed to refer to old Trials in their pleas for a certain
-	punishment.
+	
 
 **358** *Review without Passion*
 
