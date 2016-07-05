@@ -470,6 +470,12 @@ Pull Requests that outline a valid Transfer need not be voted on.
 
 Pull Requests that ouline a valid Transfer can in all other aspects be regarded as non rule-change Pull Requests.
 
+**366** *Tit for Tat*
+
+The Sender in a Transfer X can add conditions to those outlined in the rules that make that specific Transfer X valid.
+The Receiver must post a comment describing the resolution of these extra conditions with validity as a result, before
+he can accept the Transfer.
+
 # Criminal Law
 
 ## Mutable Rules
