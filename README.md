@@ -627,7 +627,7 @@ No player can be put on Trial for an offense committed more than 7 days (148 hou
 **344** *Oi, that's cheating!*
 
 During a Trial and a 24 hour period after the Verdict has been given, no Transfers between a member of the jury and
-another player are allowed to be iniated or completed.
+another player are allowed to be initiated or completed.
 
 **350** *Safety in opening*
 
