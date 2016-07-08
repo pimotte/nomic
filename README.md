@@ -249,6 +249,12 @@ the source branch of the pull request and does not alter the proposed rule-chang
 the commit only fulfills a condition from a conditional vote, in which case any conditional
 votes including that condition will not be voided.
 
+If the rule-change is adopted, a player who can shall merge the pull request
+in a timely fashion, unless another rule specifies to wait.
+The merging of the pull request marks completion of the vote.
+
+**364** *Warning, no dawdling*
+
 During a simple majority vote, a player may warn the other players that the vote is going to end.
 If this warning raises no objections and a reasonable time has passed, the vote ends and the rule
 is adopted when a majority of the votes that are cast are in favor of the rule-change. 
@@ -256,10 +262,6 @@ A reasonable time in this context is at least 72 hours and is at least enough ti
 to reach all other players and for all other players to react to the warning. 
 An objection can be raised by any player at any time, this includes the option to raise objections
 to future warnings.
-
-If the rule-change is adopted, a player who can shall merge the pull request
-in a timely fashion, unless another rule specifies to wait.
-The merging of the pull request marks completion of the vote.
 
 
 **321** *Retraction Watch*
