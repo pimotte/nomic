@@ -305,13 +305,16 @@ The owner of a PR may declare one dependency of this PR (henceforth "child") on 
 PR (henceforth "parent"), by including the text
 "This PR is dependent on #<number of parent>" in an unedited post. Any votes above
 this post are voided. A child PR must be of a branch that branches off the
-branch of the parent. Both PRs must be on master.
+branch of the parent at the moment of declaring the dependency. Both PRs must be on master.
 
 A vote in favour on a child implies a vote in favour on its parent. This vote shall be read
 as a comment representing a vote in favour on the parent just before merging 
 for the purposes of other rules.
 
 A child may be formulated as if the parent is the current ruleset.
+
+If a commit that invalidates votes is added on a parent, any vote that
+implied one on that parent at that time is invalidated.
 
 The player who submitted the parent may declare the dependency to be "strict". 
 This is done by including the text "#<number of parent PR>'s dependency is strict" in an unedited post.
@@ -321,6 +324,10 @@ If a dependency is strict, the parent PR may not be merged seperately from the c
 
 It is not allowed to withdraw a dependency. If a parent is closed without being merged, the
 child must also be closed without being merged.
+
+
+
+
 
 # Win Condition & Participation
 
