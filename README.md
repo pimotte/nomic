@@ -299,7 +299,7 @@ or an empty string. Conditional votes are a comment representing a vote.
 In order to perform an action based on resolution of one of more conditional votes,
 a player must post a comment describing the resolution before performing said action.
 
-**345** *Dependency Hell*
+**368** *Dependency Hell*
 
 The owner of a PR may declare one dependency of this PR (henceforth "child") on another
 PR (henceforth "parent"), by including the text
