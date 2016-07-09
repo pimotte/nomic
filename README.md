@@ -418,6 +418,24 @@ One turn consists of proposing one rule-change and having it voted on.
 All players begin with the number of points equal to the outcome of this formula:
 `max(0, min_i(#points of player i) - 2)`
 
+**352** *Scrambling for points*
+
+A **point-awardable condition** is a condition on a PR on master of pimotte/nomic
+that may be rewarded with a number of points. 
+
+A rule implementing a point-awardable condition must at least specifiy:
+
+- The condition under which points may be awarded
+- How many points may be awarded
+
+The number of points for a point-awardable condition will be awarded upon merging
+of the PR that fulfills the condition, if the PR reflects this awarding of points.
+
+Players cannot obtain points using a point-awardable condition introduced in *that* PR.
+
+Upon request of another player, the initiator of a PR must state how many points their PR adds
+to their score as a result of which specific point-awardable conditions.
+
 
 **343** *A Tattoo on the tongue*
 
