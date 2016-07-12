@@ -253,7 +253,7 @@ If the rule-change is adopted, a player who can shall merge the pull request
 in a timely fashion, unless another rule specifies to wait.
 The merging of the pull request marks completion of the vote.
 
-**364** *Warning, no dawdling*
+**367** *Warning, no dawdling*
 
 During a simple majority vote, a player may warn the other players that the vote is going to end.
 If this warning raises no objections and a reasonable time has passed, the vote ends and the rule
@@ -261,7 +261,8 @@ is adopted when a majority of the votes that are cast are in favor of the rule-c
 A reasonable time in this context is at least 72 hours and is at least enough time for the warning
 to reach all other players and for all other players to react to the warning. 
 An objection can be raised by any player at any time, this includes the option to raise objections
-to future warnings.
+to future warnings. Commits that invalidate votes, also invalidate warnings. 
+Warnings on a PR that has a dependency automatically implies a warning on that dependency.
 
 
 **321** *Retraction Watch*
