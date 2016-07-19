@@ -447,7 +447,7 @@ condition on said PR, for 0.1 points.
 Players are encouraged to present a quote that matches the contents of the pull request that has not been used before in
 another Pull Request.
 
-**308** *Hash Brownie Points*
+**369** *Hash Brownie Points*
 
 The presense of  `y` commit hashes containing an English dictionary word of at least
 four consecutive letters is a point-awardable condition on a PR which contains said commit
