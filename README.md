@@ -449,7 +449,7 @@ another Pull Request.
 
 **369** *Hash Brownie Points*
 
-The presense of  `y` commit hashes containing an English dictionary word of at least
+The presence of  `y` commit hashes containing an English dictionary word of at least
 four consecutive letters is a point-awardable condition on a PR which contains said commit
 for `y` points.
 
