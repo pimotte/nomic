@@ -575,6 +575,17 @@ The prosecutor of a Trial is selected as follows:
 - Else If no other method of choosing a prosecutor in a Trial is defined, the prosecutor will be selected through the
 	procedure for invoking Judgement. In this procedure the defendant will take the role of the person invoking Judgement.
 
+**371** *Ace Attorney*
+
+A _Defense Attorney_ is a player that can be chosen by the defendant to represent him during a Trial. The defense
+attorney can only be chosen at the start of the Trial and switches are not allowed. The defendant is allowed to overrule
+statements by his defense attorney if done before the jury deliberation. The defendant may also fire his defense
+attorney by explicitly expressing this in a comment in the Trial. After this the defendant is the Defense Attorney in
+the Trial.
+
+If the defendant feels he has not been properly represented he should use his right to appeal for this.
+
+
 **361** *The Court Room*
 
 A Trial shall take place in a GitHub issue with the Trial label. The Trial shall be named "The people vs #githubhandle
