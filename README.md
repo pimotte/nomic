@@ -612,18 +612,20 @@ A Trial procedure takes place in the following way:
 2. The prosecutor will outline the actions of the defendant that he claims are in violation of the rules and demand a
 	punishment in the form of a non-negative integer point reduction of the defendants point. This reduction can be of 0
 	points.
-3. The defendant is allowed to defend his actions and can plead either _Guilty_ or _Not Guilty_. If he pleads Guilty, he
-	can propose an alternative punishment in the form of a non-negative integer point reduction no larger than that of the
-	prosecution. If he pleads Not Guilty, an alternative punishment of a zero point reduction is assumed.
+3. The defense attorney is allowed to defend the actions of the defendant and can enter a plea of either _Guilty_ or
+	_Not Guilty_. If a Guilty plea is entered, he can propose an alternative punishment in the form of a non-negative
+	integer point reduction no larger than that of the prosecution. If a Not Guilty plea is entered, an alternative
+	punishment of a zero point reduction is assumed.
 4. The prosecution and jury may ask the defendant about his actions and the defendant should either answer these
 	questions to the best of his abilities, or exercise his right to remain silent. Lying during a Trial is an
-	offense for which a player can be put on Trial.
-5. After the jury has no more questions to ask, the prosecution and defense get the opportunity to present a closing
-	statement with the defendant being the last one to speak. During this closing statement and throughout other parts of
-	the Trial, defendant and prosecution are allowed to confront the jury with previous Verdicts handed out by them or by
-	other juries in similar cases.
+	offense for which a player can be put on Trial. The defense attorney can advise the defendant on whether or not these
+	questions should be answered.
+5. After the jury has no more questions to ask, the prosecution and defense attorney get the opportunity to present a
+	closing statement with the defendant being given the last opportunity to speak. During this closing statement and
+	throughout other parts of the Trial, the defense (attorney) and prosecution are allowed to confront the jury with
+	previous Verdicts handed out by them or by other juries in similar cases.
 6. The jury will deliberate on their Verdict.
-7. Deliberation of the Verdict will happen in public in the GitHub issue, but the defendant and prosecutor are no
+7. Deliberation of the Verdict will happen in public in the GitHub issue, but the other participants in the Trial are no
 	longer allowed to interfere in this procedure.
 8. The Jury renders their Verdict in the GitHub issue.
 9. If the defendant is found Guilty, the illegal actions of the defendant will be undone by someone who has this power in
