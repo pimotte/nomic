@@ -558,7 +558,7 @@ If a player (unwittingly) performs an action that directly contradicts a
 rule, a procedure defined as a _Trial_ can take place. A Trial is concluded with a _Verdict_
 that will be enacted by someone who has this power.
 
-**359** *Roleplaying in Court*
+**373** *Roleplaying in Court*
 
 A Trial features at least these roles:
 
