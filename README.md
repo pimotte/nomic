@@ -585,6 +585,8 @@ the Trial.
 
 If the defendant feels he has not been properly represented he should use his right to appeal for this.
 
+If the defendant chooses not to have a defense attorney, he will take the role of defense attorney in addition to his
+role as defendant. This is called _Self Representation_.
 
 **361** *The Court Room*
 
