@@ -567,7 +567,8 @@ A Trial features at least these roles:
 - A defense attorney.
 - A jury, comprised of at least one player.
 
-No player can take multiple roles in a single Trial, i.e. a player can not be both prosecutor and jury.
+No player can take multiple roles in a single Trial, i.e. a player can not be both prosecutor and jury, unless another
+rule explicitly grants a player or role this right.
 
 **363** *Jury Selection*
 
