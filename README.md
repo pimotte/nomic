@@ -560,10 +560,11 @@ that will be enacted by someone who has this power.
 
 **359** *Roleplaying in Court*
 
-A Trial features three roles:
+A Trial features at least these roles:
 
 - A defendant, the player charged with the violation.
 - A prosecutor.
+- A defense attorney.
 - A jury, comprised of at least one player.
 
 No player can take multiple roles in a single Trial, i.e. a player can not be both prosecutor and jury.
