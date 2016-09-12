@@ -14,6 +14,7 @@ Player List
 3. [Arthur Bik](players/arthurbik.md) (@arthurbik)
 4. [Jesse Donkervliet](players/jdonkervliet.md) (@jdonkervliet)
 5. [Otto Visser](players/maninthegithub.md) (@ManInTheGitHub)
+6. [Pim Veldhuisen](players/pimveldhuisen.md) (@pimveldhuisen)
 
 # Rules
 
