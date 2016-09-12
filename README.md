@@ -253,7 +253,7 @@ If the rule-change is adopted, a player who can shall merge the pull request
 in a timely fashion, unless another rule specifies to wait.
 The merging of the pull request marks completion of the vote.
 
-**364** *Warning, no dawdling*
+**367** *Warning, no dawdling*
 
 During a simple majority vote, a player may warn the other players that the vote is going to end.
 If this warning raises no objections and a reasonable time has passed, the vote ends and the rule
@@ -261,7 +261,8 @@ is adopted when a majority of the votes that are cast are in favor of the rule-c
 A reasonable time in this context is at least 72 hours and is at least enough time for the warning
 to reach all other players and for all other players to react to the warning. 
 An objection can be raised by any player at any time, this includes the option to raise objections
-to future warnings.
+to future warnings. Commits that invalidate votes, also invalidate warnings. 
+Warnings on a PR that has a dependency automatically implies a warning on that dependency.
 
 
 **321** *Retraction Watch*
@@ -453,17 +454,16 @@ condition on said PR, for 0.1 points.
 Players are encouraged to present a quote that matches the contents of the pull request that has not been used before in
 another Pull Request.
 
-**308** *Hash Brownie Points*
+**369** *Hash Brownie Points*
 
-If a PR that outlines a rule-change contains `y` commit hashes containing an English dictionary word of at least
-four consecutive letters, the proposer will be awarded `y` additional points when the PR is merged into the master
-branch of pimotte/nomic.
+The presence of  `y` commit hashes containing an English dictionary word of at least
+four consecutive letters is a point-awardable condition on a PR which contains said commit
+for `y` points.
 
 An English dictionary word is defined as a word found in the Oxford Dictionary available
 [here](http://www.oxforddictionaries.com/). The default search setting of Eng (UK) is to be used as a search criterium.
 
-Points are only awarded if the proposer includes the `y` points in his update of his score and mentions this explicitly
-in his PR.
+If the PR is a conditional PR, the commits must not be in the parent branch for the points to be awarded.
 
 **348** *他の言語 or diğer diller or alte limbi *
 
@@ -497,6 +497,13 @@ In order for a Transfer to be valid, the following conditions need to be met:
 Pull Requests that outline a valid Transfer need not be voted on. 
 
 Pull Requests that ouline a valid Transfer can in all other aspects be regarded as non rule-change Pull Requests.
+
+**366** *Tit for Tat*
+
+The Sender of a Transfer X can add extra conditions to Transfer X in addition to those outlined in the rules. If these
+extra conditions contradict the conditions in the rules, the Transfer can never be valid.
+The Receiver must post a comment describing the resolution of these extra conditions with validity as a result, before
+he can accept the Transfer.
 
 # Criminal Law
 

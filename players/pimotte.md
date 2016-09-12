@@ -2,7 +2,7 @@
 
 GitHub handle: @pimotte
 
-Current score: 24.1
+Current score: 26.2
 
 ##Accepted Pull Requests:
 
