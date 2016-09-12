@@ -2,7 +2,7 @@
 
 GitHub handle: @pimveldhuisen
 
-Current score: 0
+Current score: 2
 
 ##Accepted Pull Requests:
 
@@ -17,4 +17,4 @@ Current score: 0
 
 
 ## Profile
-My favorite number is 88575
+My favorite number is 225
