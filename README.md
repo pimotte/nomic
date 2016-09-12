@@ -159,12 +159,11 @@ The total score of the player must reflect the gamestate.
 Players are excempt from this rule so long as they do not have at least one merged rule-change Pull Request. They can
 temporarily record their initial score in the player list.
 
-**309** *Pull, Don't Push*
+**374** *Pull, Don't Push*
 
 A rule-change is proposed by submitting a pull request, such that
 merging the pull request reflects the accurate state of the game after
-adoption of the rule-change. In case the rule-change has been given a number
-for reference, this number must be included in the title of the pull request.
+adoption of the rule-change.
 
 **312** *Let's Call the Moving Men*
 
