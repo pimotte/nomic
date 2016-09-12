@@ -447,17 +447,16 @@ condition on said PR, for 0.1 points.
 Players are encouraged to present a quote that matches the contents of the pull request that has not been used before in
 another Pull Request.
 
-**308** *Hash Brownie Points*
+**369** *Hash Brownie Points*
 
-If a PR that outlines a rule-change contains `y` commit hashes containing an English dictionary word of at least
-four consecutive letters, the proposer will be awarded `y` additional points when the PR is merged into the master
-branch of pimotte/nomic.
+The presence of  `y` commit hashes containing an English dictionary word of at least
+four consecutive letters is a point-awardable condition on a PR which contains said commit
+for `y` points.
 
 An English dictionary word is defined as a word found in the Oxford Dictionary available
 [here](http://www.oxforddictionaries.com/). The default search setting of Eng (UK) is to be used as a search criterium.
 
-Points are only awarded if the proposer includes the `y` points in his update of his score and mentions this explicitly
-in his PR.
+If the PR is a conditional PR, the commits must not be in the parent branch for the points to be awarded.
 
 **348** *他の言語 or diğer diller or alte limbi *
 
