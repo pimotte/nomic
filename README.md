@@ -163,8 +163,8 @@ temporarily record their initial score in the player list.
 
 A rule-change is proposed by submitting a pull request, such that
 merging the pull request reflects the accurate state of the game after
-adoption of the rule-change. In case the rule-change has been given a number
-for reference, this number must be included in the title of the pull request.
+adoption of the rule-change.
+The number which the rule-change has been given must be included in the title of the pull request.
 
 **312** *Let's Call the Moving Men*
 
