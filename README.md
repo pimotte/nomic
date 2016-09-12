@@ -151,7 +151,7 @@ following:
 - The current total score of the player.
 
 Other items may be added to these player files through non-rule-change Pull Requests. Players are encouraged to keep a
-list of Pull Requests that were merged and how points this netted them, so that the total can be easily recomputed. 
+list of Pull Requests that were merged and how many points this netted them, so that the total can be easily recomputed. 
 
 The total score of the player must reflect the gamestate.
 
@@ -465,7 +465,7 @@ An English dictionary word is defined as a word found in the Oxford Dictionary a
 
 If the PR is a conditional PR, the commits must not be in the parent branch for the points to be awarded.
 
-**348** *他の言語 or diğer diller or alte limbi *
+**348** *他の言語 or diğer diller or alte limbi*
 
 If a PR that outlines a rule-change includes a word or sentence in either
 Japanese, Turkish or Romanian and a translation in English, it will be rewarded
