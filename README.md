@@ -432,6 +432,8 @@ All players begin with the number of points equal to the outcome of this formula
 A **point-awardable condition** is a condition on a PR on master of pimotte/nomic
 that may be rewarded with a number of points. 
 
+PRs are only eligble for point-awardable conditions if they are to be voted on.
+
 A rule implementing a point-awardable condition must at least specifiy:
 
 - The condition under which points may be awarded
