@@ -650,6 +650,11 @@ deduction than the prosecutor's proposal and should be a reduction of at least 0
 	point reduction. The rounded average (rounded to one decimal place) of these votes will be the final verdict of the
 	jury.
 
+**378** *The Defense Culpability Act*
+
+If the defendant is found _Guilty_ and was represented by a defense attorney at the time jury deliberation started, this
+defense attorney will suffer the same punishment as the defendant.
+
 **357** *The Right to Appeal*
 
 After the Verdict has been rendered the defendant has the right to _Appeal_ if at least two players eligible for jury
