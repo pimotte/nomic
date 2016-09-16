@@ -520,9 +520,9 @@ by humans, specifying a current rule-set and any other varying attributes.
 A **Nomic representation** is a set of Nomic game states, one of which is
 designated as current.
 
-A **Nomic game state transition** is a method within a Nomic representation to designate
-a Nomic game state which is not current, as current. Such a transition is called
-**valid** if it is permitted by the current Nomic game state before the transition.
+A **Nomic game state transition** is a change in designation of the 
+current state in a Nomic representation. Such a transition is called
+**valid** if it is permitted by the current game state of this respresentation, prior to the change.
 
 
 
