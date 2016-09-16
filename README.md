@@ -560,12 +560,12 @@ that will be enacted by someone who has this power.
 
 **373** *Roleplaying in Court*
 
-A Trial features at least these roles:
+A Trial features at least these roles, that should be assigned in the following order:
 
-- A defendant, the player charged with the violation.
-- A prosecutor.
-- A defense attorney.
-- A jury, comprised of at least one player.
+1. A defendant, the player charged with the violation.
+2. A prosecutor.
+3. A defense attorney.
+4. A jury, comprised of at least one player.
 
 No player can take multiple roles in a single Trial, i.e. a player can not be both prosecutor and jury, unless another
 rule explicitly grants a player or role this right.
