@@ -506,6 +506,26 @@ extra conditions contradict the conditions in the rules, the Transfer can never 
 The Receiver must post a comment describing the resolution of these extra conditions with validity as a result, before
 he can accept the Transfer.
 
+# Representation of Nomics
+
+## Mutable Rules
+
+**377** *Representation Theory*
+
+A **Nomic** is a game in which the rules may change. 
+
+A **Nomic game state** is a record of a Nomic, interpretable
+by humans, specifying a current rule-set and any other varying attributes. 
+
+A **Nomic representation** is a set of Nomic game states, one of which is
+designated as current.
+
+A **Nomic game state transition** is method within a Nomic representation to designate
+a Nomic game state which is not current, as current. Such a transition is called
+**valid** if it is permitted by the current Nomic game state before the transition.
+
+
+
 # Criminal Law
 
 ## Mutable Rules
