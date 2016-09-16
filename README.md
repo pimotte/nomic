@@ -584,11 +584,14 @@ The prosecutor of a Trial is selected as follows:
 
 **371** *Ace Attorney*
 
-A _Defense Attorney_ is a player that can be chosen by the defendant to represent him during a Trial. The defense
-attorney can only be chosen at the start of the Trial and switches are not allowed. The defendant is allowed to overrule
-statements by his defense attorney if done before the jury deliberation. The defendant may also fire his defense
-attorney by explicitly expressing this in a comment in the Trial. After this the defendant is the Defense Attorney in
-the Trial.
+A _Defense Attorney_ is a player that can be chosen by the defendant to represent him during a Trial. The player chosen
+for defense attorney has the right to refuse this role. The defense attorney can only be chosen at the start of the
+Trial before the jury is selected and after the requested player has accepted the role of defense attorney, the
+attorney can not be replaced by another player not yet involved in the Trial.
+
+The defendant is allowed to overrule statements by his defense attorney if done before the jury deliberation. The
+defendant may also fire his defense attorney by explicitly expressing this in a comment in the Trial. After this the
+defendant is the Defense Attorney in the Trial.
 
 If the defendant feels he has not been properly represented he should use his right to appeal for this.
 
