@@ -524,6 +524,17 @@ A **Nomic game state transition** is a change in designation of the
 current state in a Nomic representation. Such a transition is called
 **valid** if it is permitted by the current game state of this respresentation, prior to the change.
 
+**379** *THIS IS NOMIC!*
+
+This Github repository constitutes a Nomic Representation. The set of states is represented
+by all commits present in this repository. A single commit is a Nomic game state. A human
+can interpret the record by reading the contents of the repository as described by that commit
+and its predecessors. 
+
+The current Nomic game state is respresented by the last commit on the master branch.
+
+Any Nomic game state transitions will be executed by using the Pull Request feature on this repository.
+
 
 
 # Criminal Law
