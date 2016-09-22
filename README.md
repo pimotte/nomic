@@ -524,6 +524,15 @@ A **Nomic game state transition** is a change in designation of the
 current state in a Nomic representation. Such a transition is called
 **valid** if it is permitted by the current game state of this respresentation, prior to the change.
 
+**380** *Shadows on the Wall*
+
+A **Nomic respresentation** must have a **Plato**. The player with the role of
+Plato is responsible for the state of the representation on anything external to
+the Nomic and specific to the representation.
+
+The Plato may ask other players to be a **puppetmaster**. Any player who accepts
+the role of puppetmaster will help the Plato with his duties.
+
 
 
 # Criminal Law
