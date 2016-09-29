@@ -533,6 +533,15 @@ the Nomic and specific to the representation.
 The Plato may ask other players to be a **puppetmaster**. Any player who accepts
 the role of puppetmaster will help the Plato with his duties.
 
+**381** *Talking it Through*
+
+A Nomic representation must provide a way for players to propose a Nomic game state transition.
+In addition, it must provide a way to cast a vote tied to this transition and a method
+to discuss this transition.
+
+A Nomic representation must provide a way for players to make an announcement to other
+players. In addition, it must provide a way to discuss this announcement.
+
 
 
 # Criminal Law
