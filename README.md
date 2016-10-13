@@ -639,6 +639,20 @@ deduction than the prosecutor's proposal and should be a reduction of at least 0
 	point reduction. The rounded average (rounded to one decimal place) of these votes will be the final verdict of the
 	jury.
 
+**370** *The voice of the jury*
+
+In contrast to what other rules may state about the rendering of a Verdict, the jury is also allowed to invoke what is
+called _Jury Nullification_.
+
+The jury nullifies the crime of the defendant, that is they may believe he committed the crime he is charged with, but
+they do not believe he should be punished for this. (Note that this is different from a Not Guilty verdict, which
+implies the jury believes the defendant did not perform the act. Similarly it is different from a Guilty verdict with no
+punishment, because it does brand the defendant as a violater of the rules. Nullification is a statement from the jury
+that indicates they consider the offense commited so insignificant it should not even be considered an offense.)
+
+Whereas all juries have this right, the prosecution, defendant and people not involved in the Trial are not allowed to
+remind the jury of this right during a Trial either online or offline.
+
 **357** *The Right to Appeal*
 
 After the Verdict has been rendered the defendant has the right to _Appeal_ if at least two players eligible for jury
