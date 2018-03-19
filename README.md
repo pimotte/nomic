@@ -254,6 +254,12 @@ If the rule-change is adopted, a player who can shall merge the pull request
 in a timely fashion, unless another rule specifies to wait.
 The merging of the pull request marks completion of the vote.
 
+**382** *~Rewriting History~*
+
+Any edited comment can _never_ be considered a valid vote, except if this edit has occured after the adoption or
+rejection of the rule-change that the vote was originally for. Whilst the pull request is open any edited comment is
+ignored for the purposes of voting.
+
 **367** *Warning, no dawdling*
 
 During a simple majority vote, a player may warn the other players that the vote is going to end.
