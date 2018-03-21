@@ -653,7 +653,7 @@ deduction than the prosecutor's proposal and should be a reduction of at least 0
 **378** *The Defense Culpability Act*
 
 If the defendant is found _Guilty_ and was represented by a defense attorney at the time jury deliberation started and
-there was no use of ``Self Representation'', the defense attorney will suffer the same punishment as the defendant.
+there was no use of "Self Representation", the defense attorney will suffer the same punishment as the defendant.
 
 **357** *The Right to Appeal*
 
