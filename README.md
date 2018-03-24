@@ -258,7 +258,7 @@ The merging of the pull request marks completion of the vote.
 
 During a simple majority vote, a player may warn the other players that the vote is going to end.
 If this warning raises no objections and a reasonable time has passed, the player who warned may resolve
-the vote as if the players who cast a (conditional) vote are the only eligible voters. 
+the vote as if the players who cast a valid (conditional) vote are the only eligible voters. 
 A reasonable time in this context is at least 72 hours and is at least enough time for the warning
 to reach all other players and for all other players to react to the warning. 
 An objection can be raised by any player at any time, this includes the option to raise objections
