@@ -511,7 +511,7 @@ he can accept the Transfer.
 **384** *Subgamification*
 
 Any subset of 2 or more players may agree to play any game in real life with points as a stake. 
-The subset of players must verbally agree on the stakes and a division of points based on the result of game before starting it. 
+The subset of players must verbally agree on the stakes and a division of points based on the result of the game before starting it. 
 The total decrease in points must be be one less than the total increase in points. 
 The division must be such that no player can win Nomic or lose more points than they have, regardless
 of the games result.
