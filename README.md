@@ -468,10 +468,10 @@ An English dictionary word is defined as a word found in the Oxford Dictionary a
 
 If the PR is a conditional PR, the commits must not be in the parent branch for the points to be awarded.
 
-**375** *他の言語 or diğer diller or alte limbi*
+**375** *他の言語 or diğer diller or alte limbi or Другие языки*
 
 The presence of a word or sentence in either
-Japanese, Turkish or Romanian and a translation in English, in an unedited comment by the initiator of a
+Japanese, Turkish, Romanian, or Russian and a translation in English, in an unedited comment by the initiator of a
 PR is a point-awardable condition on said PR, for 0.1 points.
 
 Uniqueness of this word or sentence is encouraged, as is correctness of the translation. 
