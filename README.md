@@ -14,6 +14,7 @@ Player List
 3. [Arthur Bik](players/arthurbik.md) (@arthurbik)
 4. [Jesse Donkervliet](players/jdonkervliet.md) (@jdonkervliet)
 5. [Otto Visser](players/maninthegithub.md) (@ManInTheGitHub)
+6. [Pim Veldhuisen](players/pimveldhuisen.md) (@pimveldhuisen)
 
 # Rules
 
@@ -151,7 +152,7 @@ following:
 - The current total score of the player.
 
 Other items may be added to these player files through non-rule-change Pull Requests. Players are encouraged to keep a
-list of Pull Requests that were merged and how points this netted them, so that the total can be easily recomputed. 
+list of Pull Requests that were merged and how many points this netted them, so that the total can be easily recomputed. 
 
 The total score of the player must reflect the gamestate.
 
@@ -426,18 +427,20 @@ One turn consists of proposing one rule-change and having it voted on.
 All players begin with the number of points equal to the outcome of this formula:
 `max(0, min_i(#points of player i) - 2)`
 
-**352** *Scrambling for points*
+**376** *Scrambling for points*
 
 A **point-awardable condition** is a condition on a PR on master of pimotte/nomic
 that may be rewarded with a number of points. 
+
+PRs are only eligble for point-awardable conditions if they are to be voted on.
 
 A rule implementing a point-awardable condition must at least specifiy:
 
 - The condition under which points may be awarded
 - How many points may be awarded
 
-The number of points for a point-awardable condition will be awarded upon merging
-of the PR that fulfills the condition, if the PR reflects this awarding of points.
+The number of points for a point-awardable condition will, upon merging,
+be awarded to the initiator of a PR which fulfills the condition, if the PR reflects this awarding of points.
 
 Players cannot obtain points using a point-awardable condition introduced in *that* PR.
 
@@ -465,13 +468,13 @@ An English dictionary word is defined as a word found in the Oxford Dictionary a
 
 If the PR is a conditional PR, the commits must not be in the parent branch for the points to be awarded.
 
-**348** *他の言語 or diğer diller or alte limbi *
+**375** *他の言語 or diğer diller or alte limbi*
 
-If a PR that outlines a rule-change includes a word or sentence in either
-Japanese, Turkish or Romanian and a translation in English, it will be rewarded
-with 0.1 point upon merging of this PR into master of pimotte/nomic, if the PR
-accurately reflects this. Uniqueness of this word or sentence is encouraged,
-as is correctness of the translation. 
+The presence of a word or sentence in either
+Japanese, Turkish or Romanian and a translation in English, in an unedited comment by the initiator of a
+PR is a point-awardable condition on said PR, for 0.1 points.
+
+Uniqueness of this word or sentence is encouraged, as is correctness of the translation. 
 
 
 # Point Transfers
@@ -504,6 +507,23 @@ The Sender of a Transfer X can add extra conditions to Transfer X in addition to
 extra conditions contradict the conditions in the rules, the Transfer can never be valid.
 The Receiver must post a comment describing the resolution of these extra conditions with validity as a result, before
 he can accept the Transfer.
+
+**384** *Subgamification*
+
+Any subset of 2 or more players may agree to play any game in real life with points as a stake. 
+The subset of players must verbally agree on the stakes and a division of points based on the result of the game before starting it. 
+The total decrease in points must be be one less than the total increase in points. 
+The division must be such that no player can win Nomic or lose more points than they have, regardless
+of the games result.
+
+Any of the players that gained the most points will submit a PR reflecting the agreed changes in points.
+This PR may be merged by anyone after being open for 24 hours, if and only if above conditions are still
+true at the time of merging. This PR does not need to be voted on. 
+If the conditions fail to be met, due to any reason, including changes in points between
+the game and the moment of merging the PR, then the PR must be closed, and Nomic will continue as if the game had not 
+been played.
+
+
 
 # Criminal Law
 
