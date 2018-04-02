@@ -468,7 +468,7 @@ An English dictionary word is defined as a word found in the Oxford Dictionary a
 
 If the PR is a conditional PR, the commits must not be in the parent branch for the points to be awarded.
 
-**375** *他の言語 or diğer diller or alte limbi or Другие языки*
+**384** *他の言語 or diğer diller or alte limbi or Другие языки*
 
 The presence of a word or sentence in either
 Japanese, Turkish, Romanian, or Russian and a translation in English, in an unedited comment by the initiator of a
