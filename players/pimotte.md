@@ -2,7 +2,7 @@
 
 GitHub handle: @pimotte
 
-Current score: 31.7
+Current score: 34.5
 
 ##Accepted Pull Requests:
 
@@ -23,6 +23,7 @@ Current score: 31.7
 | [#57](https://github.com/pimotte/nomic/pull/57) | 334: Making Japanese/Turkish less strict | 1.1 |
 | [#64](https://github.com/pimotte/nomic/pull/64) | 340: Enabling trophies through mutable change | 1.1 |
 | [#124](https://github.com/pimotte/nomic/pull/124) | Games | 2.5 |
+| [#127](https://github.com/pimotte/nomic/pull/127) | Games | 2.8 |
 
 
 

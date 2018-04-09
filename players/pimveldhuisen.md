@@ -2,7 +2,7 @@
 
 GitHub handle: @pimveldhuisen
 
-Current score: 2.5
+Current score: 3.0
 
 ##Accepted Pull Requests:
 
