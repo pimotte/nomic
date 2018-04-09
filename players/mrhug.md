@@ -2,7 +2,7 @@
 
 GitHub handle: @MrHug
 
-Current score: 34.6
+Current score: 35.3
 
 ##Accepted Pull Requests:
 
@@ -26,7 +26,8 @@ Current score: 34.6
 | [#79](https://github.com/pimotte/nomic/pull/79) | 350: Safely opening | 1.1 |
 | [#72](https://github.com/pimotte/nomic/pull/72) | 344: No Bribes | 1.0 |
 | [#80](https://github.com/pimotte/nomic/pull/80) | 351: Goodbye | 1.1 |
-| [#80](https://github.com/pimotte/nomic/pull/124) | Games | 3.0 |
+| [#124](https://github.com/pimotte/nomic/pull/124) | Games | 3.0 |
+| [#127](https://github.com/pimotte/nomic/pull/127) | Games | 0.7 |
 
 
 
