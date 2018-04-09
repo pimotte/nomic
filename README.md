@@ -510,6 +510,23 @@ extra conditions contradict the conditions in the rules, the Transfer can never 
 The Receiver must post a comment describing the resolution of these extra conditions with validity as a result, before
 he can accept the Transfer.
 
+**384** *Subgamification*
+
+Any subset of 2 or more players may agree to play any game in real life with points as a stake. 
+The subset of players must verbally agree on the stakes and a division of points based on the result of the game before starting it. 
+The total decrease in points must be be one less than the total increase in points. 
+The division must be such that no player can win Nomic or lose more points than they have, regardless
+of the games result.
+
+Any of the players that gained the most points will submit a PR reflecting the agreed changes in points.
+This PR may be merged by anyone after being open for 24 hours, if and only if above conditions are still
+true at the time of merging. This PR does not need to be voted on. 
+If the conditions fail to be met, due to any reason, including changes in points between
+the game and the moment of merging the PR, then the PR must be closed, and Nomic will continue as if the game had not 
+been played.
+
+
+
 # Criminal Law
 
 ## Mutable Rules
