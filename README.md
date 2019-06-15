@@ -586,15 +586,17 @@ If a player (unwittingly) performs an action that directly contradicts a
 rule, a procedure defined as a _Trial_ can take place. A Trial is concluded with a _Verdict_
 that will be enacted by someone who has this power.
 
-**359** *Roleplaying in Court*
+**373** *Roleplaying in Court*
 
-A Trial features three roles:
+A Trial features at least these roles, that should be assigned in the following order:
 
-- A defendant, the player charged with the violation.
-- A prosecutor.
-- A jury, comprised of at least one player.
+1. A defendant, the player charged with the violation.
+2. A prosecutor.
+3. A defense attorney.
+4. A jury, comprised of at least one player.
 
-No player can take multiple roles in a single Trial, i.e. a player can not be both prosecutor and jury.
+No player can take multiple roles in a single Trial, i.e. a player can not be both prosecutor and jury, unless another
+rule explicitly grants a player or role this right.
 
 **363** *Jury Selection*
 
@@ -610,13 +612,29 @@ The prosecutor of a Trial is selected as follows:
 - Else If no other method of choosing a prosecutor in a Trial is defined, the prosecutor will be selected through the
 	procedure for invoking Judgement. In this procedure the defendant will take the role of the person invoking Judgement.
 
+**371** *Ace Attorney*
+
+A _Defense Attorney_ is a player that can be chosen by the defendant to represent him during a Trial. The player chosen
+for defense attorney has the right to refuse this role. The defense attorney can only be chosen at the start of the
+Trial before the jury is selected and after the requested player has accepted the role of defense attorney, the
+attorney can not be replaced by another player not yet involved in the Trial.
+
+The defendant is allowed to overrule statements by his defense attorney if done before the jury deliberation. The
+defendant may also fire his defense attorney by explicitly expressing this in a comment in the Trial. After this the
+defendant is the Defense Attorney in the Trial.
+
+If the defendant feels he has not been properly represented he should use his right to appeal for this.
+
+If the defendant chooses not to have a defense attorney, he will take the role of defense attorney in addition to his
+role as defendant. This is called _Self Representation_.
+
 **361** *The Court Room*
 
 A Trial shall take place in a GitHub issue with the Trial label. The Trial shall be named "The people vs #githubhandle
 XX" where #githubhandle is the name of the defendant and XX is the number representing how often this player has been on
 Trial.
 
-**365** *The Trial Procedure*
+**372** *The Trial Procedure*
 
 A Trial procedure takes place in the following way:
 
@@ -624,18 +642,20 @@ A Trial procedure takes place in the following way:
 2. The prosecutor will outline the actions of the defendant that he claims are in violation of the rules and demand a
 	punishment in the form of a non-negative integer point reduction of the defendants point. This reduction can be of 0
 	points.
-3. The defendant is allowed to defend his actions and can plead either _Guilty_ or _Not Guilty_. If he pleads Guilty, he
-	can propose an alternative punishment in the form of a non-negative integer point reduction no larger than that of the
-	prosecution. If he pleads Not Guilty, an alternative punishment of a zero point reduction is assumed.
+3. The defense attorney is allowed to defend the actions of the defendant and can enter a plea of either _Guilty_ or
+	_Not Guilty_. If a Guilty plea is entered, he can propose an alternative punishment in the form of a non-negative
+	integer point reduction no larger than that of the prosecution. If a Not Guilty plea is entered, an alternative
+	punishment of a zero point reduction is assumed.
 4. The prosecution and jury may ask the defendant about his actions and the defendant should either answer these
 	questions to the best of his abilities, or exercise his right to remain silent. Lying during a Trial is an
-	offense for which a player can be put on Trial.
-5. After the jury has no more questions to ask, the prosecution and defense get the opportunity to present a closing
-	statement with the defendant being the last one to speak. During this closing statement and throughout other parts of
-	the Trial, defendant and prosecution are allowed to confront the jury with previous Verdicts handed out by them or by
-	other juries in similar cases.
+	offense for which a player can be put on Trial. The defense attorney can advise the defendant on whether or not these
+	questions should be answered.
+5. After the jury has no more questions to ask, the prosecution and defense attorney get the opportunity to present a
+	closing statement with the defendant being given the last opportunity to speak. During this closing statement and
+	throughout other parts of the Trial, the defense (attorney) and prosecution are allowed to confront the jury with
+	previous Verdicts handed out by them or by other juries in similar cases.
 6. The jury will deliberate on their Verdict.
-7. Deliberation of the Verdict will happen in public in the GitHub issue, but the defendant and prosecutor are no
+7. Deliberation of the Verdict will happen in public in the GitHub issue, but the other participants in the Trial are no
 	longer allowed to interfere in this procedure.
 8. The Jury renders their Verdict in the GitHub issue.
 9. If the defendant is found Guilty, the illegal actions of the defendant will be undone by someone who has this power in
